@@ -143,256 +143,101 @@ export const personalityClassGroup: PersonalityClassGroup[] = [
        "আচ্ছন্ন হবেন না! আপনার ব্যক্তিগত জগত আপনার, আপনার বন্ধু, আপনার পরিবার, আপনার নিজের আত্ম-মূল্যবোধ এবং জীবনের জন্য যে মূল্য রাখে তা স্বীকার করুন। কেবল একজন ভাল মানুষ হওয়ার জন্য গর্ববোধ করুন এবং বাহ্যিক পরিস্থিতিগুলিকে আপনাকে নিয়ন্ত্রণ করতে দেবেন না। আরাম করার চেষ্টা করুন এবং মুহূর্তটি আপনার এবং অন্যদের মধ্যে আপনি যে সেরা জিনিসগুলি খুঁজে পেতে পারেন তার অন্তর্গত হতে দিন। আপনার নিজের সুখের চেয়ে গুরুত্বপূর্ণ আর কিছুই নেই।"
     ]
 },
-  {
-    type: "ENFP",
-    name: "Extraverted Intuitive Feeling Perceiving",
-    nameDescription: "Extraverted Intuition with Introverted Feeling",
-    epithet: "The Inspirer",
-    description: `As an ENFP, your primary mode of living is focused externally, where you take things in primarily via
-your intuition. Your secondary mode is internal, where you deal with things according to how you feel
-about them, or how they fit in with your personal value system.
-ENFPs are warm, enthusiastic people, typically very bright and full of potential. They live in the world of
-possibilities, and can become very passionate and excited about things. Their enthusiasm lends them the
-ability to inspire and motivate others, more so than we see in other types. They can talk their way in or out
-of anything. They love life, seeing it as a special gift, and strive to make the most out of it.
-ENFPs have an unusually broad range of skills and talents. They are good at most things which interest
-them. Project-oriented, they may go through several different careers during their lifetime. To onlookers,
-the ENFP may seem directionless and without purpose, but ENFPs are actually quite consistent, in that they
-have a strong sense of values which they live with throughout their lives. Everything that they do must be
-in line with their values. An ENFP needs to feel that they are living their lives as their true Self, walking in
-step with what they believe is right. They see meaning in everything, and are on a continuous quest to adapt
-their lives and values to achieve inner peace. They're constantly aware and somewhat fearful of losing
-touch with themselves. Since emotional excitement is usually an important part of the ENFP's life, and
-because they are focused on keeping "centered", the ENFP is usually an intense individual, with highly
-evolved values.
-An ENFP needs to focus on following through with their projects. This can be a problem area for some of
-these individuals. Unlike other Extraverted types, ENFPs need time alone to center themselves, and make
-sure they are moving in a direction which is in sync with their values. ENFPs who remain centered will
-usually be quite successful at their endeavors. Others may fall into the habit of dropping a project when
-they become excited about a new possibility, and thus they never achieve the great accomplishments which
-they are capable of achieving.
-Most ENFPs have great people skills. They are genuinely warm and interested in people, and place great
-importance on their inter-personal relationships. ENFPs almost always have a strong need to be liked.
-Sometimes, especially at a younger age, an ENFP will tend to be "gushy" and insincere, and generally
-"overdo" in an effort to win acceptance. However, once an ENFP has learned to balance their need to be
-true to themselves with their need for acceptance, they excel at bringing out the best in others, and are
-typically well-liked. They have an exceptional ability to intuitively understand a person after a very short
-period of time, and use their intuition and flexibility to relate to others on their own level.
-Because ENFPs live in the world of exciting possibilities, the details of everyday life are seen as trivial
-drudgery. They place no importance on detailed, maintenance-type tasks, and will frequently remain
-oblivious to these types of concerns. When they do have to perform these tasks, they do not enjoy
-themselves. This is a challenging area of life for most ENFPs, and can be frustrating for ENFP's family
-members.
-An ENFP who has "gone wrong" may be quite manipulative - and very good it. The gift of gab which they
-are blessed with makes it naturally easy for them to get what they want. Most ENFPs will not abuse their
-abilities, because that would not jive with their value systems.
-ENFPs sometimes make serious errors in judgment. They have an amazing ability to intuitively perceive
-the truth about a person or situation, but when they apply judgment to their perception, they may jump to
-the wrong conclusions.
-ENFPs who have not learned to follow through may have a difficult time remaining happy in marital
-relationships. Always seeing the possibilities of what could be, they may become bored with what actually
-is. The strong sense of values will keep many ENFPs dedicated to their relationships. However, ENFPs like
-a little excitement in their lives, and are best matched with individuals who are comfortable with change
-and new experiences.
-Having an ENFP parent can be a fun-filled experience, but may be stressful at times for children with
-strong Sensing or Judging tendencies. Such children may see the ENFP parent as inconsistent and difficult
-to understand, as the children are pulled along in the whirlwind life of the ENFP. Sometimes the ENFP will
-want to be their child's best friend, and at other times they will play the parental authoritarian. But ENFPs
-are always consistent in their value systems, which they will impress on their children above all else, along
-with a basic joy of living.
-ENFPs are basically happy people. They may become unhappy when they are confined to strict schedules
-or mundane tasks. Consequently, ENFPs work best in situations where they have a lot of flexibility, and
-where they can work with people and ideas. Many go into business for themselves. They have the ability to
-be quite productive with little supervision, as long as they are excited about what they're doing.
-Because they are so alert and sensitive, constantly scanning their environments, ENFPs often suffer from
-muscle tension. They have a strong need to be independent, and resist being controlled or labeled. They
-need to maintain control over themselves, but they do not believe in controlling others. Their dislike of
-dependence and suppression extends to others as well as to themselves.
-ENFPs are charming, ingenuous, risk-taking, sensitive, people-oriented individuals with capabilities
-ranging across a broad spectrum. They have many gifts which they will use to fulfill themselves and those
-near them, if they are able to remain centered and master the ability of following through.`,
-    jungianFunctionalPreference: {
-      auxiliary: "Introverted Feeling",
-      dominant: "Extraverted Intuition",
-      inferior: "Introverted Sensing",
-      tertiary: "Extraverted Thinking",
+{
+    "type": "ENFP (ইএনএফপি)",
+    "name": "Extraverted Intuitive Feeling Perceiving (এক্সট্রাভার্টেড ইন্টুইটিভ ফিলিং পারসিভিং)",
+    "nameDescription": "Extraverted Intuition with Introverted Feeling (এক্সট্রাভার্টেড ইন্টুইশন এবং ইন্ট্রোভার্টেড ফিলিং)",
+    "epithet": "The Inspirer (দ্য ইন্সপায়ারার)",
+    "description": "একজন ENFP হিসেবে, আপনার জীবনযাপনের প্রাথমিক পদ্ধতিটি বাহ্যিকভাবে কেন্দ্রিক, যেখানে আপনি প্রাথমিকভাবে আপনার স্বজ্ঞার মাধ্যমে জিনিসগুলি গ্রহণ করেন। আপনার দ্বিতীয় পদ্ধতিটি অভ্যন্তরীণ, যেখানে আপনি জিনিসগুলির প্রতি কেমন অনুভব করছেন বা সেগুলি আপনার ব্যক্তিগত মূল্যবোধ ব্যবস্থার সাথে কীভাবে খাপ খাচ্ছে, সে অনুযায়ী আপনি সেগুলির সাথে মোকাবিলা করেন।\nENFP-রা উষ্ণ, উৎসাহী মানুষ, সাধারণত খুব উজ্জ্বল এবং সম্ভাবনাময়। তারা সম্ভাবনার জগতে বাস করে এবং বিভিন্ন বিষয়ে খুব আবেগপ্রবণ এবং উত্তেজিত হতে পারে। তাদের উৎসাহ তাদের অন্যদের অনুপ্রাণিত এবং উৎসাহিত করার ক্ষমতা দেয়, যা আমরা অন্যান্য ধরনের ব্যক্তিত্বের মধ্যে তেমন দেখি না। তারা যেকোনো পরিস্থিতিতে নিজেদের কথা দিয়ে জয়ী হতে বা বেরিয়ে আসতে পারে। তারা জীবনকে ভালোবাসে, এটিকে একটি বিশেষ উপহার হিসেবে দেখে এবং এর থেকে সর্বাধিক সুবিধা অর্জনের জন্য সচেষ্ট থাকে।\nENFP-দের অস্বাভাবিকভাবে বিস্তৃত দক্ষতা এবং প্রতিভা রয়েছে। তারা বেশিরভাগ জিনিসই ভালোভাবে পারে যা তাদের আগ্রহী করে। প্রকল্প-ভিত্তিক হওয়ায়, তারা তাদের জীবদ্দশায় বিভিন্ন ধরনের পেশার মধ্য দিয়ে যেতে পারে। দর্শকদের কাছে, ENFP লক্ষ্যহীন এবং উদ্দেশ্যহীন মনে হতে পারে, কিন্তু ENFP-রা আসলে বেশ সামঞ্জস্যপূর্ণ, কারণ তাদের একটি শক্তিশালী মূল্যবোধ রয়েছে যা তারা তাদের জীবনব্যাপী ধরে রাখে। তারা যা কিছু করে তা অবশ্যই তাদের মূল্যবোধের সাথে সঙ্গতিপূর্ণ হতে হবে। একজন ENFP-কে অনুভব করতে হবে যে তারা তাদের জীবনকে তাদের প্রকৃত সত্তা হিসেবে যাপন করছে, যা তারা সঠিক বলে বিশ্বাস করে তার সাথে তাল মিলিয়ে চলছে। তারা সবকিছুর মধ্যে অর্থ খুঁজে পায় এবং অভ্যন্তরীণ শান্তি অর্জনের জন্য তাদের জীবন ও মূল্যবোধকে মানিয়ে নেওয়ার জন্য অবিরাম অনুসন্ধানে থাকে। তারা নিজেদের সাথে সংযোগ হারানোর বিষয়ে ক্রমাগত সচেতন এবং কিছুটা ভীত থাকে। যেহেতু মানসিক উত্তেজনা সাধারণত ENFP-এর জীবনের একটি গুরুত্বপূর্ণ অংশ এবং যেহেতু তারা \"কেন্দ্রিক\" থাকার দিকে মনোনিবেশ করে, তাই ENFP সাধারণত একজন তীব্র আবেগপ্রবণ ব্যক্তি, যার অত্যন্ত উন্নত মূল্যবোধ রয়েছে।\nএকজন ENFP-কে তাদের প্রকল্পগুলি সম্পন্ন করার দিকে মনোনিবেশ করতে হবে। এটি এই ব্যক্তিদের কারও কারও জন্য একটি সমস্যাপূর্ণ ক্ষেত্র হতে পারে। অন্যান্য এক্সট্রাভার্টেড ধরনের ব্যক্তিত্বের বিপরীতে, ENFP-দের নিজেদের কেন্দ্রিক করার জন্য এবং তারা তাদের মূল্যবোধের সাথে সঙ্গতিপূর্ণ দিকে অগ্রসর হচ্ছে কিনা তা নিশ্চিত করার জন্য একা সময় প্রয়োজন। যে ENFP-রা কেন্দ্রিক থাকে তারা সাধারণত তাদের প্রচেষ্টায় বেশ সফল হয়। অন্যরা যখন নতুন কোনো সম্ভাবনা নিয়ে উত্তেজিত হয়ে পড়ে তখন একটি প্রকল্প ছেড়ে দেওয়ার অভ্যাসে পড়তে পারে এবং এর ফলে তারা যে মহান সাফল্য অর্জন করতে সক্ষম তা কখনোই অর্জন করতে পারে না।\nবেশিরভাগ ENFP-দের অসাধারণ মানবিক দক্ষতা রয়েছে। তারা প্রকৃতপক্ষেই উষ্ণ এবং মানুষের প্রতি আগ্রহী এবং তাদের আন্তঃব্যক্তিক সম্পর্কের উপর খুব বেশি গুরুত্ব দেয়। ENFP-দের প্রায় সবসময়ই পছন্দের হওয়ার একটি শক্তিশালী প্রয়োজন থাকে। কখনও কখনও, বিশেষ করে অল্প বয়সে, একজন ENFP অতিরিক্ত আবেগপ্রবণ এবং আন্তরিকতাহীন হতে পারে এবং স্বীকৃতি অর্জনের প্রয়াসে সাধারণত \"অতিরিক্ত\" করে ফেলে। যাইহোক, একবার যখন একজন ENFP নিজেদের প্রতি সৎ থাকার প্রয়োজন এবং স্বীকৃতির প্রয়োজনের মধ্যে ভারসাম্য বজায় রাখতে শেখে, তখন তারা অন্যদের মধ্যে সেরাটা বের করে আনতে পারদর্শী হয় এবং সাধারণত বেশ জনপ্রিয় হয়। তাদের খুব অল্প সময়ের মধ্যে একজন ব্যক্তিকে স্বজ্ঞাতভাবে বোঝার একটি ব্যতিক্রমী ক্ষমতা রয়েছে এবং তারা তাদের স্বজ্ঞা এবং নমনীয়তা ব্যবহার করে অন্যদের সাথে তাদের নিজস্ব স্তরে সম্পর্ক স্থাপন করে।\nযেহেতু ENFP-রা উত্তেজনাপূর্ণ সম্ভাবনার জগতে বাস করে, দৈনন্দিন জীবনের খুঁটিনাটি বিষয়গুলিকে তুচ্ছ কাজ হিসেবে দেখা হয়। তারা বিস্তারিত, রক্ষণাবেক্ষণ-ধরনের কাজগুলিতে কোনও গুরুত্ব দেয় না এবং প্রায়শই এই ধরনের উদ্বেগ সম্পর্কে অজ্ঞাত থাকে। যখন তাদের এই কাজগুলি করতে হয়, তারা নিজেদের উপভোগ করে না। এটি বেশিরভাগ ENFP-দের জন্য জীবনের একটি চ্যালেঞ্জিং ক্ষেত্র এবং এটি ENFP-এর পরিবারের সদস্যদের জন্য হতাশাজনক হতে পারে।\nএকজন ENFP যে \"বিপথে চলে গেছে\" সে বেশ কৌশলী হতে পারে - এবং খুব ভালোভাবে। তাদের বাচনভঙ্গির যে উপহার তারা পেয়েছে তা তাদের জন্য যা চায় তা পাওয়া স্বাভাবিকভাবেই সহজ করে তোলে। বেশিরভাগ ENFP তাদের ক্ষমতার অপব্যবহার করবে না, কারণ এটি তাদের মূল্যবোধ ব্যবস্থার সাথে সঙ্গতিপূর্ণ হবে না।\nENFP-রা কখনও কখনও বিচারে গুরুতর ভুল করে। তাদের একজন ব্যক্তি বা পরিস্থিতি সম্পর্কে সত্যকে স্বজ্ঞাতভাবে উপলব্ধি করার একটি আশ্চর্যজনক ক্ষমতা রয়েছে, কিন্তু যখন তারা তাদের উপলব্ধিতে বিচার প্রয়োগ করে, তখন তারা ভুল সিদ্ধান্তে পৌঁছাতে পারে।\nযে ENFP-রা কাজ সম্পন্ন করতে শিখেনি তাদের বৈবাহিক সম্পর্কে সুখী থাকতে অসুবিধা হতে পারে। যা হতে পারত তার সম্ভাবনাগুলি সর্বদা দেখে, তারা যা আসলে আছে তা নিয়ে বিরক্ত হতে পারে। শক্তিশালী মূল্যবোধ অনেক ENFP-কে তাদের সম্পর্কের প্রতি নিবেদিত রাখবে। যাইহোক, ENFP-রা তাদের জীবনে কিছুটা উত্তেজনা পছন্দ করে এবং তারা এমন ব্যক্তিদের সাথে সবচেয়ে ভালোভাবে মানিয়ে নিতে পারে যারা পরিবর্তন এবং নতুন অভিজ্ঞতার সাথে স্বাচ্ছন্দ্য বোধ করে।\nENFP পিতামাতা থাকা একটি মজাদার অভিজ্ঞতা হতে পারে, তবে শক্তিশালী সেন্সিং বা জাজিং প্রবণতা সম্পন্ন শিশুদের জন্য এটি কখনও কখনও চাপযুক্ত হতে পারে। এই ধরনের শিশুরা ENFP পিতামাতাকে অসামঞ্জস্যপূর্ণ এবং বোঝা কঠিন বলে মনে করতে পারে, কারণ শিশুরা ENFP-এর ঘূর্ণিঝড়ের মতো জীবনের সাথে টেনে নিয়ে যাওয়া হয়। কখনও কখনও ENFP তাদের সন্তানের সেরা বন্ধু হতে চাইবে, এবং অন্য সময়ে তারা পিতামাতার কর্তৃত্বপূর্ণ ভূমিকা পালন করবে। কিন্তু ENFP-রা তাদের মূল্যবোধ ব্যবস্থায় সর্বদা সামঞ্জস্যপূর্ণ, যা তারা তাদের সন্তানদের উপর অন্য সবকিছুর চেয়ে বেশি করে চাপিয়ে দেবে, সাথে জীবনের একটি মৌলিক আনন্দও।\nENFP-রা মূলত সুখী মানুষ। কঠোর সময়সূচী বা জাগতিক কাজগুলিতে আবদ্ধ থাকলে তারা অসুখী হতে পারে। ফলস্বরূপ, ENFP-রা এমন পরিস্থিতিতে সবচেয়ে ভালোভাবে কাজ করে যেখানে তাদের প্রচুর নমনীয়তা থাকে এবং যেখানে তারা মানুষ এবং ধারণার সাথে কাজ করতে পারে। অনেকে নিজেরাই ব্যবসা শুরু করে। তাদের সামান্য তত্ত্বাবধানে বেশ উত্পাদনশীল হওয়ার ক্ষমতা রয়েছে, যতক্ষণ না তারা যা করছে তা নিয়ে উত্তেজিত থাকে।\nযেহেতু তারা এত সতর্ক এবং সংবেদনশীল, ক্রমাগত তাদের পরিবেশ স্ক্যান করে, ENFP-রা প্রায়শই পেশী টানে ভোগে। তাদের স্বাধীন হওয়ার একটি শক্তিশালী প্রয়োজন রয়েছে এবং নিয়ন্ত্রিত বা চিহ্নিত হওয়া প্রতিরোধ করে। তাদের নিজেদের উপর নিয়ন্ত্রণ বজায় রাখতে হবে, কিন্তু তারা অন্যদের নিয়ন্ত্রণ করায় বিশ্বাস করে না। নির্ভরতা এবং দমনের প্রতি তাদের অপছন্দ নিজেদের পাশাপাশি অন্যদের ক্ষেত্রেও প্রসারিত।\nENFP-রা কমনীয়, সরল, ঝুঁকি গ্রহণকারী, সংবেদনশীল, মানুষ-কেন্দ্রিক ব্যক্তি যাদের ক্ষমতা বিস্তৃত বর্ণালী জুড়ে রয়েছে। তাদের অনেক উপহার রয়েছে যা তারা নিজেদের এবং তাদের কাছের মানুষদের পরিপূর্ণ করার জন্য ব্যবহার করবে, যদি তারা কেন্দ্রিক থাকতে এবং কাজ সম্পন্ন করার ক্ষমতা আয়ত্ত করতে সক্ষম হয়।",
+    "jungianFunctionalPreference": {
+        "auxiliary": "Introverted Feeling (ইন্ট্রোভার্টেড ফিলিং)",
+        "dominant": "Extraverted Intuition (এক্সট্রাভার্টেড ইন্টুইশন)",
+        "inferior": "Introverted Sensing (ইন্ট্রোভার্টেড সেন্সিং)",
+        "tertiary": "Extraverted Thinking (এক্সট্রাভার্টেড থিংকিং)"
     },
-    generalTraits: [
-      `Project-oriented`,
-      `Bright and capable`,
-      `Warmly, genuinely interested in people; great people skills`,
-      `Extremely intuitive and perceptive about people`,
-      `Able to relate to people on their own level`,
-      `Service-oriented; likely to put the needs of others above their own`,
-      `Future-oriented`,
-      `Dislike performing routine tasks`,
-      `Need approval and appreciation from others`,
-      `Cooperative and friendly`,
-      `Creative and energetic`,
-      `Well-developed verbal and written communication skills`,
-      `Natural leaders, but do not like to control people`,
-      `Resist being controlled by others`,
-      `Can work logically and rationally - use their intuition to understand the goal and work backwards
-towards it`,
-      `Usually able to grasp difficult concepts and theories`,
+    "generalTraits": [
+        "প্রকল্প-ভিত্তিক",
+        "উজ্জ্বল এবং সক্ষম",
+        "উষ্ণভাবে, মানুষের প্রতি প্রকৃত আগ্রহী; অসাধারণ মানবিক দক্ষতা",
+        "মানুষ সম্পর্কে অত্যন্ত স্বজ্ঞাত এবং উপলব্ধিপ্রবণ",
+        "মানুষের সাথে তাদের নিজস্ব স্তরে সম্পর্ক স্থাপন করতে সক্ষম",
+        "সেবা-ভিত্তিক; সম্ভবত নিজেদের চাহিদার চেয়ে অন্যের চাহিদাকে বেশি গুরুত্ব দেয়",
+        "ভবিষ্যৎ-ভিত্তিক",
+        "রুটিন কাজ করতে অপছন্দ করে",
+        "অন্যদের কাছ থেকে অনুমোদন এবং প্রশংসা প্রয়োজন",
+        "সহযোগী এবং বন্ধুত্বপূর্ণ",
+        "সৃজনশীল এবং উদ্যমী",
+        "উন্নত মৌখিক এবং লিখিত যোগাযোগের দক্ষতা",
+        "সহজাত নেতা, কিন্তু মানুষকে নিয়ন্ত্রণ করতে পছন্দ করে না",
+        "অন্যদের দ্বারা নিয়ন্ত্রিত হওয়া প্রতিরোধ করে",
+        "যৌক্তিকভাবে এবং বিচারবুদ্ধিসম্পন্নভাবে কাজ করতে পারে - লক্ষ্য বোঝার জন্য তাদের স্বজ্ঞা ব্যবহার করে এবং সেদিকে পিছন থেকে কাজ করে",
+        "সাধারণত কঠিন ধারণা এবং তত্ত্ব উপলব্ধি করতে সক্ষম"
     ],
-    relationshipStrengths: [
-      "Good communication skills",
-      "Very perceptive about people's thought and motives",
-      "Motivational, inspirational; bring out the best in others",
-      "Warmly affectionate and affirming",
-      "Fun to be with - lively sense of humor, dramatic, energetic, optimistic",
-      'Strive for "win-win" situations',
-      "Driven to meet other's needs",
-      "Usually loyal and dedicated",
+    "relationshipStrengths": [
+        "ভালো যোগাযোগের দক্ষতা",
+        "মানুষের চিন্তা ও উদ্দেশ্য সম্পর্কে খুব উপলব্ধিপ্রবণ",
+        "অনুপ্রেরণামূলক; অন্যদের মধ্যে সেরাটা বের করে আনে",
+        "উষ্ণভাবে স্নেহশীল এবং সমর্থনকারী",
+        "সাথে থাকতে মজার - প্রাণবন্ত রসবোধ, নাটকীয়, উদ্যমী, আশাবাদী",
+        "\"উভয় পক্ষের জয়\" পরিস্থিতির জন্য সচেষ্ট",
+        "অন্যের চাহিদা পূরণে সচেষ্ট",
+        "সাধারণত অনুগত এবং নিবেদিত"
     ],
-    relationshipWeaknesses: [
-      "Tendency to be smothering",
-      "Their enthusiasm may lead them to be unrealistic",
-      'Uninterested in dealing with "mundane" matters such as cleaning, paying bills, etc.',
-      "Hold onto bad relationships long after they've turned bad",
-      "Extreme dislike of conflict",
-      "Extreme dislike of criticism",
-      "Don't pay attention to their own needs",
-      "Constant quest for the perfect relationship may make them change relationships frequently",
-      "May become bored easily",
-      "Have difficulty scolding or punishing others",
+    "relationshipWeaknesses": [
+        "অতিরিক্ত আগলে রাখার প্রবণতা",
+        "তাদের উৎসাহ তাদের অবাস্তব করে তুলতে পারে",
+        "পরিষ্কার করা, বিল পরিশোধ করা ইত্যাদি \"জাগতিক\" বিষয়গুলি মোকাবেলায় অনাগ্রহী",
+        "খারাপ সম্পর্কগুলি খারাপ হয়ে যাওয়ার পরেও দীর্ঘকাল ধরে রাখে",
+        "দ্বন্দ্বের প্রতি চরম অপছন্দ",
+        "সমালোচনার প্রতি চরম অপছন্দ",
+        "নিজেদের চাহিদার দিকে মনোযোগ দেয় না",
+        "নিখুঁত সম্পর্কের জন্য অবিরাম অনুসন্ধান তাদের ঘন ঘন সম্পর্ক পরিবর্তন করতে পারে",
+        "সহজেই বিরক্ত হতে পারে",
+        "অন্যদের তিরস্কার বা শাস্তি দিতে অসুবিধা বোধ করে"
     ],
-    successDefinition: `ENFPs are motivated in everything that they do by a desire to understand the world around them. They are
-constantly searching about. Mentally and physically, for input that will help them to better understand the
-Big Picture. They are open-minded to new people and new experiences; they’re eager for the opportunity
-to understand what the new people and experiences are all about. ENFPs use their understanding of the
-world to serve the agendas of their value systems. An ENFP’s value system often includes respect for the
-needs and desires of individual people over the needs of a social group. Their respect for the individual
-makes them dislike controlling others, and being controlled by others. ENFPs are passionate about their
-beliefs, whatever they may be. They often stubbornly adhere to their value system regardless of threats to
-its validity. They are more concerned with keeping true to what they believe than they are with
-expectations or demands from the social group that they function within. ENFPs dislike personal criticism,
-because it threatens their validity as an individual and the validity of their value system. ENFPs may
-internalize anger rather than express it; their respect for other individuals makes it difficult for them to hurt
-others. An ENFP’s feeling of success depends upon the availability of opportunities to grow their
-understanding of the world, upon feeling that they’re living true to their personal value system, and upon
-the condition of their closest relationships.`,
-    strengths: [
-      `They’re exceptionally perceptive about people and situations. They’re often able to quickly and
-accurately assess where someone is coming from.`,
-      `They accept and value people as individuals, and are strongly egalitarian. They believe that
-individuals have the right to be themselves, and are very tolerant and accepting of most people.`,
-      `They’re often deep and intelligent, and may be quite brilliant in their ability to tie things together.
-They’re wired to look for connections in the external world, and so they may mentally put things
-together more easily than others.`,
-      `Their interest in understanding the world usually makes them in tune with what’s socially
-acceptable and what isn’t. This may help them to be popular and likeable.`,
-      `They’re highly creative. This ability may be used in an artistic way, or may be used to generate
-ideas and new ways of thinking.`,
+    "successDefinition": "ENFP-রা যা কিছু করে তার সবকিছুতেই তাদের চারপাশের জগতকে বোঝার আকাঙ্ক্ষা দ্বারা অনুপ্রাণিত হয়। তারা ক্রমাগত অনুসন্ধান করে। মানসিকভাবে এবং শারীরিকভাবে, এমন তথ্যের জন্য যা তাদের বৃহত্তর চিত্রটি আরও ভালোভাবে বুঝতে সাহায্য করবে। তারা নতুন মানুষ এবং নতুন অভিজ্ঞতার প্রতি মুক্তমনা; নতুন মানুষ এবং অভিজ্ঞতাগুলি কী তা বোঝার সুযোগের জন্য তারা আগ্রহী। ENFP-রা তাদের মূল্যবোধ ব্যবস্থার লক্ষ্য পূরণের জন্য জগত সম্পর্কে তাদের উপলব্ধি ব্যবহার করে। একজন ENFP-এর মূল্যবোধ ব্যবস্থায় প্রায়শই একটি সামাজিক গোষ্ঠীর চাহিদার চেয়ে স্বতন্ত্র মানুষের চাহিদা এবং আকাঙ্ক্ষার প্রতি সম্মান অন্তর্ভুক্ত থাকে। ব্যক্তির প্রতি তাদের সম্মান তাদের অন্যদের নিয়ন্ত্রণ করা এবং অন্যদের দ্বারা নিয়ন্ত্রিত হওয়া অপছন্দ করায়। ENFP-রা তাদের বিশ্বাস সম্পর্কে আবেগপ্রবণ, তা যাই হোক না কেন। তারা প্রায়শই তাদের মূল্যবোধ ব্যবস্থার বৈধতার প্রতি হুমকি থাকা সত্ত্বেও একগুঁয়েভাবে তা মেনে চলে। তারা যে সামাজিক গোষ্ঠীর মধ্যে কাজ করে তার প্রত্যাশা বা দাবির চেয়ে তারা যা বিশ্বাস করে তার প্রতি সত্য থাকার বিষয়ে বেশি উদ্বিগ্ন। ENFP-রা ব্যক্তিগত সমালোচনা অপছন্দ করে, কারণ এটি একজন ব্যক্তি হিসাবে তাদের বৈধতা এবং তাদের মূল্যবোধ ব্যবস্থার বৈধতাকে হুমকির মুখে ফেলে। ENFP-রা রাগ প্রকাশ না করে তা internalized করতে পারে; অন্যান্য ব্যক্তিদের প্রতি তাদের সম্মান তাদের অন্যদের আঘাত করা কঠিন করে তোলে। একজন ENFP-এর সাফল্যের অনুভূতি নির্ভর করে জগত সম্পর্কে তাদের বোঝার সুযোগের প্রাপ্যতার উপর, তারা তাদের ব্যক্তিগত মূল্যবোধ ব্যবস্থার প্রতি সত্য থেকে জীবনযাপন করছে এমন অনুভূতির উপর এবং তাদের নিকটতম সম্পর্কের অবস্থার উপর।",
+    "strengths": [
+        "তারা মানুষ এবং পরিস্থিতি সম্পর্কে ব্যতিক্রমীভাবে উপলব্ধিপ্রবণ। তারা প্রায়শই দ্রুত এবং নির্ভুলভাবে মূল্যায়ন করতে সক্ষম হয় যে কেউ কোথা থেকে আসছে।",
+        "তারা মানুষকে স্বতন্ত্র হিসেবে গ্রহণ করে এবং মূল্য দেয় এবং দৃঢ়ভাবে সমতাবাদী। তারা বিশ্বাস করে যে ব্যক্তিদের নিজেদের হওয়ার অধিকার রয়েছে এবং বেশিরভাগ মানুষের প্রতি তারা খুব সহনশীল এবং গ্রহণযোগ্য।",
+        "তারা প্রায়শই গভীর এবং বুদ্ধিমান এবং জিনিসগুলিকে একত্রিত করার তাদের ক্ষমতায় বেশ মেধাবী হতে পারে। তারা বাহ্যিক জগতে সংযোগ খোঁজার জন্য তৈরি, এবং তাই তারা অন্যদের চেয়ে সহজে মানসিকভাবে জিনিসগুলিকে একত্রিত করতে পারে।",
+        "জগত বোঝার প্রতি তাদের আগ্রহ সাধারণত তাদের সামাজিকভাবে গ্রহণযোগ্য এবং অগ্রহণযোগ্য বিষয়গুলির সাথে সামঞ্জস্যপূর্ণ করে তোলে। এটি তাদের জনপ্রিয় এবং পছন্দনীয় হতে সাহায্য করতে পারে।",
+        "তারা অত্যন্ত সৃজনশীল। এই ক্ষমতা শৈল্পিকভাবে ব্যবহার করা যেতে পারে, বা ধারণা এবং নতুন চিন্তাভাবনা তৈরি করতে ব্যবহার করা যেতে পারে।"
     ],
-    gifts: [
-      `They will have the ability to follow through on projects they’ve begun.`,
-      `They will be less gullible and malleable, and generally more able to discern between “good” and
-“bad”, rather than accepting everything without question.`,
-      `They may be highly artistic.`,
-      `They will have the ability to focus and concentrate deeply on tasks. This enhanced ability to think
-and process information internally will make them more capable on many levels.`,
-      `They will balance out their desire to meet new people and have new experiences with the desire to
-put their understanding to use in some way.`,
-      `They will find more meaning and purpose in their lives.`,
+    "gifts": [
+        "তাদের শুরু করা প্রকল্পগুলি সম্পন্ন করার ক্ষমতা থাকবে।",
+        "তারা কম বিশ্বাসপ্রবণ এবং নমনীয় হবে, এবং সাধারণত প্রশ্ন ছাড়াই সবকিছু গ্রহণ করার পরিবর্তে \"ভাল\" এবং \"মন্দ\" এর মধ্যে পার্থক্য করতে আরও বেশি সক্ষম হবে।",
+        "তারা অত্যন্ত শৈল্পিক হতে পারে।",
+        "তাদের কাজগুলিতে গভীরভাবে মনোযোগ এবং মনোনিবেশ করার ক্ষমতা থাকবে। অভ্যন্তরীণভাবে তথ্য চিন্তা এবং প্রক্রিয়া করার এই বর্ধিত ক্ষমতা তাদের অনেক স্তরে আরও সক্ষম করে তুলবে।",
+        "তারা নতুন লোকের সাথে দেখা করার এবং নতুন অভিজ্ঞতা অর্জনের তাদের আকাঙ্ক্ষার সাথে তাদের উপলব্ধিকে কোনো না কোনোভাবে কাজে লাগানোর আকাঙ্ক্ষার ভারসাম্য বজায় রাখবে।",
+        "তারা তাদের জীবনে আরও বেশি অর্থ এবং উদ্দেশ্য খুঁজে পাবে।"
     ],
-    potentialProblemAreas: [
-      `May be what many would call a “sucker”; vulnerable to schemers and con artists.`,
-      `May get themselves into dangerous situations because they’re too eager to push the envelope of
-their understanding, and not willing to apply judgment to anything.`,
-      `May feel intense anger towards people who criticize them or try to control them. But will be
-unable to express the anger. Left unexpressed, the anger may fester and simmer and become
-destructive.`,
-      `May blame their problems on other people, using logic and ration to defend themselves against the
-world.`,
-      `May develop strong negative judgments that are difficult to unseat against people who they
-perceive have been oppressive to them.`,
-      `May get involved with drugs, alcohol, or promiscuity, and generally seek mindless experiences
-and sensations.`,
-      `May skip from relationship to relationship without the ability to commit.`,
-      `May start projects but be unable to finish them.`,
-      `May be unable to stick to a career or job for any length of time.`,
+    "potentialProblemAreas": [
+        "অনেকে যাকে \"সহজে প্রতারিত হওয়া ব্যক্তি\" বলে, তেমন হতে পারে; ষড়যন্ত্রকারী এবং প্রতারকদের কাছে দুর্বল।",
+        "বিপজ্জনক পরিস্থিতিতে নিজেদের ফেলতে পারে কারণ তারা তাদের বোঝার সীমা ঠেলে দেওয়ার জন্য খুব বেশি আগ্রহী এবং কোনো কিছুতে বিচার প্রয়োগ করতে ইচ্ছুক নয়।",
+        "যারা তাদের সমালোচনা করে বা তাদের নিয়ন্ত্রণ করার চেষ্টা করে তাদের প্রতি তীব্র রাগ অনুভব করতে পারে। কিন্তু রাগ প্রকাশ করতে অক্ষম হবে। অপ্রকাশিত থাকলে, রাগ জমা হতে পারে এবং ধ্বংসাত্মক হয়ে উঠতে পারে।",
+        "নিজেদের সমস্যাগুলির জন্য অন্য লোকেদের দোষারোপ করতে পারে, নিজেদেরকে বিশ্বের বিরুদ্ধে রক্ষা করার জন্য যুক্তি এবং বিচারবুদ্ধি ব্যবহার করে।",
+        "যাদেরকে তারা নিপীড়ক বলে মনে করে তাদের বিরুদ্ধে দৃঢ় নেতিবাচক বিচার তৈরি করতে পারে যা দূর করা কঠিন।",
+        "মাদক, অ্যালকোহল বা অসংযমে জড়িত হতে পারে এবং সাধারণত অর্থহীন অভিজ্ঞতা এবং সংবেদন সন্ধান করতে পারে।",
+        "প্রতিশ্রুতিবদ্ধ হওয়ার ক্ষমতা ছাড়াই এক সম্পর্ক থেকে অন্য সম্পর্কে যেতে পারে।",
+        "প্রকল্প শুরু করতে পারে কিন্তু সেগুলি শেষ করতে অক্ষম হতে পারে।",
+        "কোনো নির্দিষ্ট সময়ের জন্য কোনো পেশা বা চাকরিতে লেগে থাকতে অক্ষম হতে পারে।"
     ],
-    explanationOfProblems: `Nearly all of the problematic characteristics described above can be attributed in various degrees to the
-common ENFP problem of wanting to understand and experience everything at any cost. If the ENFP does
-not learn how to discriminate things and people in their external environment, the ENFP will begin to use
-their judging function (Introverted Feeling) as solve a “rubber stamper” to support their agenda to seek out
-experiences. This is a natural survivalist technique for the ENFP personality. The main driver to the ENFP
-personality is Extraverted Intuition, whose purpose is to understand the world as one Big Picture, seeking
-connections and meaning in everything. If their ability to seek understanding is threatened, the ENFP shuts
-out the threatening force. This is totally natural, but unfortunately the individual who exercises this type of
-agenda protection regularly will become more and more unable to apply judgment to anything. When the
-unbalanced ENFP does apply judgment, it will generally be skewed to support their subjective agenda.
-They will always find justification for their own inappropriate behavior. They will be unable to finish
-anything that they start, and generally wander through life from experience to experience.
-It’s very common for ENFPs to resist applying judgment until they feel they truly understand a person or
-situation. However, part of the understanding process includes using discernment to classify qualities. If
-the ENFP shuts judgment off entirely, he or she will not achieve their ultimate goal of understanding; rather
-they will jump from experience to experience in a purposeless fashion.
-Anger can be a problem for anybody, but may be especially so for ENFPs who have not sufficiently
-developed their Introverted Feeling. The desire to keep everything non-judgmental, combined with the
-tendency to use Introverted Feeling as justification rather than true judgment is a recipe for suppressed
-anger. These are very contradictory forces. “I hate you for judging me” is an ironic feeling, but is
-unfortunately common. The inability to apply judgment or to accept negative judgment prevents the ENFP
-from expressing negative judgment, and therefore causes them to stew in their anger, rather than deal with
-it`,
-    solutions: `To grow as an individual, the ENFP needs to focus on applying judgment to all of their perceptions. This
-means they need to decide how they really feel about people, places and things, rather than allowing their
-feelings to hang open indeterminately. The ENFP needs to understand that developing their ability to
-discern qualities does not threaten their ability to understand the world, but rather enhances it, and enhances
-their personal changes for achieving a measure of success in their lives.
-The ENFP concerned with personal growth will pay close attention to their motivation for making a
-judgment. Are they trying to really determine the objective value or merit of something, or are they trying
-to defend their individual right to not be judged or controlled? The goal when judging something is to not
-let your personal agenda influence your opinions. Obviously, this is not entirely possible, but it is the
-exercise to keep in mind. You want to open your mind to judgment without feeling threatened, and without
-using your own judgment in a defensive, rationalizing mode.`,
-    livingHappilyTips: `As can be seen from the above, some ENFPs can have difficulty fitting into society. Their problems are
-often due top feeling different from others because of their dominant Intuition, and being unable to stick to
-anything long enough to feel a sense of accomplishment. They feel like they don’t fit in, and can’t find the
-place where they belong in the world. The ENFP who consistently makes decisions and applies
-classifications to their ideas will be able to turn their ideas into reality, and experience the feelings of
-accomplishment and success that accompany being effective.
-The key to personal growth for the ENFP is competent execution of Introverted Feeling. It’s difficult for
-most to understand what this means, much less incorporate that directive into your life. I have created
-some action-oriented suggestions that will help lead you down the path towards more effective use of the
-Introverted Feeling function. Specific suggestions:
-When you feel angry or resistant towards someone who you feel is criticizing you, take this as a cue that
-you are not judging effectively. When that happens, take a step back from your anger and try to really hear
-what the person is saying objectively. Rather than expending mental energy in defining how the other
-person is wrong, try to judge what the person is actually saying.
-Periodically make lists of goals and accomplishments. Revisit your goals and accomplishments as often as
-you’d like to maintain a sense of direction.
-Spend time alone regularly for the purpose of thinking through issues in your life.
-`,
-    tenRulesToLive: [
-      `Feed Your Strengths! Make sure you have opportunities to have new experiences to feel your
-quest of understanding the world.`,
-      `Face Your Weaknesses! Realize and accept that some traits are strengths and some are
-weaknesses. By facing your weaknesses, you can overcome them and they will have less power
-over you.`,
-      `Express Your Feelings. Don’t let anger get bottled up inside you. If you have strong feelings, sort
-them out and express them, or they may become destructive!`,
-      `Make Decisions. Don't be afraid to have an opinion. You need to know how you feel about things
-in order to be effective.`,
-      `Smile at Criticism. Try to see disagreement and discord as an opportunity for growth, because
-that’s exactly what it is. Try not to become overly defensive towards criticism; try to hear it and
-judge it objectively.`,
-      `Be Aware of Others. Remember that there are 15 other personality types out there who see things
-differently than you see them. Most of your problems with other people are easier to deal with if
-you try to understand the other person's perspective.`,
-      `Be Aware of Yourself. Don't stint your own needs for the sake of others too much. Realize you
-are an important focus. If you do not fulfill your own needs, how will continue to be effective and
-how will others know you are true to your beliefs?`,
-      `Be Accountable for Yourself. Don’t waste mental energy finding blame in other’s behavior, or in
-identifying yourself as a victim. You have more control over your life than any other person has.`,
-      `Assume the Best. Don't distress yourself by assuming the worst. Remember that a positive
-attitude creates positive situations.`,
-      `When in Doubt, Ask Questions! Don't assume that the lack of feedback is the same thing as
-negative feedback. If you need feedback and don't have any, ask for it`,
-    ],
-  },
+    "explanationOfProblems": "উপরে বর্ণিত প্রায় সব সমস্যাজনক বৈশিষ্ট্য বিভিন্ন মাত্রায় ENFP-দের সাধারণ সমস্যা, অর্থাৎ যেকোনো মূল্যে সবকিছু বোঝা এবং অভিজ্ঞতা অর্জনের আকাঙ্ক্ষার কারণে হতে পারে। যদি ENFP তাদের বাহ্যিক পরিবেশে বস্তু এবং মানুষ বিচার করতে না শেখে, তাহলে ENFP অভিজ্ঞতা অর্জনের তাদের উদ্দেশ্যকে সমর্থন করার জন্য তাদের বিচারক ফাংশন (ইন্ট্রোভার্টেড ফিলিং) ব্যবহার করা শুরু করবে। এটি ENFP ব্যক্তিত্বের জন্য একটি স্বাভাবিক টিকে থাকার কৌশল। ENFP ব্যক্তিত্বের প্রধান চালিকাশক্তি হলো এক্সট্রাভার্টেড ইন্টুইশন, যার উদ্দেশ্য হলো বিশ্বকে একটি বড় চিত্র হিসেবে বোঝা, সবকিছুর মধ্যে সংযোগ এবং অর্থ খোঁজা। যদি তাদের বোঝার ক্ষমতা হুমকির মুখে পড়ে, ENFP সেই হুমকিস্বরূপ শক্তিকে বাধা দেয়। এটি সম্পূর্ণ স্বাভাবিক, কিন্তু দুর্ভাগ্যবশত যে ব্যক্তি নিয়মিতভাবে এই ধরনের উদ্দেশ্য সুরক্ষা অনুশীলন করে সে কোনো কিছুতে বিচার প্রয়োগ করতে ক্রমশ অক্ষম হয়ে পড়বে। যখন ভারসাম্যহীন ENFP বিচার প্রয়োগ করে, তখন এটি সাধারণত তাদের বিষয়ভিত্তিক উদ্দেশ্যকে সমর্থন করার জন্য বিকৃত হবে। তারা সর্বদা তাদের নিজেদের অনুপযুক্ত আচরণের জন্য ন্যায্যতা খুঁজে পাবে। তারা যা শুরু করে তা শেষ করতে অক্ষম হবে এবং সাধারণত এক অভিজ্ঞতা থেকে অন্য অভিজ্ঞতায় জীবনভর ঘুরে বেড়াবে।\nENFP-দের জন্য বিচার প্রয়োগ করা ততক্ষণ পর্যন্ত প্রতিহত করা খুব সাধারণ যতক্ষণ না তারা মনে করে যে তারা সত্যিই একজন ব্যক্তি বা পরিস্থিতি বুঝতে পারছে। যাইহোক, বোঝার প্রক্রিয়ার অংশ হিসেবে গুণাবলী শ্রেণীবদ্ধ করার জন্য বিচক্ষণতা ব্যবহার করা অন্তর্ভুক্ত। যদি ENFP সম্পূর্ণরূপে বিচার বন্ধ করে দেয়, তাহলে সে তার বোঝার চূড়ান্ত লক্ষ্য অর্জন করতে পারবে না; বরং তারা উদ্দেশ্যহীনভাবে এক অভিজ্ঞতা থেকে অন্য অভিজ্ঞতায় লাফিয়ে যাবে।\nরাগ যে কারও জন্য একটি সমস্যা হতে পারে, তবে বিশেষ করে সেই ENFP-দের জন্য যারা তাদের ইন্ট্রোভার্টেড ফিলিং যথেষ্ট পরিমাণে বিকশিত করেনি। সবকিছু অবিচারহীন রাখার আকাঙ্ক্ষা, সত্য বিচারের পরিবর্তে ইন্ট্রোভার্টেড ফিলিংকে ন্যায্যতা হিসেবে ব্যবহার করার প্রবণতার সাথে মিলিত হয়ে চাপা রাগের একটি রেসিপি। এগুলি খুব পরস্পরবিরোধী শক্তি। \"আমাকে বিচার করার জন্য আমি তোমাকে ঘৃণা করি\" একটি ব্যঙ্গাত্মক অনুভূতি, কিন্তু দুর্ভাগ্যবশত সাধারণ। বিচার প্রয়োগ করতে বা নেতিবাচক বিচার গ্রহণ করতে অক্ষমতা ENFP-কে নেতিবাচক বিচার প্রকাশ করতে বাধা দেয় এবং তাই তাদের রাগের মধ্যে সেদ্ধ হওয়ার কারণ হয়, এটি মোকাবেলা করার পরিবর্তে।",
+    "solutions": "একজন ব্যক্তি হিসেবে উন্নতি করার জন্য, ENFP-কে তাদের সমস্ত উপলব্ধিতে বিচার প্রয়োগ করার দিকে মনোনিবেশ করতে হবে। এর মানে হলো তাদের অনুভূতিগুলিকে অনির্দিষ্টকালের জন্য ঝুলিয়ে রাখার পরিবর্তে মানুষ, স্থান এবং জিনিস সম্পর্কে তারা আসলে কেমন অনুভব করে তা নির্ধারণ করতে হবে। ENFP-কে বুঝতে হবে যে গুণাবলী বিচার করার তাদের ক্ষমতা বিকাশ করা বিশ্বকে বোঝার তাদের ক্ষমতাকে হুমকি দেয় না, বরং এটি এটিকে বাড়িয়ে তোলে এবং তাদের জীবনে সাফল্যের একটি পরিমাপ অর্জনের জন্য তাদের ব্যক্তিগত পরিবর্তনগুলিকে বাড়িয়ে তোলে।\nব্যক্তিগত বৃদ্ধি নিয়ে উদ্বিগ্ন ENFP একটি বিচার করার জন্য তাদের অনুপ্রেরণার প্রতি গভীর মনোযোগ দেবে। তারা কি সত্যিই কোনো কিছুর উদ্দেশ্যমূলক মূল্য বা যোগ্যতা নির্ধারণ করার চেষ্টা করছে, নাকি তারা বিচার বা নিয়ন্ত্রিত না হওয়ার তাদের ব্যক্তিগত অধিকার রক্ষা করার চেষ্টা করছে? কোনো কিছু বিচার করার সময় লক্ষ্য হলো আপনার ব্যক্তিগত উদ্দেশ্যকে আপনার মতামতকে প্রভাবিত করতে না দেওয়া। স্পষ্টতই, এটি সম্পূর্ণরূপে সম্ভব নয়, তবে এটি মনে রাখার অনুশীলন। আপনি হুমকি বোধ না করে এবং প্রতিরক্ষামূলক, যৌক্তিকীকরণ মোডে আপনার নিজের বিচার ব্যবহার না করে বিচারের জন্য আপনার মন খুলতে চান।",
+    "livingHappilyTips": "উপরের আলোচনা থেকে দেখা যায়, কিছু ENFP-এর সমাজে মানিয়ে নিতে অসুবিধা হতে পারে। তাদের প্রভাবশালী স্বজ্ঞার কারণে অন্যদের থেকে ভিন্ন বোধ করা এবং কোনো কিছুতে যথেষ্ট দীর্ঘ সময় ধরে লেগে থাকতে না পারার কারণে কৃতিত্বের অনুভূতি না পাওয়ার জন্য প্রায়শই তাদের সমস্যা হয়। তারা অনুভব করে যে তারা খাপ খায় না এবং বিশ্বে তাদের নিজেদের জায়গা খুঁজে পায় না। যে ENFP ক্রমাগত সিদ্ধান্ত নেয় এবং তাদের ধারণাগুলিতে শ্রেণীবিন্যাস প্রয়োগ করে সে তাদের ধারণাগুলিকে বাস্তবে পরিণত করতে সক্ষম হবে এবং কার্যকর হওয়ার সাথে সাথে আসা কৃতিত্ব এবং সাফল্যের অনুভূতিগুলি অনুভব করবে।\nENFP-এর ব্যক্তিগত বৃদ্ধির চাবিকাঠি হলো ইন্ট্রোভার্টেড ফিলিং-এর উপযুক্ত প্রয়োগ। বেশিরভাগের পক্ষে এর অর্থ কী তা বোঝা কঠিন, আপনার জীবনে সেই নির্দেশকে অন্তর্ভুক্ত করা তো দূরের কথা। আমি কিছু কর্ম-ভিত্তিক পরামর্শ তৈরি করেছি যা আপনাকে ইন্ট্রোভার্টেড ফিলিং ফাংশনের আরও কার্যকর ব্যবহারের পথে নিয়ে যেতে সাহায্য করবে। নির্দিষ্ট পরামর্শ:\nযখন আপনি এমন কারও প্রতি রাগান্বিত বা প্রতিরোধী বোধ করেন যে আপনার মনে হচ্ছে আপনার সমালোচনা করছে, তখন এটিকে একটি সঙ্কেত হিসাবে নিন যে আপনি কার্যকরভাবে বিচার করছেন না। যখন এমন হয়, তখন আপনার রাগ থেকে এক ধাপ পিছিয়ে যান এবং ব্যক্তিটি উদ্দেশ্যমূলকভাবে কী বলছে তা সত্যিই শোনার চেষ্টা করুন। অন্য ব্যক্তি কীভাবে ভুল তা সংজ্ঞায়িত করার জন্য মানসিক শক্তি ব্যয় করার পরিবর্তে, ব্যক্তিটি আসলে কী বলছে তা বিচার করার চেষ্টা করুন।\nপর্যায়ক্রমে লক্ষ্য এবং কৃতিত্বের তালিকা তৈরি করুন। দিকনির্দেশনার অনুভূতি বজায় রাখার জন্য যতবার খুশি আপনার লক্ষ্য এবং কৃতিত্বগুলি পুনর্বিবেচনা করুন।\nআপনার জীবনের সমস্যাগুলি নিয়ে চিন্তা করার উদ্দেশ্যে নিয়মিত একা সময় কাটান।",
+    "tenRulesToLive": [
+        "আপনার শক্তি বৃদ্ধি করুন! বিশ্ব বোঝার আপনার অনুসন্ধানের অনুভূতি পেতে নতুন অভিজ্ঞতা অর্জনের সুযোগ নিশ্চিত করুন।",
+        "আপনার দুর্বলতার মুখোমুখি হোন! উপলব্ধি করুন এবং গ্রহণ করুন যে কিছু বৈশিষ্ট্য শক্তি এবং কিছু দুর্বলতা। আপনার দুর্বলতার মুখোমুখি হয়ে, আপনি সেগুলি কাটিয়ে উঠতে পারেন এবং সেগুলি আপনার উপর কম ক্ষমতা রাখবে।",
+        "আপনার অনুভূতি প্রকাশ করুন। রাগ আপনার ভেতরে জমতে দেবেন না। যদি আপনার দৃঢ় অনুভূতি থাকে, সেগুলির সমাধান করুন এবং প্রকাশ করুন, নতুবা সেগুলি ধ্বংসাত্মক হয়ে উঠতে পারে!",
+        "সিদ্ধান্ত নিন। মতামত প্রকাশ করতে ভয় পাবেন না। কার্যকর হওয়ার জন্য জিনিসগুলি সম্পর্কে আপনি কেমন অনুভব করেন তা আপনার জানা দরকার।",
+        "সমালোচনায় হাসুন। মতবিরোধ এবং বিবাদকে বৃদ্ধির সুযোগ হিসেবে দেখার চেষ্টা করুন, কারণ ঠিক এটাই। সমালোচনার প্রতি অতিরিক্ত প্রতিরক্ষামূলক না হওয়ার চেষ্টা করুন; এটি শোনার এবং উদ্দেশ্যমূলকভাবে বিচার করার চেষ্টা করুন।",
+        "অন্যদের সম্পর্কে সচেতন হন। মনে রাখবেন যে আরও ১৫টি ব্যক্তিত্বের ধরণ রয়েছে যারা আপনার থেকে ভিন্নভাবে জিনিসগুলি দেখে। অন্য ব্যক্তির দৃষ্টিকোণ বোঝার চেষ্টা করলে অন্যান্য লোকের সাথে আপনার বেশিরভাগ সমস্যা মোকাবেলা করা সহজ হয়।",
+        "নিজের সম্পর্কে সচেতন হন। অন্যদের জন্য নিজের চাহিদাকে খুব বেশি ত্যাগ করবেন না। উপলব্ধি করুন যে আপনি একটি গুরুত্বপূর্ণ কেন্দ্রবিন্দু। যদি আপনি নিজের চাহিদা পূরণ না করেন, তাহলে আপনি কীভাবে কার্যকর থাকবেন এবং অন্যরা কীভাবে জানবে যে আপনি আপনার বিশ্বাসের প্রতি সত্য?",
+        "নিজের জন্য দায়বদ্ধ হন। অন্যের আচরণে দোষ খুঁজে বের করার জন্য বা নিজেকে শিকার হিসেবে চিহ্নিত করার জন্য মানসিক শক্তি অপচয় করবেন না। আপনার জীবনের উপর অন্য যেকোনো ব্যক্তির চেয়ে আপনার বেশি নিয়ন্ত্রণ রয়েছে।",
+        "সবচেয়ে ভালোটা ধরে নিন। সবচেয়ে খারাপটা ধরে নিয়ে নিজেকে কষ্ট দেবেন না। মনে রাখবেন যে একটি ইতিবাচক মনোভাব ইতিবাচক পরিস্থিতি তৈরি করে।",
+        "সন্দেহ হলে প্রশ্ন করুন! প্রতিক্রিয়ার অভাবকে নেতিবাচক প্রতিক্রিয়ার সমতুল্য বলে ধরে নেবেন না। যদি আপনার প্রতিক্রিয়ার প্রয়োজন হয় এবং আপনার কাছে কোনোটি না থাকে, তবে তা চেয়ে নিন।"
+    ]
+},
   {
     type: "ENTP",
     name: "Extraverted Intuitive Thinking Perceiving",
