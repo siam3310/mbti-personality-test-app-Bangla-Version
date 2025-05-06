@@ -39,291 +39,110 @@ export const personalityClassGroup: PersonalityClassGroup[] = [
     "When You Get Upset, You Lose. Your energy and rational understandings are strong assets, but can be very harmful if they turn against you",
     ],
   },
-  {
-    type: "ENTJ",
-    name: "Extraverted Intuitive Thinking Judging",
-    nameDescription: "Extraverted Thinking with Introverted Intuition",
-    epithet: "The Executive",
-    description: `As an ENTJ, your primary mode of living is focused externally, where you deal with things rationally and
-logically. Your secondary mode is internal, where you take things in primarily via your intuition.
-ENTJ's are natural born leaders. They live in a world of possibilities where they see all sorts of challenges
-to be surmounted, and they want to be the ones responsible for surmounting them. They have a drive for
-leadership, which is well-served by their quickness to grasp complexities, their ability to absorb a large
-amount of impersonal information, and their quick and decisive judgments. They are "take charge" people.
-ENTJ’s are very career-focused, and fit into the corporate world quite naturally. They are constantly
-scanning their environment for potential problems which they can turn into solutions. They generally see
-things from a long-range perspective, and are usually successful at identifying plans to turn problems
-around - especially problems of a corporate nature. ENTJ’s are usually successful in the business world,
-because they are so driven to leadership. They're tireless in their efforts on the job, and driven to visualize
-where an organization is headed. For these reasons, they are natural corporate leaders.
-There is not much room for error in the world of the ENTJ. They dislike seeing mistakes repeated, and have
-no patience with inefficiency. They may become quite harsh when their patience is tried in these respects,
-because they are not naturally tuned in to people's feelings, and more than likely don't believe that they
-should tailor their judgments in consideration for people's feelings. ENTJ’s, like many types, have
-difficulty seeing things from outside their own perspective. Unlike other types, ENTJ’s naturally have little
-patience with people who do not see things the same way as the ENTJ. The ENTJ needs to consciously
-work on recognizing the value of other people's opinions, as well as the value of being sensitive towards
-people's feelings. In the absence of this awareness, the ENTJ will be a forceful, intimidating and
-overbearing individual. This may be a real problem for the ENTJ, who may be deprived of important
-information and collaboration from others. In their personal world, it can make some ENTJ’s overbearing
-as spouses or parents.
-The ENTJ has a tremendous amount of personal power and presence which will work for them as a force
-towards achieving their goals. However, this personal power is also an agent of alienation and self aggrandizement, which the ENTJ would do well to avoid.
-ENTJ’s are very forceful, decisive individuals. They make decisions quickly, and are quick to verbalize
-their opinions and decisions to the rest of the world. The ENTJ who has not developed their Intuition will
-make decisions too hastily, without understanding all of the issues and possible solutions. On the other
-hand, an ENTJ who has not developed their Thinking side will have difficulty applying logic to their
-insights, and will often make poor decisions. In that case, they may have brilliant ideas and insight into
-situations, but they may have little skill at determining how to act upon their understanding, or their actions
-may be inconsistent. An ENTJ who has developed in a generally less than ideal way may become
-dictatorial and abrasive - intrusively giving orders and direction without a sound reason for doing so, and
-without consideration for the people involved.
-Although ENTJ’s are not naturally tuned into other people's feelings, these individuals frequently have very
-strong sentimental streaks. Often these sentiments are very powerful to the ENTJ, although they will likely
-hide it from general knowledge, believing the feelings to be a weakness. Because the world of feelings and
-values is not where the ENTJ naturally functions, they may sometimes make value judgments and hold
-onto submerged emotions which are ill-founded and inappropriate, and will cause them problems -
-sometimes rather serious problems.
-ENTJ’s love to interact with people. As Extroverts, they're energized and stimulated primarily externally.
-There's nothing more enjoyable and satisfying to the ENTJ than having a lively, challenging conversation.
-They especially respect people who are able to stand up to the ENTJ, and argue persuasively for their point
-of view. There aren't too many people who will do so, however, because the ENTJ is a very forceful and
-dynamic presence who has a tremendous amount of self-confidence and excellent verbal communication
-skills. Even the most confident individuals may experience moments of self-doubt when debating a point
-with an ENTJ.
-ENTJ’s want their home to be beautiful, well-furnished, and efficiently run. They're likely to place much
-emphasis on their children being well-educated and structured, to desire a congenial and devoted
-relationship with their spouse. At home, the ENTJ needs to be in charge as much as he or she does in their
-career. The ENTJ is likely best paired with someone who has a strong self-image, who is also a Thinking
-type. Because the ENTJ is primarily focused on their careers, some ENTJ’s have a problem with being
-constantly absent from home, physically or mentally.
-The ENTJ has many gifts which make it possible for them to have a great deal of personal power, if they
-don't forget to remain balanced in their lives. They are assertive, innovative, long-range thinkers with an
-excellent ability to translate theories and possibilities into solid plans of action. They are usually
-tremendously forceful personalities, and have the tools to accomplish whatever goals they set out for.`,
-    jungianFunctionalPreference: {
-      auxiliary: "Introverted Intuition",
-      dominant: "Extraverted Thinking",
-      inferior: "Introverted Feeling",
-      tertiary: "Extraverted Sensing",
-    },
-    generalTraits: [
-      "Driven to turn theories into plans",
-      "Highly value knowledge",
-      "Future-oriented",
-      "Natural leaders",
-      "Impatient with inefficiency and incompetence",
-      "Want things structured and orderly",
-      "Excellent verbal communication skills",
-      "Dislike routine, detail-oriented tasks",
-      "Self-confident",
-      "Decisive",
-    ],
-    relationshipStrengths: [
-      "Genuinely interested in people's ideas and thoughts",
-      "Enthusiastic and energetic",
-      "Take their commitments very seriously",
-      "Fair-minded and interested in doing the Right Thing",
-      "Very good with money",
-      "Extremely direct and straightforward",
-      "Verbally fluent",
-      "Enhance and encourage knowledge and self-growth in all aspects of life",
-      "Able to leave relationships without looking back",
-      "Able to turn conflict situations into positive lessons",
-      "Able to take constructive criticism well",
-      "Extremely high standards and expectations (both a strength and a weakness)",
-      "Usually have strong affections and sentimental streaks",
-      "Able to dole out discipline",
-    ],
-    relationshipWeaknesses: [
-      "Their enthusiasm for verbal debates can make them appear argumentative",
-      "Tendency to be challenging and confrontational",
-      'Tend to get involved in "win-lose" conversations',
-      "Tendency to have difficulty listening to others",
-      "Tendency to be critical of opinions and attitudes which don't match their own",
-      "Extremely high standards and expectations (both a strength and a weakness)",
-      "Not naturally in tune with people's feelings and reactions",
-      "May have difficulty expressing love and affection, sometimes seeming awkward or inappropriate",
-      "Can be overpowering and intimidating to others",
-      "Tendency to want to always be in charge, rather than sharing responsibilities",
-      "Can be very harsh and intolerant about messiness or inefficiency",
-      "Tendency to be controlling",
-      "May be slow to give praise or to realize another's need for praise",
-      "If unhappy or underdeveloped, they may be very impersonal, dictatorial, or abrasive",
-      "Tendency to make hasty decisions",
-      "Make explode with terrible tempers when under extreme stress",
-    ],
-    successDefinition: `ENTJ people are realists, in the most basic sense of the word. Not only because their thinking is based upon
-a clear view of how things actually are in the world around them, but also because their ideas and strategies
-are structured around those unambiguous, “down to earth”, commonsense beliefs which sum up the
-obvious and undeniable in life. But while ENTJ’s might be pragmatic about the immediate situation before
-them, they are scarcely satisfied with it until it can be made more productive, useful or valuable. The
-ENTJ’s reasoning on such matters is always clear and generally unemotional. If action can improve an item
-or a situation then it ought to be taken, and the ENTJ will always be found in the midst of such action,
-organizing, planning and leading the way forward until the best result possible has been realized. This
-makes success for an ENTJ something that can be clearly seen, a real world result which can be measured.
-And whether measured in dollars, bricks, bread or just happy people, the successful ENTJ knows the result
-is due to their belief that it is just plain commonsense to try and make the best of every situation and get the
-most out if it for the most people.`,
-    strengths: [
-      `Able to cut straight to the chase in any situation and not be sidetracked by non-essential issues.`,
-      `A propensity for leadership which follows naturally from their ability to control and manage real
-time/real world situations.`,
-      `A talent for factual analysis unbiased by prejudice or emotion.`,
-      `A “can do” approach to life which makes the working environment a positive place for them.`,
-      `A strong regard for positive social and economic institutions, structure and government.`,
-      `Second to none time and space management skills, everything organized and in its place.`,
-      `Able to constantly synthesize and adapt new ideas and concepts into strategies for business, social,
-financial or environmental development.`,
-    ],
-    gifts: [
-      `A talent for creating great benefits through the addressing of social justice issues.`,
-      `The ability to recognize and mediate their potentials in accord with the expectations of others.`,
-      `An approach to life which includes an awareness of the differences between their needs and those
-of others.`,
-      `Able to know when to stop and take stock of life and recognize the qualities of the moment.`,
-      `A talent for showing others the way to get past difficulties in their outer life`,
-      `A broadening of their own ambitions which includes rather than excludes others from the decision
-making and the benefits which flow from their achievement.`,
-    ],
-    potentialProblemAreas: [
-      `May be unable to understand other people’s needs where these differ from their own.`,
-      `May unwisely assume their ideas are the only right ones and are therefore being fully implemented
-by others.`,
-      `May become childishly petulant or angered when confronted by situations which require feeling
-judgments.`,
-      `May become so engrossed in a plan or ambition that personal needs and the needs of others are
-forgotten.`,
-      `May take every decision not made in agreement with their rational beliefs as a personal rejection.`,
-      `May be easily taken in or manipulated by others via agreement with their rational attitudes.`,
-      `May become obsessed with small obstructions and difficulties to the point where the overall plan
-is forgotten`,
-      `May believe natural limitations are actually ailments which ought to be eradicated`,
-      `May assume others are ever plotting against them.`,
-      `May believe only their own view of the world or a situation is correct, even to the point that they
-make it into a kind of dogma which must be followed by those around them.`,
-    ],
-    explanationOfProblems: `Most of the problems described above can be seen as a direct result of a too dominant Extraverted Thinking
-function ruling the personality. In most cases this is exactly what is happening, but it is also worth
-recognizing that some of the weaknesses in the ENTJ’s personality that are more apparent to other Types,
-flow not so much from the excesses of the ENTJ’s dominant function, but from the natural inferiority of
-their feeling function and its lack of adaptation. We must also recognize that the level of expression of all
-functions in all people is variable and that some of the problems discussed here apply only to strongly
-expressing ENTJ’s, where the attitude which flows from using Extraverted Thinking exclusively to guide
-them through life creates its own particular problems.
-The over dominance of Extraverted Thinking leads to an intensely intellectual way of seeing the world,
-where values such as right and wrong, good and bad, useful and useless are judged only by their
-applicability to an almost mathematically exact - and to the ENTJ - always rational, attitude to life. Without
-the balance provided by other ways of seeing or judging, the ENTJ is unable to account for actions based
-upon the inner views or feeling behavior of others, hence such things are always judged negatively, either
-as irrelevant - or at best - as being of small consequence. Additionally, with their thinking attitude always
-turned outward and totally subject to the world beyond their senses, without the balance of some internally
-felt objectivity the ENTJ will often follow their ideas and ambitions without consideration for their own
-physical and emotional needs. Indeed, the ENTJ often feels that if only his project, his work, his outer
-reality would just fall into line with his own rational views then all would be well within his world and all
-his needs would be met. Unfortunately such an attitude can never be satisfied, for the world is not only
-rational, but also full of situations and human behavior which must be appreciated and understood by quite
-different, and again - to the ENTJ – often seemingly absurd criteria.
-A healthy personality needs to have a good balance between its dominant and auxiliary functions. For an
-ENTJ, dominant Extraverted Thinking needs to be well-supported by their auxiliary Introverted Intuitive
-function. If Introverted Intuition exists only to support the intellectual rationale created by Extraverted
-Thinking, then neither function is being used to its full potential.
-Introverted Intuition is the ENTJ’s access to their inner world, to the information that could tell them how
-the world is affecting them. Because it is introverted, its images arise from the subjective depths of the
-mind, and contain all that the ENTJ has not considered within their strictly rational and object oriented
-view of the world. Introverted Intuition provides the personally biased information the ENTJ needs to
-balance this world view and protect the ENTJ from being totally swallowed up by their selfless and yet
-single minded attachment to facts, figures and a rationale they accept only from the world outside
-themselves. Because this inner information is often opposed to the ENTJ’s strongly held ideas it is often
-rejected, or if accepted, turned outward to make negative judgments about external situations or the
-behavior of others, rather than seen as a corrective balance to the ENTJ’s own attitudes and behavior.`,
-    solutions: `To grow as an individual, the ENTJ needs to recognize the role Intuition plays in their life, and learn to
-understand its language. In particular the ENTJ needs to realize that their intuitive function is not directed
-outward to the world, that its images are personal, subjective and relate directly to the way the ENTJ’s
-inner self is being affected by both the outside world and their own behavior.
-Introverted Intuition is not an obvious process to understand, and quite unlike the rational, straightforward
-thinking the ENTJ is used to. Nevertheless, if understood and fully utilized to support thinking, it can make
-the ENTJ the most outwardly effective and productive of all the personality types. For this reason it is
-essential to allow this gift to become what it can be, rather than limiting its talents and allowing it only to
-speak when it seems to agree with the ENTJ’s outwardly focused thinking. Below are a few specific
-suggestions to help you apply Introverted Intuition.
-When confronted by a situation which requires an important decision, try to put it off for long enough to be
-able to sit quietly with it. In doing so allow yourself to feel and see the images which arise in your mind
-regarding this situation. Try to set aside those which appear immediately as the products of your own
-beliefs and thinking, and regard the others closely. If these images and ideas were the opinions of people
-whose judgment you trusted implicitly, try to question them in your mind and find the reasons why they
-consider things in such a way.
-There are some people around you who always seem to know just which way to go or how things work or
-what the outcome of a certain situation will be without them seeming to have sufficient information to be
-able to do so. These people are intuitive types and their world is full of possibilities which they can
-immediately recognize as apt to certain situations. You also have this talent, but you have a habit of not
-following it, rather you prefer to think it out and find the options which “ought” to be correct. I placed
-ought in quotes for a very good reason here, for you know yourself how often things have developed in the
-direction you had an inkling of, but refused to accept without thinking. Try to let these immediate
-impressions have their moment and recognize them as true possibilities which ought to be examined more
-closely. Understand that they are not baseless images and ideas but rely upon valid sources of information
-which you simply screen out of your life by habit.`,
-    livingHappilyTips: `Some ENTJ’s have difficulty fitting into our society. Their problems are generally associated with a
-strongly dogmatic and overly rational approach to life, coupled with an almost total lack of ability to
-understand the needs of others. Where such a strongly expressing difficulty arises, the ENTJ finds
-themselves constantly embattled by a world which refuses to conform to their ideals and creates situations
-in which the ENTJ is out of their depth. Such situations are often met by the ENTJ with such a childish
-emotionality that others are put off and isolate the ENTJ emotionally. Such ENTJ’s often find themselves
-without friends, and with business partners or employees who are unwilling to engage the ENTJ upon any
-matter other than strictly task related questions. Such behavior in others only serves to bring out underlying
-sentiments in the ENTJ which, via their badly adapted intuitive function, speak to them of plots, nastiness
-and covert obstructive behavior on the part of others. Suffice to say, such suspicions and childish
-sentiments coupled with dogmatic demands to conform to the ENTJ’s own way of seeing the world can
-soon destroy families and close relationships.
-It is incumbent upon the ENTJ to break the circle of such behavior by allowing their Introverted Intuition a
-place in their life. Through attention to this function the ENTJ can discover a path to understanding and
-recognizing the effects not only their own behavior has upon others, but also the greater possibilities which
-lie within themselves for not only a harmonious relationship with others, but also a greater sense of what
-might be best for themselves.
-Understanding the feeling needs and judgments of others is not an easy task for the ENTJ, but through their
-Intuitive function they can find images and ideas which - whilst not speaking directly to the feeling
-judgments of others – might allow them to see outside the strictly rational circle of their world view in such
-a way as to recognize that there is indeed a different perspective which must be taken account of.`,
-    tenRulesToLive: [
-      `Feed Your Strengths! Give yourself every opportunity to show others your appreciation of a
-situation and how you could see it through to a good outcome. Take charge where you can make it
-count.`,
-      `Face Your Weaknesses! Understand you have limits too. Your careful world view is not the whole
-deal. How things look and feel may not concern you, but they concern many others. Try and allow
-such things to be and learn from them.`,
-      `Talk Time to Find Out How Others Really Think. You need to drive past your thoughts with
-others and let their appreciations of a situation reach you at a deeper level. It will then be possible
-for you to take account of their needs as real world objectives which if included in your ideas will
-bring greater harmony and quality to life and relationships.`,
-      `Take Time Out To Let The Whole Situation Speak To You. Don't dismiss those abstract and
-seemingly hard to understand or bothersome aesthetic and feeling judgments coming from others
-or from inside yourself. Drop everything for a while, stop thinking and worrying and just relax
-into those ideas and let them speak to you. Perhaps they can be accommodated, perhaps
-something is hiding in there which offers a new way`,
-      `When You Get Upset, You Lose. Your energy and rational understandings are strong assets, but
-can be very harmful if they turn against you and leave you with nothing but emotions you cannot
-deal with. Remember that others cannot always be expected to fall into your ways of seeing, and
-when your drive to make them do so fails you will suffer feelings of resentment and even
-abandonment. You cannot deal with the world like this. Moderate your ideas, allow others their
-spaces, and you will grow.`,
-      `Respect your need for intellectual compatibility. Don't expect yourself to be a \`touchy-feely\` or
-\`warm-fuzzy\` person. Realize that your most ardent bonds with others will start with the head,
-rather than the heart. Be aware of other's emotional needs, and express your genuine love and
-respect for them in terms that are real to YOU. Be yourself.`,
-      `Be Accountable for Yourself. Don't blame the problems in your life on other people. Look
-inwardly for solutions. No one has more control over your life than you have.`,
-      `Be Humble. Judge yourself at least as harshly as you judge others.`,
-      `Take a Positive Approach to Differences in People. Don't distress yourself and others by dwelling
-on what seem to be their limitations. They need you to guide them and you need them to see
-things through. Try and recognize who can perform the most ably within certain fields outside
-your own competence. Let the feelings of others become a strength rather than a hindrance to you.`,
-      `Don't Get Obsessed! Recognize the value that personal world has to you, your friends, your
-family, your own inner sense of self worth and life. Take pride in just being a good person and
-don’t allow external situations to control you. Try to relax and let the moment belong to the best
-things you can find in others and yourself. Nothing out there is more important than your own
-happiness`,
-    ],
-  },
+{
+    "type": "ENTJ (ইএনটিজে)",
+    "name": "Extraverted Intuitive Thinking Judging (এক্সট্রাভার্টেড ইন্টুইটিভ থিংকিং জাজিং)",
+    "nameDescription": "Extraverted Thinking with Introverted Intuition (এক্সট্রাভার্টেড থিংকিং এবং ইন্ট্রোভার্টেড ইন্টুইশন)",
+    "epithet": "The Executive (দ্য এক্সিকিউটিভ)",
+    "description": "একজন ENTJ হিসেবে, আপনার জীবনযাপনের প্রাথমিক পদ্ধতিটি বাহ্যিকভাবে কেন্দ্রিক, যেখানে আপনি যুক্তিসঙ্গতভাবে এবং যৌক্তিকভাবে বিষয়গুলি মোকাবেলা করেন। আপনার দ্বিতীয় পদ্ধতিটি অভ্যন্তরীণ, যেখানে আপনি প্রাথমিকভাবে আপনার স্বজ্ঞার মাধ্যমে জিনিসগুলি গ্রহণ করেন।\nENTJ-রা জন্মগত নেতা। তারা সম্ভাবনার জগতে বাস করে যেখানে তারা সব ধরনের চ্যালেঞ্জ দেখতে পায় যা অতিক্রম করা দরকার এবং তারা সেই চ্যালেঞ্জগুলো অতিক্রম করার জন্য দায়িত্বপ্রাপ্ত হতে চায়। তাদের নেতৃত্বের প্রতি আকর্ষণ রয়েছে, যা তাদের জটিলতাগুলি দ্রুত উপলব্ধি করার ক্ষমতা, বিপুল পরিমাণ নৈর্ব্যক্তিক তথ্য শোষণ করার ক্ষমতা এবং তাদের দ্রুত ও নিষ্পত্তিমূলক রায়ের মাধ্যমে ভালোভাবে পরিবেশিত হয়। তারা \"দায়িত্ব গ্রহণকারী\" মানুষ।\nENTJ-রা খুব বেশি ক্যারিয়ার-কেন্দ্রিক এবং কর্পোরেট জগতে খুব স্বাভাবিকভাবেই নিজেদের মানিয়ে নেয়। তারা ক্রমাগত তাদের পরিবেশে সম্ভাব্য সমস্যাগুলির জন্য স্ক্যান করে যা তারা সমাধানে পরিণত করতে পারে। তারা সাধারণত দীর্ঘমেয়াদী দৃষ্টিকোণ থেকে জিনিসগুলি দেখে এবং সমস্যাগুলি মোকাবিলার পরিকল্পনা চিহ্নিত করতে সাধারণত সফল হয় - বিশেষত কর্পোরেট প্রকৃতির সমস্যাগুলো। ENTJ-রা সাধারণত ব্যবসায়িক জগতে সফল হয়, কারণ তারা নেতৃত্বের প্রতি এতটাই অনুপ্রাণিত থাকে। তারা চাকরিতে তাদের প্রচেষ্টায় অক্লান্ত এবং একটি সংস্থা কোন দিকে যাচ্ছে তা কল্পনা করতে অনুপ্রাণিত। এসব কারণে তারা স্বাভাবিকভাবেই কর্পোরেট নেতা।\nENTJ-দের জগতে ভুলের জন্য খুব বেশি জায়গা নেই। তারা ভুলের পুনরাবৃত্তি দেখতে অপছন্দ করে এবং অদক্ষতার সাথে তাদের কোনো ধৈর্য নেই। এই ক্ষেত্রে তাদের ধৈর্য্যের পরীক্ষা করা হলে তারা বেশ কঠোর হয়ে উঠতে পারে, কারণ তারা স্বাভাবিকভাবে মানুষের অনুভূতির প্রতি মনোযোগী নয় এবং সম্ভবত বিশ্বাস করে না যে তাদের মানুষের অনুভূতির জন্য তাদের রায় বিবেচনা করা উচিত। ENTJ-রা, অনেক ধরনের ব্যক্তিত্বের মতো, নিজেদের দৃষ্টিকোণের বাইরে থেকে জিনিস দেখতে অসুবিধা বোধ করে। অন্যান্য ধরনের ব্যক্তিত্বের বিপরীতে, ENTJ-দের স্বাভাবিকভাবেই সেই সমস্ত লোকদের সাথে ধৈর্য কম থাকে যারা ENTJ-দের মতো করে জিনিসগুলি দেখে না। ENTJ-দের সচেতনভাবে অন্যান্য মানুষের মতামতের মূল্য, সেইসাথে মানুষের অনুভূতির প্রতি সংবেদনশীল হওয়ার মূল্য স্বীকার করার জন্য কাজ করতে হবে। এই সচেতনতার অভাবে, ENTJ একজন শক্তিশালী, ভীতিকর এবং প্রভাবশালী ব্যক্তি হবে। এটি ENTJ-এর জন্য একটি আসল সমস্যা হতে পারে, যারা অন্যদের কাছ থেকে গুরুত্বপূর্ণ তথ্য এবং সহযোগিতা থেকে বঞ্চিত হতে পারে। তাদের ব্যক্তিগত জগতে, এটি কিছু ENTJ-কে স্ত্রী বা পিতামাতা হিসাবে অতিরিক্ত প্রভাবশালী করে তুলতে পারে।\nENTJ-এর অসাধারণ ব্যক্তিগত শক্তি এবং উপস্থিতি রয়েছে যা তাদের লক্ষ্য অর্জনের দিকে একটি শক্তি হিসাবে কাজ করবে। যাইহোক, এই ব্যক্তিগত শক্তি বিচ্ছিন্নতা এবং আত্ম-মহিমার একটি কারণও হতে পারে, যা ENTJ-এর এড়িয়ে চলাই শ্রেয়।\nENTJ-রা খুব শক্তিশালী, নিষ্পত্তিমূলক ব্যক্তি। তারা দ্রুত সিদ্ধান্ত নেয় এবং দ্রুত তাদের মতামত এবং সিদ্ধান্ত বাকি বিশ্বের কাছে প্রকাশ করে। যে ENTJ তাদের স্বজ্ঞা বিকাশ করেনি তারা সমস্ত সমস্যা এবং সম্ভাব্য সমাধান না বুঝেই খুব দ্রুত সিদ্ধান্ত নেবে। অন্যদিকে, যে ENTJ তাদের চিন্তার দিকটি বিকাশ করেনি তাদের অন্তর্দৃষ্টিতে যুক্তি প্রয়োগ করতে অসুবিধা হবে এবং প্রায়শই তারা ভুল সিদ্ধান্ত নেবে। সেক্ষেত্রে, তাদের পরিস্থিতি সম্পর্কে উজ্জ্বল ধারণা এবং অন্তর্দৃষ্টি থাকতে পারে, কিন্তু তাদের উপলব্ধি অনুযায়ী কীভাবে কাজ করতে হবে সে সম্পর্কে তাদের সামান্য দক্ষতা থাকতে পারে, অথবা তাদের কাজগুলি অসামঞ্জস্যপূর্ণ হতে পারে। একজন ENTJ যে সাধারণভাবে আদর্শের চেয়ে কম বিকশিত হয়েছে সে স্বৈরাচারী এবং কঠোর হয়ে উঠতে পারে - জড়িত ব্যক্তিদের জন্য কোনো যুক্তিসঙ্গত কারণ ছাড়াই এবং বিবেচনা ছাড়াই আদেশ এবং নির্দেশনা দিতে পারে।\nযদিও ENTJ-রা স্বাভাবিকভাবে অন্য লোকের অনুভূতির সাথে সংযুক্ত নয়, এই ব্যক্তিদের প্রায়শই খুব শক্তিশালী অনুভূতিপ্রবণ দিক থাকে। প্রায়শই এই অনুভূতিগুলো ENTJ-এর জন্য খুব শক্তিশালী, যদিও তারা সম্ভবত সাধারণ জ্ঞান থেকে এটি লুকিয়ে রাখবে, অনুভূতিগুলিকে দুর্বলতা বলে বিশ্বাস করবে। কারণ অনুভূতি এবং মূল্যবোধের জগতটি এমন নয় যেখানে ENTJ স্বাভাবিকভাবে কাজ করে, তারা কখনও কখনও মূল্যবোধের বিচার করতে পারে এবং ভিত্তিহীন এবং অনুপযুক্ত নিমজ্জিত আবেগ ধরে রাখতে পারে এবং এটি তাদের সমস্যা সৃষ্টি করবে - কখনও কখনও বেশ গুরুতর সমস্যা।\nENTJ-রা মানুষের সাথে যোগাযোগ করতে ভালোবাসে। এক্সট্রোভার্ট হিসেবে, তারা প্রাথমিকভাবে বাহ্যিকভাবে উদ্দীপ্ত এবং উৎসাহিত হয়। ENTJ-এর জন্য একটি প্রাণবন্ত, চ্যালেঞ্জিং কথোপকথনের চেয়ে বেশি উপভোগ্য এবং সন্তোষজনক আর কিছুই নেই। তারা বিশেষ করে এমন লোকদের সম্মান করে যারা ENTJ-এর সামনে দাঁড়াতে পারে এবং তাদের দৃষ্টিভঙ্গির জন্য দৃঢ়ভাবে তর্ক করতে পারে। তবে এমন খুব বেশি লোক নেই যারা তা করবে, কারণ ENTJ একটি খুব শক্তিশালী এবং গতিশীল ব্যক্তিত্ব যার প্রচুর আত্মবিশ্বাস এবং চমৎকার মৌখিক যোগাযোগের দক্ষতা রয়েছে। এমনকি সবচেয়ে আত্মবিশ্বাসী ব্যক্তিরাও ENTJ-এর সাথে কোনো বিষয়ে বিতর্ক করার সময় আত্ম-সন্দেহের মুহূর্ত অনুভব করতে পারে।\nENTJ-রা চায় তাদের বাড়ি সুন্দর, সুসজ্জিত এবং দক্ষতার সাথে পরিচালিত হোক। তারা তাদের সন্তানদের সুশিক্ষিত এবং কাঠামোবদ্ধ হওয়ার উপর বেশি জোর দেবে, তাদের স্ত্রীর সাথে একটি সঙ্গতিপূর্ণ এবং অনুরক্ত সম্পর্ক কামনা করবে। বাড়িতে, ENTJ-কে তাদের কর্মজীবনের মতোই দায়িত্বে থাকতে হবে। ENTJ সম্ভবত এমন কারো সাথে সবচেয়ে ভালোভাবে মানিয়ে নিতে পারে যার একটি শক্তিশালী আত্ম-সম্মান রয়েছে, যে একজন চিন্তাশীল প্রকৃতিরও বটে। কারণ ENTJ প্রাথমিকভাবে তাদের কর্মজীবনের উপর দৃষ্টি নিবদ্ধ করে, কিছু ENTJ-এর বাড়িতে ক্রমাগত অনুপস্থিত থাকার সমস্যা রয়েছে, শারীরিকভাবে বা মানসিকভাবে।\nENTJ-এর অনেক গুণাবলী রয়েছে যা তাদের জন্য প্রচুর ব্যক্তিগত শক্তি অর্জন করা সম্ভব করে তোলে, যদি তারা তাদের জীবনে ভারসাম্য বজায় রাখতে ভুলে না যায়। তারা দৃঢ়প্রত্যয়ী, উদ্ভাবনী, দীর্ঘমেয়াদী চিন্তাবিদ এবং তত্ত্ব ও সম্ভাবনাগুলিকে નક્শা পরিকল্পনায় রূপান্তর করার চমৎকার ক্ষমতা রাখে। তারা সাধারণত অসাধারণ শক্তিশালী ব্যক্তিত্বের অধিকারী এবং তারা যে লক্ষ্য নির্ধারণ করে তা অর্জনের জন্য তাদের প্রয়োজনীয় সরঞ্জাম রয়েছে।",
+   "jungianFunctionalPreference": {
+       "auxiliary": "Introverted Intuition (ইন্ট্রোভার্টেড ইন্টুইশন)",
+       "dominant": "Extraverted Thinking (এক্সট্রাভার্টেড থিংকিং)",
+       "inferior": "Introverted Feeling (ইন্ট্রোভার্টেড ফিলিং)",
+       "tertiary": "Extraverted Sensing (এক্সট্রাভার্টেড সেন্সিং)"
+    },
+    "generalTraits": [
+       "তত্ত্বগুলোকে পরিকল্পনায় পরিণত করার জন্য দৃঢ়প্রতিজ্ঞ",
+       "জ্ঞানকে অত্যন্ত মূল্যবান মনে করে",
+       "ভবিষ্যৎ-ভিত্তিক",
+       "সহজাত নেতা",
+       "অদক্ষতা এবং অযোগ্যতার প্রতি অধৈর্য",
+       "জিনিসগুলি কাঠামোবদ্ধ এবং সুশৃঙ্খল রাখতে চায়",
+       "চমৎকার মৌখিক যোগাযোগের দক্ষতা",
+       "রুটিন, বিস্তারিত-ভিত্তিক কাজ অপছন্দ করে",
+       "আত্মবিশ্বাসী",
+       "সিদ্ধান্ত গ্রহণে সক্ষম"
+    ],
+    "relationshipStrengths": [
+       "মানুষের ধারণা এবং চিন্তাভাবনার প্রতি প্রকৃত আগ্রহী",
+       "উৎসাহী এবং উদ্যমী",
+       "তাদের প্রতিশ্রুতি খুব গুরুত্ব সহকারে নেয়",
+       "ন্যায্য মনের এবং সঠিক কাজটি করতে আগ্রহী",
+       "অর্থের ব্যবস্থাপনায় খুব ভালো",
+       "অত্যন্ত সরাসরি এবং অকপট",
+       "কথাবার্তায় সাবলীল",
+       "জীবনের সকল ক্ষেত্রে জ্ঞান এবং আত্ম-বৃদ্ধিকে উৎসাহিত করে",
+       "পেছনে না তাকিয়ে সম্পর্ক ত্যাগ করতে সক্ষম",
+       "সংঘাতপূর্ণ পরিস্থিতিকে ইতিবাচক শিক্ষায় পরিণত করতে সক্ষম",
+       "গঠনমূলক সমালোচনা ভালোভাবে নিতে সক্ষম",
+       "অত্যন্ত উচ্চ মান এবং প্রত্যাশা (শক্তি এবং দুর্বলতা উভয়ই)",
+       "সাধারণত দৃঢ় স্নেহ এবং অনুভূতিপ্রবণ দিক থাকে",
+       "শৃঙ্খলা প্রয়োগ করতে সক্ষম"
+    ],
+    "relationshipWeaknesses": [
+       "মৌখিক বিতর্কের প্রতি তাদের উৎসাহ তাদের তর্কপ্রবণ দেখাতে পারে",
+       "চ্যালেঞ্জিং এবং সংঘাতমূলক হওয়ার প্রবণতা",
+       "\"জয়-পরাজয়\" কথোপকথনে জড়িত হওয়ার প্রবণতা",
+       "অন্যদের কথা শুনতে অসুবিধা হওয়ার প্রবণতা",
+       "তাদের নিজেদের সাথে মেলে না এমন মতামত এবং মনোভাবের প্রতি সমালোচনামূলক হওয়ার প্রবণতা",
+       "অত্যন্ত উচ্চ মান এবং প্রত্যাশা (শক্তি এবং দুর্বলতা উভয়ই)",
+       "মানুষের অনুভূতি এবং প্রতিক্রিয়ার সাথে স্বাভাবিকভাবে সামঞ্জস্যপূর্ণ নয়",
+       "ভালোবাসা এবং স্নেহ প্রকাশ করতে অসুবিধা হতে পারে, কখনও কখনও অদ্ভুত বা অনুপযুক্ত মনে হতে পারে",
+       "অন্যদের জন্য অপ্রতিরোধ্য এবং ভীতিকর হতে পারে",
+       "দায়িত্ব ভাগ করে নেওয়ার পরিবর্তে সর্বদা নিয়ন্ত্রণে থাকতে চাওয়ার প্রবণতা",
+       "অগোছালোতা বা অদক্ষতা সম্পর্কে খুব কঠোর এবং অসহিষ্ণু হতে পারে",
+       "নিয়ন্ত্রণ করার প্রবণতা",
+       "প্রশংসা করতে বা অন্যের প্রশংসার প্রয়োজন উপলব্ধি করতে ধীর হতে পারে",
+       "যদি অসুখী বা অপরিণত হয়, তবে তারা খুব নৈর্ব্যক্তিক, স্বৈরাচারী বা কঠোর হতে পারে",
+       "দ্রুত সিদ্ধান্ত নেওয়ার প্রবণতা",
+       "চরম চাপের মধ্যে ভয়ানক মেজাজ দেখাতে পারে"
+    ],
+    "successDefinition": "ENTJ ব্যক্তিত্বের মানুষেরা বাস্তববাদী, এই শব্দের সবচেয়ে মৌলিক অর্থে। শুধুমাত্র এই কারণে নয় যে তাদের চিন্তাভাবনা তাদের চারপাশের বিশ্বের জিনিসগুলি আসলে কেমন তার একটি স্পষ্ট দৃষ্টিভঙ্গির উপর ভিত্তি করে, বরং এই কারণেও যে তাদের ধারণা এবং কৌশলগুলি সেই অস্পষ্ট, \"বাস্তবসম্মত\", সাধারণ জ্ঞানের বিশ্বাসের চারপাশে গঠিত যা জীবনের সুস্পষ্ট এবং অনস্বীকার্য বিষয়গুলোকে তুলে ধরে। কিন্তু যখন ENTJ-রা তাদের সামনে থাকা তাৎক্ষণিক পরিস্থিতি সম্পর্কে বাস্তববাদী হতে পারে, তখন তারা এটিকে আরও বেশি উত্পাদনশীল, দরকারী বা মূল্যবান না করা পর্যন্ত খুব কমই সন্তুষ্ট হয়। এই ধরনের বিষয়ে ENTJ-দের যুক্তি সর্বদা স্পষ্ট এবং সাধারণত আবেগহীন হয়। যদি কোনও পদক্ষেপ কোনও আইটেম বা পরিস্থিতির উন্নতি করতে পারে তবে তা নেওয়া উচিত, এবং ENTJ সর্বদা এই ধরনের পদক্ষেপের মধ্যে পাওয়া যাবে, সংগঠিত করা, পরিকল্পনা করা এবং সর্বোত্তম সম্ভাব্য ফলাফল অর্জিত না হওয়া পর্যন্ত এগিয়ে যাওয়ার পথ দেখাবে। এটি একটি ENTJ-এর জন্য সাফল্যকে এমন কিছু করে তোলে যা স্পষ্টভাবে দেখা যায়, একটি বাস্তব বিশ্বের ফলাফল যা পরিমাপ করা যায়। এবং ডলারে, ইটে, রুটিতে বা শুধু সুখী মানুষে পরিমাপ করা হোক না কেন, সফল ENTJ জানে যে ফলাফলটি তাদের এই বিশ্বাসের কারণে যে প্রতিটি পরিস্থিতির সেরাটা তৈরি করার চেষ্টা করা এবং বেশিরভাগ মানুষের জন্য এর থেকে সর্বাধিক সুবিধা অর্জন করা সাধারণ জ্ঞানের ব্যাপার।",
+    "strengths": [
+       "যেকোনো পরিস্থিতিতে সরাসরি মূল বিষয়ে পৌঁছাতে সক্ষম এবং অপ্রয়োজনীয় বিষয় দ্বারা বিভ্রান্ত না হওয়া।",
+       "নেতৃত্বের প্রতি একটি প্রবণতা যা বাস্তব সময়/বাস্তব বিশ্বের পরিস্থিতি নিয়ন্ত্রণ এবং পরিচালনা করার তাদের ক্ষমতা থেকে স্বাভাবিকভাবেই আসে।",
+       "কুসংস্কার বা আবেগ দ্বারা নিরপেক্ষ तथ্যানুযায়ী বিশ্লেষণের প্রতিভা।",
+       "জীবনের প্রতি একটি \"করতে পারি\" দৃষ্টিভঙ্গি যা তাদের জন্য কাজের পরিবেশকে একটি ইতিবাচক জায়গা করে তোলে।",
+       "ইতিবাচক সামাজিক এবং অর্থনৈতিক প্রতিষ্ঠান, কাঠামো এবং সরকারের প্রতি দৃঢ় শ্রদ্ধা।",
+       "সময় এবং স্থান ব্যবস্থাপনার দক্ষতায় অদ্বিতীয়, সবকিছু সংগঠিত এবং তার জায়গায়।",
+       "ব্যবসা, সামাজিক, আর্থিক বা পরিবেশগত উন্নয়নের জন্য কৌশলগুলিতে ক্রমাগত নতুন ধারণা এবং ধারণাগুলিকে সংশ্লেষণ এবং অভিযোজিত করতে সক্ষম।"
+    ],
+    "gifts": [
+       "সামাজিক ন্যায়বিচারের বিষয়গুলি মোকাবেলার মাধ্যমে দুর্দান্ত সুবিধা তৈরি করার প্রতিভা।",
+       "অন্যদের প্রত্যাশা অনুযায়ী তাদের সম্ভাব্যতাগুলি সনাক্ত এবং মধ্যস্থতা করার ক্ষমতা।",
+       "জীবনের প্রতি এমন একটি দৃষ্টিভঙ্গি যা তাদের চাহিদা এবং অন্যদের চাহিদার মধ্যে পার্থক্য সম্পর্কে সচেতনতা অন্তর্ভুক্ত করে।",
+       "কখন থামতে হবে এবং জীবনের হিসাব নিতে হবে এবং মুহূর্তের গুণাবলী চিনতে হবে তা জানতে সক্ষম।",
+       "অন্যদের তাদের বাহ্যিক জীবনের অসুবিধাগুলি কাটিয়ে উঠতে পথ দেখানোর প্রতিভা।",
+       "তাদের নিজস্ব উচ্চাকাঙ্ক্ষার একটি সম্প্রসারণ যা অন্যদের সিদ্ধান্ত গ্রহণ এবং তাদের অর্জন থেকে প্রবাহিত সুবিধাগুলি থেকে বাদ দেওয়ার পরিবর্তে অন্তর্ভুক্ত করে।"
+    ],
+    "potentialProblemAreas": [
+       "অন্যান্য মানুষের চাহিদা বুঝতে অক্ষম হতে পারে যেখানে এটি তাদের নিজেদের থেকে ভিন্ন।",
+       "অবিবেচকের মতো ধরে নিতে পারে যে তাদের ধারণাগুলিই একমাত্র সঠিক এবং তাই অন্যরা সম্পূর্ণরূপে বাস্তবায়ন করছে।",
+       "যখন অনুভূতিমূলক রায়ের প্রয়োজন এমন পরিস্থিতির মুখোমুখি হয় তখন শিশুসুলভ জেদি বা রাগান্বিত হতে পারে।",
+       "কোনও পরিকল্পনা বা উচ্চাকাঙ্ক্ষায় এতটাই মগ্ন হয়ে যেতে পারে যে ব্যক্তিগত চাহিদা এবং অন্যদের চাহিদা ভুলে যায়।",
+       "তাদের যুক্তিসঙ্গত বিশ্বাসের সাথে একমত না হয়ে নেওয়া প্রতিটি সিদ্ধান্তকে ব্যক্তিগত প্রত্যাখ্যান হিসাবে নিতে পারে।",
+       "তাদের যুক্তিসঙ্গত মনোভাবের সাথে একমত হওয়ার মাধ্যমে অন্যরা সহজেই তাদের প্রতারিত বা চালিত করতে পারে।",
+       "ছোটখাটো বাধা এবং অসুবিধার প্রতি এতটাই আচ্ছন্ন হয়ে যেতে পারে যে সামগ্রিক পরিকল্পনাটি ভুলে যায়।",
+       "স্বাভাবিক সীমাবদ্ধতাগুলিকে আসলে এমন অসুস্থতা বলে বিশ্বাস করতে পারে যা নির্মূল করা উচিত।",
+       "ধরে নিতে পারে যে অন্যরা সর্বদা তাদের বিরুদ্ধে ষড়যন্ত্র করছে।",
+       "বিশ্বাস করতে পারে যে শুধুমাত্র তাদের নিজস্ব দৃষ্টিভঙ্গি বা পরিস্থিতি সঠিক, এমনকি এমন পর্যায়ে যে তারা এটিকে এক ধরণের মতবাদে পরিণত করে যা তাদের চারপাশের লোকদের অবশ্যই অনুসরণ করতে হবে।"
+    ],
+    "explanationOfProblems": "উপরে বর্ণিত বেশিরভাগ সমস্যা একটি অত্যন্ত প্রভাবশালী এক্সট্রাভার্টেড থিংকিং ফাংশনের ব্যক্তিত্বকে শাসন করার প্রত্যক্ষ ফলাফল হিসাবে দেখা যেতে পারে। বেশিরভাগ ক্ষেত্রে ঠিক এটাই ঘটছে, তবে এটাও স্বীকার করা মূল্যবান যে ENTJ-এর ব্যক্তিত্বের কিছু দুর্বলতা যা অন্যান্য ধরনের ব্যক্তিত্বের কাছে বেশি স্পষ্ট, তা ENTJ-এর প্রভাবশালী ফাংশনের বাড়াবাড়ি থেকে ততটা প্রবাহিত হয় না, যতটা তাদের অনুভূতি ফাংশনের স্বাভাবিক নিকৃষ্টতা এবং এর অভিযোজনের অভাব থেকে হয়। আমাদের এটাও স্বীকার করতে হবে যে সকল মানুষের মধ্যে সকল ফাংশনের প্রকাশের স্তর পরিবর্তনশীল এবং এখানে আলোচিত কিছু সমস্যা শুধুমাত্র দৃঢ়ভাবে প্রকাশকারী ENTJ-দের ক্ষেত্রে প্রযোজ্য, যেখানে এক্সট্রাভার্টেড থিংকিংকে একচেটিয়াভাবে জীবন পরিচালনার জন্য ব্যবহার করার ফলে যে মনোভাব তৈরি হয় তা নিজস্ব বিশেষ সমস্যা তৈরি করে।\nএক্সট্রাভার্টেড থিংকিংয়ের অতিরিক্ত আধিপত্য বিশ্বকে দেখার একটি তীব্র বুদ্ধিবৃত্তিক উপায়ের দিকে পরিচালিত করে, যেখানে সঠিক এবং ভুল, ভাল এবং মন্দ, দরকারী এবং অকেজো জাতীয় মানগুলি শুধুমাত্র তাদের প্রায় গাণিতিকভাবে সঠিক - এবং ENTJ-এর কাছে - সর্বদা যুক্তিসঙ্গত, জীবনের প্রতি মনোভাবের ক্ষেত্রে তাদের প্রযোজ্যতার দ্বারা বিচার করা হয়। দেখার বা বিচার করার অন্যান্য উপায় দ্বারা প্রদত্ত ভারসাম্য ছাড়া, ENTJ অন্যদের অভ্যন্তরীণ দৃষ্টিভঙ্গি বা অনুভূতি আচরণের উপর ভিত্তি করে কর্মের জন্য হিসাব করতে অক্ষম, তাই এই ধরনের জিনিসগুলি সর্বদা নেতিবাচকভাবে বিচার করা হয়, হয় অপ্রাসঙ্গিক হিসাবে - অথবা সর্বোত্তমভাবে - সামান্য পরিণতির হিসাবে। উপরন্তু, তাদের চিন্তাভাবনার মনোভাব সর্বদা বাইরের দিকে এবং তাদের ইন্দ্রিয়ের বাইরের জগতের সম্পূর্ণরূপে বিষয়, কিছু অভ্যন্তরীণভাবে অনুভূত বস্তুনিষ্ঠতার ভারসাম্য ছাড়া ENTJ প্রায়শই তাদের নিজস্ব শারীরিক এবং মানসিক চাহিদার বিবেচনা ছাড়াই তাদের ধারণা এবং উচ্চাকাঙ্ক্ষা অনুসরণ করবে। প্রকৃতপক্ষে, ENTJ প্রায়শই অনুভব করে যে যদি কেবল তার প্রকল্প, তার কাজ, তার বাহ্যিক বাস্তবতা তার নিজস্ব যুক্তিসঙ্গত দৃষ্টিভঙ্গির সাথে সঙ্গতিপূর্ণ হয় তবে তার জগতে সবকিছু ঠিক থাকবে এবং তার সমস্ত চাহিদা পূরণ হবে। দুর্ভাগ্যবশত, এই ধরনের মনোভাব কখনই সন্তুষ্ট হতে পারে না, কারণ জগত কেবল যুক্তিসঙ্গত নয়, বরং এমন পরিস্থিতি এবং মানবিক আচরণেও পূর্ণ যা সম্পূর্ণ ভিন্ন, এবং আবারও - ENTJ-এর কাছে – প্রায়শই অযৌক্তিক মানদণ্ড দ্বারা প্রশংসা এবং বোঝা আবশ্যক।\nএকটি সুস্থ ব্যক্তিত্বের তার প্রভাবশালী এবং সহায়ক ফাংশনগুলির মধ্যে একটি ভাল ভারসাম্য থাকা দরকার। একজন ENTJ-এর জন্য, প্রভাবশালী এক্সট্রাভার্টেড থিংকিংকে তাদের সহায়ক ইন্ট্রোভার্টেড ইন্টুইটিভ ফাংশন দ্বারা ভালভাবে সমর্থিত হতে হবে। যদি ইন্ট্রোভার্টেড ইন্টুইশন শুধুমাত্র এক্সট্রাভার্টেড থিংকিং দ্বারা তৈরি বুদ্ধিবৃত্তিক যৌক্তিকতাকে সমর্থন করার জন্য বিদ্যমান থাকে, তবে কোনও ফাংশনই তার পূর্ণ সম্ভাবনায় ব্যবহৃত হচ্ছে না।\nইন্ট্রোভার্টেড ইন্টুইশন হল ENTJ-এর তাদের অভ্যন্তরীণ জগতের অ্যাক্সেস, সেই তথ্যের প্রতি যা তাদের বলতে পারে যে জগত তাদের উপর কীভাবে প্রভাব ফেলছে। কারণ এটি অন্তর্মুখী, এর চিত্রগুলি মনের বিষয়গত গভীরতা থেকে উদ্ভূত হয় এবং ENTJ তাদের কঠোরভাবে যুক্তিসঙ্গত এবং বস্তু-ভিত্তিক বিশ্ব দৃষ্টিভঙ্গির মধ্যে যা বিবেচনা করেনি তা সবই ধারণ করে। ইন্ট্রোভার্টেড ইন্টুইশন ব্যক্তিগতভাবে পক্ষপাতদুষ্ট তথ্য সরবরাহ করে যা ENTJ-কে এই বিশ্ব দৃষ্টিভঙ্গিকে ভারসাম্য বজায় রাখতে এবং ENTJ-কে তথ্য, পরিসংখ্যান এবং একটি যুক্তির প্রতি তাদের নিঃস্বার্থ অথচ একক মনের সংযুক্তি দ্বারা সম্পূর্ণরূপে গ্রাস হওয়া থেকে রক্ষা করতে হবে যা তারা কেবল নিজেদের বাইরের জগত থেকে গ্রহণ করে। কারণ এই অভ্যন্তরীণ তথ্য প্রায়শই ENTJ-এর দৃঢ়ভাবে ধারণ করা ধারণার বিরোধী হয় তাই এটি প্রায়শই প্রত্যাখ্যান করা হয়, বা যদি গ্রহণ করা হয়, তবে বাহ্যিক পরিস্থিতি বা অন্যদের আচরণ সম্পর্কে নেতিবাচক রায় দেওয়ার জন্য বাইরের দিকে ঘুরিয়ে দেওয়া হয়, বরং ENTJ-এর নিজস্ব মনোভাব এবং আচরণের সংশোধনমূলক ভারসাম্য হিসাবে দেখা হয় না।",
+    "solutions": "একজন ব্যক্তি হিসাবে উন্নতি করার জন্য, ENTJ-কে তাদের জীবনে স্বজ্ঞার ভূমিকা স্বীকার করতে হবে এবং এর ভাষা বুঝতে শিখতে হবে। বিশেষ করে ENTJ-কে উপলব্ধি করতে হবে যে তাদের স্বজ্ঞামূলক ফাংশনটি বিশ্বের দিকে পরিচালিত নয়, এর চিত্রগুলি ব্যক্তিগত, বিষয়ভিত্তিক এবং ENTJ-এর অভ্যন্তরীণ সত্তা বাইরের জগত এবং তাদের নিজস্ব আচরণ দ্বারা কীভাবে প্রভাবিত হচ্ছে তার সাথে সরাসরি সম্পর্কিত।\nইন্ট্রোভার্টেড ইন্টুইশন বোঝার জন্য একটি সুস্পষ্ট প্রক্রিয়া নয়, এবং ENTJ যে যুক্তিসঙ্গত, সরল চিন্তাভাবনার সাথে অভ্যস্ত তার থেকে বেশ ভিন্ন। তবুও, যদি বোঝা যায় এবং চিন্তাভাবনাকে সমর্থন করার জন্য সম্পূর্ণরূপে ব্যবহার করা হয়, তবে এটি ENTJ-কে সমস্ত ব্যক্তিত্বের ধরনের মধ্যে সবচেয়ে বাহ্যিকভাবে কার্যকর এবং উত্পাদনশীল করে তুলতে পারে। এই কারণে এই গুণটিকে যা হতে পারে তা হতে দেওয়া অপরিহার্য, বরং এর প্রতিভা সীমিত করা এবং এটিকে কেবল তখনই কথা বলতে দেওয়া যখন এটি ENTJ-এর বাহ্যিকভাবে কেন্দ্রিক চিন্তাভাবনার সাথে একমত বলে মনে হয়। ইন্ট্রোভার্টেড ইন্টুইশন প্রয়োগে আপনাকে সাহায্য করার জন্য নীচে কয়েকটি নির্দিষ্ট পরামর্শ দেওয়া হল।\nযখন একটি গুরুত্বপূর্ণ সিদ্ধান্ত নেওয়ার প্রয়োজন এমন পরিস্থিতির মুখোমুখি হন, তখন এটির সাথে শান্তভাবে বসতে পারার জন্য যথেষ্ট দীর্ঘ সময়ের জন্য এটি স্থগিত করার চেষ্টা করুন। அவ்வாறு করার সময়, এই পরিস্থিতি সম্পর্কে আপনার মনে যে চিত্রগুলি উদ্ভূত হয় তা অনুভব করতে এবং দেখতে নিজেকে অনুমতি দিন। যেগুলি অবিলম্বে আপনার নিজের বিশ্বাস এবং চিন্তাভাবনার ফল হিসাবে উপস্থিত হয় সেগুলি আলাদা করার চেষ্টা করুন এবং অন্যগুলিকে ঘনিষ্ঠভাবে বিবেচনা করুন। যদি এই চিত্র এবং ধারণাগুলি এমন লোকদের মতামত হয় যাদের রায়ের উপর আপনি সম্পূর্ণরূপে বিশ্বাস করেন, তবে আপনার মনে তাদের প্রশ্ন করার চেষ্টা করুন এবং তারা কেন এইভাবে জিনিসগুলি বিবেচনা করে তার কারণগুলি সন্ধান করুন।\nআপনার চারপাশে কিছু লোক আছে যারা সবসময় জানে বলে মনে হয় কোন পথে যেতে হবে বা জিনিসগুলি কীভাবে কাজ করে বা একটি নির্দিষ্ট পরিস্থিতির ফলাফল কী হবে যদিও তাদের কাছে তা করতে পারার মতো পর্যাপ্ত তথ্য আছে বলে মনে হয় না। এই লোকেরা স্বজ্ঞাত ধরনের এবং তাদের জগত সম্ভাবনায় পূর্ণ যা তারা অবিলম্বে নির্দিষ্ট পরিস্থিতির জন্য উপযুক্ত হিসাবে চিনতে পারে। আপনারও এই প্রতিভা আছে, কিন্তু আপনার এটি অনুসরণ না করার অভ্যাস আছে, বরং আপনি এটি নিয়ে ভাবতে এবং যে বিকল্পগুলি \"উচিত\" সঠিক তা খুঁজে বের করতে পছন্দ করেন। আমি এখানে একটি খুব ভাল কারণে \"উচিত\" উদ্ধৃতিতে রেখেছি, কারণ আপনি নিজেই জানেন যে কত ঘন ঘন জিনিসগুলি সেই দিকে বিকশিত হয়েছে যার সম্পর্কে আপনার ধারণা ছিল, কিন্তু চিন্তা না করে গ্রহণ করতে অস্বীকার করেছিলেন। এই তাৎক্ষণিক ছাপগুলিকে তাদের মুহূর্ত পেতে দিন এবং সেগুলিকে সত্যিকারের সম্ভাবনা হিসাবে চিনুন যা আরও ঘনিষ্ঠভাবে পরীক্ষা করা উচিত। বুঝুন যে এগুলি ভিত্তিহীন চিত্র এবং ধারণা নয় বরং তথ্যের বৈধ উত্সের উপর নির্ভর করে যা আপনি কেবল অভ্যাসগতভাবে আপনার জীবন থেকে বাদ দেন।",
+    "livingHappilyTips": "কিছু ENTJ-এর আমাদের সমাজে মানিয়ে নিতে অসুবিধা হয়। তাদের সমস্যাগুলি সাধারণত জীবনের প্রতি একটি দৃঢ়ভাবে মতান্ধ এবং অতিরিক্ত যুক্তিসঙ্গত পদ্ধতির সাথে যুক্ত, যা অন্যদের চাহিদা বোঝার ক্ষমতার প্রায় সম্পূর্ণ অভাবের সাথে মিলিত হয়। যেখানে এই ধরনের দৃঢ়ভাবে প্রকাশকারী অসুবিধা দেখা দেয়, ENTJ নিজেকে এমন একটি বিশ্ব দ্বারা ক্রমাগত যুদ্ধরত দেখতে পায় যা তাদের আদর্শের সাথে সঙ্গতি রাখতে অস্বীকার করে এবং এমন পরিস্থিতি তৈরি করে যেখানে ENTJ তাদের ক্ষমতার বাইরে। এই ধরনের পরিস্থিতিগুলি প্রায়শই ENTJ এমন একটি শিশুসুলভ আবেগপ্রবণতার সাথে মোকাবিলা করে যে অন্যরা বিরক্ত হয় এবং ENTJ-কে আবেগগতভাবে বিচ্ছিন্ন করে দেয়। এই ধরনের ENTJ-রা প্রায়শই নিজেদেরকে বন্ধুহীন এবং এমন ব্যবসায়িক অংশীদার বা কর্মচারীদের সাথে খুঁজে পায় যারা কঠোরভাবে কাজ-সম্পর্কিত প্রশ্ন ছাড়া অন্য কোনও বিষয়ে ENTJ-এর সাথে জড়িত হতে অনিচ্ছুক। অন্যদের মধ্যে এই ধরনের আচরণ শুধুমাত্র ENTJ-এর মধ্যে অন্তর্নিহিত অনুভূতিগুলিকে বের করে আনতে কাজ করে যা, তাদের খারাপভাবে অভিযোজিত স্বজ্ঞামূলক ফাংশনের মাধ্যমে, তাদের কাছে ষড়যন্ত্র, বিদ্বেষ এবং অন্যদের পক্ষ থেকে গোপন প্রতিবন্ধক আচরণের কথা বলে। এটা বলাই যথেষ্ট যে, এই ধরনের সন্দেহ এবং শিশুসুলভ অনুভূতিগুলি ENTJ-এর নিজস্ব বিশ্ব দেখার উপায়ের সাথে সঙ্গতিপূর্ণ হওয়ার মতান্ধ দাবির সাথে মিলিত হয়ে শীঘ্রই পরিবার এবং ঘনিষ্ঠ সম্পর্ক ধ্বংস করতে পারে।\nENTJ-এর উচিত তাদের জীবনে তাদের ইন্ট্রোভার্টেড ইন্টুইশনকে একটি স্থান দিয়ে এই ধরনের আচরণের বৃত্ত ভাঙা। এই ফাংশনের প্রতি মনোযোগের মাধ্যমে ENTJ শুধুমাত্র তাদের নিজস্ব আচরণের অন্যদের উপর প্রভাব বোঝার এবং চেনার একটি পথ খুঁজে পেতে পারে না, বরং অন্যদের সাথে একটি সুরেলা সম্পর্কের জন্য নিজেদের মধ্যে থাকা বৃহত্তর সম্ভাবনাগুলিও খুঁজে পেতে পারে, সেইসাথে নিজেদের জন্য সেরা কী হতে পারে সে সম্পর্কে একটি বৃহত্তর অনুভূতিও পেতে পারে।\nঅন্যদের অনুভূতি চাহিদা এবং রায় বোঝা ENTJ-এর জন্য একটি সহজ কাজ নয়, কিন্তু তাদের স্বজ্ঞামূলক ফাংশনের মাধ্যমে তারা এমন চিত্র এবং ধারণা খুঁজে পেতে পারে যা - যদিও অন্যদের অনুভূতি রায়ের সাথে সরাসরি কথা বলে না - তাদের কঠোরভাবে যুক্তিসঙ্গত বিশ্ব দৃষ্টিভঙ্গির বৃত্তের বাইরে এমনভাবে দেখতে সাহায্য করতে পারে যাতে তারা চিনতে পারে যে সত্যিই একটি ভিন্ন দৃষ্টিকোণ রয়েছে যা বিবেচনায় নেওয়া আবশ্যক।",
+    "tenRulesToLive": [
+       "আপনার শক্তি বৃদ্ধি করুন! একটি পরিস্থিতি সম্পর্কে আপনার উপলব্ধি এবং আপনি কীভাবে এটিকে একটি ভাল ফলাফলের দিকে নিয়ে যেতে পারেন তা অন্যদের দেখানোর জন্য নিজেকে প্রতিটি সুযোগ দিন। যেখানে আপনি এটিকে গণনা করতে পারেন সেখানে দায়িত্ব নিন।",
+       "আপনার দুর্বলতার মুখোমুখি হোন! বুঝুন আপনারও সীমাবদ্ধতা আছে। আপনার সতর্ক বিশ্ব দৃষ্টিভঙ্গি সম্পূর্ণ চুক্তি নয়। জিনিসগুলি কেমন দেখাচ্ছে এবং অনুভব করছে তা আপনার উদ্বেগের বিষয় নাও হতে পারে, তবে সেগুলি অন্য অনেকের উদ্বেগের বিষয়। এই ধরনের জিনিসগুলিকে হতে দিন এবং সেগুলি থেকে শিখুন।",
+       "অন্যরা আসলে কীভাবে চিন্তা করে তা খুঁজে বের করার জন্য সময় নিয়ে কথা বলুন। আপনার অন্যদের সাথে আপনার চিন্তাভাবনাগুলি অতিক্রম করতে হবে এবং একটি পরিস্থিতির প্রতি তাদের উপলব্ধিগুলি আপনাকে গভীর স্তরে পৌঁছাতে দিতে হবে। তারপরে আপনার ধারণাগুলিতে অন্তর্ভুক্ত করা হলে তাদের চাহিদাগুলিকে বাস্তব বিশ্বের উদ্দেশ্য হিসাবে বিবেচনা করা আপনার পক্ষে সম্ভব হবে যা জীবনে এবং সম্পর্কের ক্ষেত্রে বৃহত্তর সম্প্রীতি এবং গুণমান নিয়ে আসবে।",
+       "পুরো পরিস্থিতিটি আপনার সাথে কথা বলার জন্য সময় বের করুন। অন্যদের কাছ থেকে বা নিজের ভেতর থেকে আসা সেই বিমূর্ত এবং আপাতদৃষ্টিতে বোঝা কঠিন বা বিরক্তিকর নান্দনিক এবং অনুভূতিমূলক রায়গুলি উপেক্ষা করবেন না। কিছুক্ষণের জন্য সবকিছু ফেলে দিন, চিন্তা করা এবং উদ্বিগ্ন হওয়া বন্ধ করুন এবং কেবল সেই ধারণাগুলিতে আরাম করুন এবং সেগুলি আপনার সাথে কথা বলতে দিন। সম্ভবত সেগুলিকে সমন্বয় করা যেতে পারে, সম্ভবত সেখানে এমন কিছু লুকিয়ে আছে যা একটি নতুন পথের প্রস্তাব দেয়।",
+       "যখন আপনি বিরক্ত হন, আপনি হেরে যান। আপনার শক্তি এবং যুক্তিসঙ্গত বোঝাপড়া শক্তিশালী সম্পদ, কিন্তু সেগুলি যদি আপনার বিরুদ্ধে যায় এবং আপনাকে এমন আবেগ ছাড়া আর কিছুই না দেয় যা আপনি মোকাবেলা করতে পারবেন না তবে তা খুব ক্ষতিকর হতে পারে। মনে রাখবেন যে অন্যরা সর্বদা আপনার দেখার উপায়ে পড়বে বলে আশা করা যায় না, এবং যখন তাদের তা করতে বাধ্য করার আপনার ড্রাইভ ব্যর্থ হয় তখন আপনি বিরক্তি এবং এমনকি পরিত্যাগের অনুভূতিতে ভুগবেন। আপনি এইভাবে বিশ্বের সাথে মোকাবেলা করতে পারবেন না। আপনার ধারণাগুলি পরিমিত করুন, অন্যদের তাদের স্থান দিন, এবং আপনি বড় হবেন।",
+       "বুদ্ধিবৃত্তিক সামঞ্জস্যের জন্য আপনার প্রয়োজনকে সম্মান করুন। নিজেকে একটি \"স্পর্শকাতর-অনুভূতিপ্রবণ\" বা \"উষ্ণ-অস্পষ্ট\" ব্যক্তি হওয়ার আশা করবেন না। উপলব্ধি করুন যে অন্যদের সাথে আপনার সবচেয়ে আগ্রহী বন্ধন হৃদয়ের পরিবর্তে মাথা দিয়ে শুরু হবে। অন্যদের মানসিক চাহিদার প্রতি সচেতন হন, এবং তাদের প্রতি আপনার প্রকৃত ভালবাসা এবং সম্মান এমন শর্তে প্রকাশ করুন যা আপনার কাছে বাস্তব। নিজে নিজে থাকুন।",
+       "নিজের জন্য দায়বদ্ধ হন। আপনার জীবনের সমস্যার জন্য অন্য লোকেদের দোষারোপ করবেন না। সমাধানের জন্য অভ্যন্তরীণভাবে দেখুন। আপনার জীবনের উপর আপনার চেয়ে বেশি নিয়ন্ত্রণ আর কারও নেই।",
+       "বিনয়ী হন। আপনি অন্যদের বিচার করার মতো কঠোরভাবে নিজেকেও বিচার করুন।",
+       "মানুষের মধ্যে পার্থক্যের প্রতি একটি ইতিবাচক দৃষ্টিভঙ্গি গ্রহণ করুন। তাদের সীমাবদ্ধতা বলে মনে হওয়া বিষয়গুলিতে মনোযোগ দিয়ে নিজেকে এবং অন্যদের কষ্ট দেবেন না। তাদের আপনাকে গাইড করার জন্য প্রয়োজন এবং তাদের জিনিসগুলি সম্পন্ন করার জন্য আপনার প্রয়োজন। আপনার নিজের দক্ষতার বাইরের নির্দিষ্ট ক্ষেত্রে কারা সবচেয়ে দক্ষতার সাথে কাজ করতে পারে তা চেনার চেষ্টা করুন। অন্যদের অনুভূতিগুলি আপনার জন্য বাধা না হয়ে বরং একটি শক্তি হয়ে উঠুক।",
+       "আচ্ছন্ন হবেন না! আপনার ব্যক্তিগত জগত আপনার, আপনার বন্ধু, আপনার পরিবার, আপনার নিজের আত্ম-মূল্যবোধ এবং জীবনের জন্য যে মূল্য রাখে তা স্বীকার করুন। কেবল একজন ভাল মানুষ হওয়ার জন্য গর্ববোধ করুন এবং বাহ্যিক পরিস্থিতিগুলিকে আপনাকে নিয়ন্ত্রণ করতে দেবেন না। আরাম করার চেষ্টা করুন এবং মুহূর্তটি আপনার এবং অন্যদের মধ্যে আপনি যে সেরা জিনিসগুলি খুঁজে পেতে পারেন তার অন্তর্গত হতে দিন। আপনার নিজের সুখের চেয়ে গুরুত্বপূর্ণ আর কিছুই নেই।"
+    ]
+},
   {
     type: "ENFP",
     name: "Extraverted Intuitive Feeling Perceiving",
