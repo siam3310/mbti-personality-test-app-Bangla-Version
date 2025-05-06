@@ -334,273 +334,100 @@ export const personalityClassGroup: PersonalityClassGroup[] = [
         "সবচেয়ে ভালোটা ধরে নিন, তবে সতর্ক থাকুন। আপনার ইতিবাচক মনোভাব প্রায় সবসময়ই ইতিবাচক পরিস্থিতি তৈরি করে। শুধু মনে রাখবেন: সেগুলিকে স্থায়ী এবং সার্থক করার জন্য আপনাকে অবশ্যই সেগুলিকে দৃঢ়, সাবধানে পরিকল্পিত ভিত্তির উপর তৈরি করতে হবে।"
     ]
 },
-  {
-    type: "ESFJ",
-    name: "Extraverted Sensing Feeling Judging",
-    nameDescription: "Extraverted Feeling with Introverted Sensing",
-    epithet: "The Caregiver",
-    description: `As an ESFJ, your primary mode of living is focused externally, where you deal with things according to
-how you feel about them, or how they fit in with your personal value system. Your secondary mode is
-internal, where you take things in via your five senses in a literal, concrete fashion.
-ESFJ's are people persons - they love people. They are warmly interested in others. They use their Sensing
-and Judging characteristics to gather specific, detailed information about others, and turn this information
-into supportive judgments. They want to like people, and have a special skill at bringing out the best in
-others. They are extremely good at reading others, and understanding their point of view. The ESFJ's strong
-desire to be liked and for everything to be pleasant makes them highly supportive of others. People like to
-be around ESFJ’s, because the ESFJ has a special gift of invariably making people feel good about
-themselves.
-The ESFJ takes their responsibilities very seriously, and is very dependable. They value security and
-stability, and have a strong focus on the details of life. They see before others do what needs to be done,
-and do whatever it takes to make sure that it gets done. They enjoy these types of tasks, and are extremely
-good at them.
-ESFJ’s are warm and energetic. They need approval from others to feel good about themselves. They are
-hurt by indifference and don't understand unkindness. They are very giving people, who get a lot of their
-personal satisfaction from the happiness of others. They want to be appreciated for who they are, and what
-they give. They're very sensitive to others, and freely give practical care. ESFJ’s are such caring individuals
-that they sometimes have a hard time seeing or accepting a difficult truth about someone they care about.
-With Extraverted Feeling dominating their personality, ESFJ’s are focused on reading other people. They
-have a strong need to be liked, and to be in control. They are extremely good at reading others, and often
-change their own manner to be more pleasing to whoever they're with at the moment.
-The ESFJ's value system is defined externally. They usually have very well-formed ideas about the way
-things should be, and are not shy about expressing these opinions. However, they weigh their values and
-morals against the world around them, rather than against an internal value system. They may have a strong
-moral code, but it is defined by the community that they live in, rather than by any strongly felt internal
-values.
-ESFJ’s who have had the benefit of being raised and surrounded by a strong value system that is ethical and
-centered around genuine goodness will most likely be the kindest, most generous souls who will gladly
-give you the shirt off of their back without a second thought. For these individuals, the selfless quality of
-their personality type is genuine and pure. ESFJ’s who have not had the advantage of developing their own
-values by weighing them against a good external value system may develop very questionable values. In
-such cases, the ESFJ most often genuinely believes in the integrity of their skewed value system. They have
-no internal understanding of values to set them straight. In weighing their values against our society, they
-find plenty of support for whatever moral transgression they wish to justify. This type of ESFJ is a
-dangerous person indeed. Extraverted Feeling drives them to control and manipulate, and their lack of
-Intuition prevents them from seeing the big picture. They're usually quite popular and good with people,
-and good at manipulating them. Unlike their ENFJ cousin, they don't have Intuition to help them
-understand the real consequences of their actions. They are driven to manipulate other to achieve their own
-ends, yet they believe that they are following a solid moral code of conduct.
-All ESFJ’s have a natural tendency to want to control their environment. Their dominant function demands
-structure and organization, and seeks closure. ESFJ’s are most comfortable with structured environments.
-They're not likely to enjoy having to do things which involve abstract, theoretical concepts, or impersonal
-analysis. They do enjoy creating order and structure, and are very good at tasks which require these kinds
-of skills. ESFJ’s should be careful about controlling people in their lives who do not wish to be controlled.
-ESFJ’s respect and believe in the laws and rules of authority, and believe that others should do so as well.
-They're traditional, and prefer to do things in the established way, rather than venturing into uncharted
-territory. Their need for security drives their ready acceptance and adherence to the policies of the
-established system. This tendency may cause them to sometimes blindly accept rules without questioning
-or understanding them.
-An ESFJ who has developed in a less than ideal way may be prone to being quite insecure, and focus all of
-their attention on pleasing others. He or she might also be very controlling, or overly sensitive, imagining
-bad intentions when there weren't any.
-ESFJ’s incorporate many of the traits that are associated with women in our society. However, male ESFJ’s
-will usually not appear feminine at all. On the contrary, ESFJ’s are typically quite conscious about gender
-roles and will be most comfortable playing a role that suits their gender in our society. Male ESFJ’s will be
-quite masculine (albeit sensitive when you get to know them), and female ESFJ’s will be very feminine.
-ESFJ’s at their best are warm, sympathetic, helpful, cooperative, tactful, down-to-earth, practical, thorough,
-consistent, organized, enthusiastic, and energetic. They enjoy tradition and security, and will seek stable
-lives that are rich in contact with friends and family.`,
-    jungianFunctionalPreference: {
-      auxiliary: "Introverted Sensing",
-      dominant: "Extraverted Feeling",
-      inferior: "Introverted Thinking",
-      tertiary: "Extraverted Intuition",
+{
+    "type": "ESFJ (ইএসএফজে)",
+    "name": "Extraverted Sensing Feeling Judging (এক্সট্রাভার্টেড সেন্সিং ফিলিং জাজিং)",
+    "nameDescription": "Extraverted Feeling with Introverted Sensing (এক্সট্রাভার্টেড ফিলিং এবং ইন্ট্রোভার্টেড সেন্সিং)",
+    "epithet": "The Caregiver (দ্য কেয়ারগিভার)",
+    "description": "একজন ESFJ হিসেবে, আপনার জীবনযাপনের প্রাথমিক পদ্ধতিটি বাহ্যিকভাবে কেন্দ্রিক, যেখানে আপনি জিনিসগুলি সম্পর্কে কেমন অনুভব করছেন বা সেগুলি আপনার ব্যক্তিগত মূল্যবোধ ব্যবস্থার সাথে কীভাবে খাপ খায়, সেই অনুযায়ী আপনি সেগুলির সাথে মোকাবিলা করেন। আপনার দ্বিতীয় পদ্ধতিটি অভ্যন্তরীণ, যেখানে আপনি আপনার পঞ্চ ইন্দ্রিয়ের মাধ্যমে আক্ষরিক, বাস্তবসম্মত উপায়ে জিনিসগুলি গ্রহণ করেন।\nESFJ-রা মানুষ ভালোবাসে - তারা জনগণকে ভালোবাসে। তারা উষ্ণভাবে অন্যদের প্রতি আগ্রহী। তারা অন্যদের সম্পর্কে নির্দিষ্ট, বিস্তারিত তথ্য সংগ্রহ করতে তাদের সেন্সিং এবং জাজিং বৈশিষ্ট্যগুলি ব্যবহার করে এবং এই তথ্যকে সহায়ক বিচারে পরিণত করে। তারা লোকেদের পছন্দ করতে চায় এবং অন্যদের মধ্যে সেরাটা বের করে আনার বিশেষ দক্ষতা তাদের রয়েছে। তারা অন্যদের পড়তে এবং তাদের দৃষ্টিভঙ্গি বুঝতে অত্যন্ত পারদর্শী। ESFJ-এর পছন্দের হওয়ার এবং সবকিছু আনন্দদায়ক হওয়ার প্রবল আকাঙ্ক্ষা তাদের অন্যদের প্রতি অত্যন্ত সহায়ক করে তোলে। লোকেরা ESFJ-দের আশেপাশে থাকতে পছন্দ করে, কারণ ESFJ-এর একটি বিশেষ গুণ রয়েছে যা মানুষকে নিজেদের সম্পর্কে ভালো বোধ করায়।\nESFJ তাদের দায়িত্ব অত্যন্ত গুরুত্ব সহকারে নেয় এবং খুব নির্ভরযোগ্য। তারা নিরাপত্তা এবং স্থিতিশীলতাকে মূল্য দেয় এবং জীবনের বিস্তারিত বিষয়গুলিতে তাদের দৃঢ় মনোযোগ থাকে। অন্যরা কী করা দরকার তা দেখার আগেই তারা দেখতে পায় এবং এটি সম্পন্ন করার জন্য যা যা করা দরকার তা করে। তারা এই ধরনের কাজ উপভোগ করে এবং এগুলিতে অত্যন্ত পারদর্শী।\nESFJ-রা উষ্ণ এবং উদ্যমী। নিজেদের সম্পর্কে ভালো বোধ করার জন্য তাদের অন্যদের কাছ থেকে অনুমোদনের প্রয়োজন হয়। তারা উদাসীনতায় আহত হয় এবং নির্দয়তা বুঝতে পারে না। তারা খুব দানশীল মানুষ, যারা অন্যদের সুখ থেকে তাদের ব্যক্তিগত সন্তুষ্টির একটি বড় অংশ পায়। তারা যেমন, এবং যা দেয় তার জন্য প্রশংসিত হতে চায়। তারা অন্যদের প্রতি খুব সংবেদনশীল এবং অবাধে ব্যবহারিক যত্ন প্রদান করে। ESFJ-রা এত যত্নশীল ব্যক্তি যে তারা কখনও কখনও তাদের পছন্দের কারও সম্পর্কে একটি কঠিন সত্য দেখতে বা গ্রহণ করতে অসুবিধা বোধ করে।\nএক্সট্রাভার্টেড ফিলিং তাদের ব্যক্তিত্বে আধিপত্য বিস্তার করার কারণে, ESFJ-রা অন্য লোকেদের পড়ার উপর মনোযোগ দেয়। তাদের পছন্দের হওয়ার এবং নিয়ন্ত্রণে থাকার একটি শক্তিশালী প্রয়োজন রয়েছে। তারা অন্যদের পড়তে অত্যন্ত পারদর্শী এবং প্রায়শই তারা যে মুহূর্তে যার সাথে থাকে তাকে আরও খুশি করার জন্য তাদের নিজস্ব আচরণ পরিবর্তন করে।\nESFJ-এর মূল্যবোধ ব্যবস্থা বাহ্যিকভাবে সংজ্ঞায়িত হয়। জিনিসগুলি কেমন হওয়া উচিত সে সম্পর্কে তাদের সাধারণত খুব সুগঠিত ধারণা থাকে এবং এই মতামত প্রকাশ করতে তারা লজ্জা পায় না। যাইহোক, তারা তাদের মূল্যবোধ এবং নৈতিকতাকে একটি অভ্যন্তরীণ মূল্যবোধ ব্যবস্থার পরিবর্তে তাদের চারপাশের বিশ্বের সাথে তুলনা করে। তাদের একটি শক্তিশালী নৈতিক संहिता থাকতে পারে, তবে এটি তাদের বসবাসের সম্প্রদায় দ্বারা সংজ্ঞায়িত হয়, কোনো দৃঢ়ভাবে অনুভূত অভ্যন্তরীণ মূল্যবোধের দ্বারা নয়।\nযে ESFJ-রা নৈতিক এবং প্রকৃত কল্যাণের উপর কেন্দ্র করে একটি শক্তিশালী মূল্যবোধ ব্যবস্থা দ্বারা বেড়ে ওঠা এবং পরিবেষ্টিত হওয়ার সুবিধা পেয়েছে তারা সম্ভবত সবচেয়ে দয়ালু, সবচেয়ে উদার আত্মা হবে যারা দ্বিতীয় চিন্তা ছাড়াই তাদের পিঠের জামা খুলে দেবে। এই ব্যক্তিদের জন্য, তাদের ব্যক্তিত্বের প্রকারের নিঃস্বার্থ গুণটি খাঁটি এবং বিশুদ্ধ। যে ESFJ-রা একটি ভালো বাহ্যিক মূল্যবোধ ব্যবস্থার সাথে তাদের নিজস্ব মূল্যবোধ তুলনা করে তাদের নিজেদের মূল্যবোধ বিকাশের সুবিধা পায়নি তারা খুব সন্দেহজনক মূল্যবোধ তৈরি করতে পারে। এই ধরনের ক্ষেত্রে, ESFJ প্রায়শই তাদের বিকৃত মূল্যবোধ ব্যবস্থার অখণ্ডতায় আন্তরিকভাবে বিশ্বাস করে। তাদের সোজা করার জন্য মূল্যবোধের কোনো অভ্যন্তরীণ উপলব্ধি তাদের নেই। আমাদের সমাজের সাথে তাদের মূল্যবোধ তুলনা করে, তারা যে কোনো নৈতিক সীমালঙ্ঘনকে ন্যায্যতা দিতে চায় তার জন্য প্রচুর সমর্থন খুঁজে পায়। এই ধরনের ESFJ প্রকৃতপক্ষে একজন বিপজ্জনক ব্যক্তি। এক্সট্রাভার্টেড ফিলিং তাদের নিয়ন্ত্রণ এবং চালনা করতে চালিত করে এবং তাদের স্বজ্ঞার অভাব তাদের বড় চিত্রটি দেখতে বাধা দেয়। তারা সাধারণত বেশ জনপ্রিয় এবং মানুষের সাথে ভালো, এবং তাদের চালনা করতে পারদর্শী। তাদের ENFJ আত্মীয়ের মতো, তাদের কর্মের আসল পরিণতি বুঝতে সাহায্য করার জন্য তাদের স্বজ্ঞা নেই। তারা তাদের নিজেদের উদ্দেশ্য অর্জনের জন্য অন্যদের চালনা করতে চালিত হয়, তবুও তারা বিশ্বাস করে যে তারা একটি দৃঢ় নৈতিক আচরণবিধি অনুসরণ করছে।\nসমস্ত ESFJ-দের তাদের পরিবেশ নিয়ন্ত্রণ করার একটি স্বাভাবিক প্রবণতা থাকে। তাদের প্রভাবশালী ফাংশন কাঠামো এবং সংগঠনের দাবি করে এবং সমাপ্তি চায়। ESFJ-রা কাঠামোবদ্ধ পরিবেশে সবচেয়ে স্বাচ্ছন্দ্য বোধ করে। তারা এমন কাজ করতে উপভোগ করার সম্ভাবনা কম যা বিমূর্ত, তাত্ত্বিক ধারণা বা নৈর্ব্যক্তিক বিশ্লেষণ জড়িত। তারা শৃঙ্খলা এবং কাঠামো তৈরি করতে উপভোগ করে এবং এই ধরনের দক্ষতার প্রয়োজন এমন কাজগুলিতে খুব পারদর্শী। ESFJ-দের তাদের জীবনের সেই সমস্ত লোকদের নিয়ন্ত্রণ করার বিষয়ে সতর্ক হওয়া উচিত যারা নিয়ন্ত্রিত হতে চায় না।\nESFJ-রা কর্তৃপক্ষের আইন এবং নিয়মকে সম্মান করে এবং বিশ্বাস করে এবং বিশ্বাস করে যে অন্যদেরও তাই করা উচিত। তারা ঐতিহ্যবাহী এবং অচেনা অঞ্চলে পা রাখার পরিবর্তে প্রতিষ্ঠিত উপায়ে কাজ করতে পছন্দ করে। তাদের নিরাপত্তার প্রয়োজন প্রতিষ্ঠিত ব্যবস্থার নীতিগুলির প্রতি তাদের প্রস্তুত গ্রহণযোগ্যতা এবং আনুগত্যকে চালিত করে। এই প্রবণতা তাদের কখনও কখনও প্রশ্ন বা বোঝা ছাড়াই অন্ধভাবে নিয়ম গ্রহণ করতে বাধ্য করতে পারে।\nএকজন ESFJ যে আদর্শের চেয়ে কম বিকশিত হয়েছে সে বেশ নিরাপত্তাহীন হতে পারে এবং অন্যদের খুশি করার জন্য তাদের সমস্ত মনোযোগ কেন্দ্রীভূত করতে পারে। সে নিয়ন্ত্রণপ্রবণ বা অতি সংবেদনশীলও হতে পারে, যেখানে কোনো খারাপ উদ্দেশ্য না থাকা সত্ত্বেও খারাপ উদ্দেশ্য কল্পনা করতে পারে।\nESFJ-রা আমাদের সমাজে মহিলাদের সাথে যুক্ত অনেক বৈশিষ্ট্য ধারণ করে। যাইহোক, পুরুষ ESFJ-রা সাধারণত মোটেও মেয়েলি দেখাবে না। বিপরীতভাবে, ESFJ-রা সাধারণত লিঙ্গ ভূমিকা সম্পর্কে বেশ সচেতন থাকে এবং আমাদের সমাজে তাদের লিঙ্গের জন্য উপযুক্ত ভূমিকা পালন করতে সবচেয়ে স্বাচ্ছন্দ্য বোধ করবে। পুরুষ ESFJ-রা বেশ পুরুষালী হবে (যদিও আপনি তাদের চেনার পর সংবেদনশীল হতে পারে), এবং মহিলা ESFJ-রা খুব মেয়েলি হবে।\nESFJ-রা তাদের সেরা সময়ে উষ্ণ, সহানুভূতিশীল, সহায়ক, সহযোগী, কৌশলী, বাস্তববাদী, ব্যবহারিক, পুঙ্খানুপুঙ্খ, সামঞ্জস্যপূর্ণ, সংগঠিত, উৎসাহী এবং উদ্যমী হয়। তারা ঐতিহ্য এবং নিরাপত্তা উপভোগ করে এবং বন্ধু এবং পরিবারের সাথে যোগাযোগের সমৃদ্ধ স্থিতিশীল জীবন চাইবে।",
+    "jungianFunctionalPreference": {
+        "auxiliary": "Introverted Sensing (ইন্ট্রোভার্টেড সেন্সিং)",
+        "dominant": "Extraverted Feeling (এক্সট্রাভার্টেড ফিলিং)",
+        "inferior": "Introverted Thinking (ইন্ট্রোভার্টেড থিংকিং)",
+        "tertiary": "Extraverted Intuition (এক্সট্রাভার্টেড ইন্টুইশন)"
     },
-    generalTraits: [
-      "Organized",
-      "Loyal",
-      "Can be depended on to follow things through to completion",
-      "Enjoy creating order, structure and schedules",
-      "Enjoy interacting with people",
-      "Warm-hearted and sympathetic",
-      "Tend to put others' needs above their own",
-      "Very good at giving practical care",
-      "Very cooperative, good team members",
-      "Practical and down-to-earth",
-      "Value peaceful living and security",
-      "Enjoy variety, but work well with routine tasks",
-      "Need approval from others",
-      "Receive satisfaction from giving to others",
-      "Live in the here and now - dislike theorizing about the futur",
+    "generalTraits": [
+        "সংগঠিত",
+        "অনুগত",
+        "কোনো কাজ শেষ পর্যন্ত সম্পন্ন করার জন্য তাদের উপর নির্ভর করা যায়",
+        "শৃঙ্খলা, কাঠামো এবং সময়সূচী তৈরি করতে উপভোগ করে",
+        "মানুষের সাথে যোগাযোগ করতে উপভোগ করে",
+        "উষ্ণ হৃদয়ের এবং সহানুভূতিশীল",
+        "অন্যদের চাহিদাকে নিজেদের চাহিদার উপরে রাখার প্রবণতা",
+        "ব্যবহারিক যত্ন প্রদানে খুব ভালো",
+        "খুব সহযোগী, ভালো দলের সদস্য",
+        "ব্যবহারিক এবং বাস্তববাদী",
+        "শান্তিপূর্ণ জীবন এবং নিরাপত্তাকে মূল্য দেয়",
+        "বৈচিত্র্য উপভোগ করে, কিন্তু রুটিন কাজ ভালোভাবে করে",
+        "অন্যদের কাছ থেকে অনুমোদনের প্রয়োজন",
+        "অন্যদের দিয়ে সন্তুষ্টি লাভ করে",
+        "এখানে এবং এখন বাস করে - ভবিষ্যৎ সম্পর্কে তত্ত্বকথা অপছন্দ করে"
     ],
-    relationshipStrengths: [
-      "Put forth a lot of effort to fulfill their duties and obligations",
-      "Warm, friendly and affirming by nature",
-      "Service-oriented, they want to please others",
-      "Take their commitments very seriously, and seek lifelong relationships",
-      "Responsible and practical, they can be counted to take care of day-to-day necessities",
-      "Generally upbeat and popular, people are drawn towards them",
-      "Generally very good money managers",
-      `Traditionally minded and family-oriented, they will make family celebrations and traditions
-special events`,
+    "relationshipStrengths": [
+        "তাদের দায়িত্ব ও কর্তব্য পালনের জন্য প্রচুর প্রচেষ্টা করে",
+        "স্বভাবতই উষ্ণ, বন্ধুত্বপূর্ণ এবং সমর্থনকারী",
+        "সেবা-ভিত্তিক, তারা অন্যদের খুশি করতে চায়",
+        "তাদের প্রতিশ্রুতি খুব গুরুত্ব সহকারে নেয় এবং আজীবন সম্পর্ক চায়",
+        "দায়িত্বশীল এবং ব্যবহারিক, দৈনন্দিন প্রয়োজনীয়তার যত্ন নেওয়ার জন্য তাদের উপর নির্ভর করা যেতে পারে",
+        "সাধারণত আশাবাদী এবং জনপ্রিয়, লোকেরা তাদের প্রতি আকৃষ্ট হয়",
+        "সাধারণত খুব ভালো অর্থ ব্যবস্থাপক",
+        "ঐতিহ্যগতভাবে মনস্ক এবং পরিবার-ভিত্তিক, তারা পারিবারিক উদযাপন এবং ঐতিহ্যকে বিশেষ অনুষ্ঠানে পরিণত করবে"
     ],
-    relationshipWeaknesses: [
-      "Generally uncomfortable with change, and moving into new territories",
-      "Extreme dislike of conflict and criticism",
-      "Need a lot of positive affirmation to feel good about themselves",
-      "May be overly status-conscious, and interested in how others see them",
-      `Have very difficult time accepting the end of a relationship, and are likely to take the blame for the
-failure onto their own shoulders", "Have difficulty accepting negative things about people close to them`,
-      "Don't pay enough attention to their own needs, and may be self-sacrificing",
-      "May tend to use guilt manipulation as a way to get what they want",
+    "relationshipWeaknesses": [
+        "সাধারণত পরিবর্তনে এবং নতুন অঞ্চলে যেতে অস্বস্তি বোধ করে",
+        "দ্বন্দ্ব এবং সমালোচনার প্রতি চরম অপছন্দ",
+        "নিজেদের সম্পর্কে ভালো বোধ করার জন্য প্রচুর ইতিবাচক সমর্থনের প্রয়োজন",
+        "সামাজিক মর্যাদা সম্পর্কে অতিরিক্ত সচেতন হতে পারে এবং অন্যরা তাদের কীভাবে দেখে সে বিষয়ে আগ্রহী হতে পারে",
+        "সম্পর্কের সমাপ্তি মেনে নিতে খুব অসুবিধা হয় এবং ব্যর্থতার দায় নিজেদের কাঁধে নেওয়ার সম্ভাবনা থাকে\", \"তাদের কাছের মানুষদের সম্পর্কে নেতিবাচক কিছু মেনে নিতে অসুবিধা হয়",
+        "নিজেদের চাহিদার প্রতি যথেষ্ট মনোযোগ দেয় না এবং আত্মত্যাগী হতে পারে",
+        "তারা যা চায় তা পাওয়ার উপায় হিসাবে অপরাধবোধের দ্বারা প্রভাবিত করার প্রবণতা থাকতে পারে"
     ],
-    successDefinition: `The ESFJ is called the “caregiver”, and for good reason. Caring is the very nature of their personality; a
-personality driven by feeling judgments and supported by a strong sense of the world around them. The
-ESFJ not only sees how situations affect themselves and others, they are concerned about it. Everything
-that makes them feel valued and successful is bound inextricably to the value and concern they need to
-exchange with others. “Give and ye shall receive” is the motto of the ESFJ, whose gifts serve the most
-important function in all communal human processes, from the family to the wider world of care giving
-such as hospitality, primary teaching, nursing, aged care, social services, human resources and so on.
-Whilst their judgments might be bound by a somewhat conventional moral code, the ESFJ always stands up
-for what they are certain is the best for others. In some situations this trait can lead them into disaster,
-particularly if they are thrust into an unsuitable role. The ESFJ thrives best where they can make the
-decisions and organize things to suit their own way of seeing the world. Regardless however of their
-particular station in life, the ESFJ is at their best when it involves caring for and about others, measuring
-their success by the happiness and gratitude which is reflected back to them from the people in whose lives
-they play a part.`,
-    strengths: [
-      "A strong sense of what is right and wrong",
-      "Easily empathizes with another person",
-      "Able to share feelings with other people",
-      "Cares greatly about the welfare of others",
-      "Open, honest and forthright about the way they see things",
-      "Sensitive to the needs of others, particularly those judged to be less fortunate.",
+    "successDefinition": "ESFJ-কে \"তত্ত্বাবধায়ক\" বলা হয়, এবং সঙ্গত কারণেই। যত্ন নেওয়া তাদের ব্যক্তিত্বের প্রকৃতি; একটি ব্যক্তিত্ব যা অনুভূতি বিচার দ্বারা চালিত এবং তাদের চারপাশের বিশ্বের একটি শক্তিশালী অনুভূতি দ্বারা সমর্থিত। ESFJ কেবল পরিস্থিতিগুলি কীভাবে নিজেদের এবং অন্যদের প্রভাবিত করে তা দেখে না, তারা এটি নিয়ে উদ্বিগ্ন। যা কিছু তাদের মূল্যবান এবং সফল বোধ করায় তা অবিচ্ছেদ্যভাবে সেই মূল্য এবং উদ্বেগের সাথে আবদ্ধ যা তাদের অন্যদের সাথে বিনিময় করতে হবে। \"দাও এবং তুমি পাবে\" হলো ESFJ-এর মূলমন্ত্র, যাদের উপহারগুলি পরিবার থেকে শুরু করে আতিথেয়তা, প্রাথমিক শিক্ষাদান, নার্সিং, বয়স্কদের যত্ন, সামাজিক পরিষেবা, মানব সম্পদ ইত্যাদি বৃহত্তর পরিচর্যার জগতে সমস্ত সাম্প্রদায়িক মানবিক প্রক্রিয়ায় সবচেয়ে গুরুত্বপূর্ণ কাজ করে।\nযদিও তাদের বিচারগুলি কিছুটা প্রচলিত নৈতিক संहिता দ্বারা আবদ্ধ হতে পারে, ESFJ সর্বদা অন্যদের জন্য যা সেরা বলে তারা নিশ্চিত তা সমর্থন করে। কিছু পরিস্থিতিতে এই বৈশিষ্ট্যটি তাদের বিপর্যয়ের দিকে নিয়ে যেতে পারে, বিশেষত যদি তাদের একটি অনুপযুক্ত ভূমিকায় ঠেলে দেওয়া হয়। ESFJ সবচেয়ে ভালো উন্নতি করে যেখানে তারা সিদ্ধান্ত নিতে পারে এবং তাদের নিজস্ব বিশ্ব দেখার উপায় অনুসারে জিনিসগুলি সংগঠিত করতে পারে। যাইহোক, জীবনে তাদের নির্দিষ্ট অবস্থান নির্বিশেষে, ESFJ তাদের সেরা অবস্থায় থাকে যখন এটি অন্যদের যত্ন নেওয়া এবং তাদের সম্পর্কে চিন্তা করা জড়িত থাকে, যাদের জীবনে তারা একটি অংশ পালন করে তাদের কাছ থেকে প্রতিফলিত সুখ এবং কৃতজ্ঞতার দ্বারা তাদের সাফল্য পরিমাপ করে।",
+    "strengths": [
+        "সঠিক এবং ভুলের একটি শক্তিশালী অনুভূতি",
+        "সহজেই অন্য ব্যক্তির সাথে সহানুভূতি প্রকাশ করতে পারে",
+        "অন্যান্য মানুষের সাথে অনুভূতি ভাগ করে নিতে সক্ষম",
+        "অন্যদের মঙ্গলের জন্য অত্যন্ত যত্নশীল",
+        "তারা যেভাবে জিনিসগুলি দেখে সে সম্পর্কে খোলামেলা, সৎ এবং অকপট",
+        "অন্যদের চাহিদার প্রতি সংবেদনশীল, বিশেষ করে যাদেরকে কম ভাগ্যবান বলে মনে করা হয়।"
     ],
-    gifts: [
-      "Very sensitive to how any situation might be inwardly affecting another person",
-      "Able to see the potential in any human environment for enabling the comfort and safety of others",
-      "A flair for dramatic illustration and story telling which makes them excellent teachers of the young",
-      "Able to make strong, people oriented administrative decisions",
-      "A skill with fashion and decoration which makes people feel good about themselves",
-      "Able to see outside the “square” and adjust their values to the facts of a situation.",
+    "gifts": [
+        "যেকোনো পরিস্থিতি কীভাবে অন্য ব্যক্তিকে অভ্যন্তরীণভাবে প্রভাবিত করতে পারে সে সম্পর্কে খুব সংবেদনশীল",
+        "অন্যদের আরাম এবং নিরাপত্তার জন্য যেকোনো মানবিক পরিবেশে সম্ভাবনা দেখতে সক্ষম",
+        "নাটকীয় চিত্রণ এবং গল্প বলার একটি দক্ষতা যা তাদের ছোটদের চমৎকার শিক্ষক করে তোলে",
+        "শক্তিশালী, মানুষ-কেন্দ্রিক প্রশাসনিক সিদ্ধান্ত নিতে সক্ষম",
+        "ফ্যাশন এবং সজ্জার একটি দক্ষতা যা মানুষকে নিজেদের সম্পর্কে ভালো বোধ করায়",
+        "\"গণ্ডির\" বাইরে দেখতে এবং পরিস্থিতির তথ্যের সাথে তাদের মূল্যবোধগুলি সামঞ্জস্য করতে সক্ষম।"
     ],
-    potentialProblemAreas: [
-      "May be unable to correctly judge what really is for the best",
-      "May become spiteful and extremely intractable in the face of clear logical reasoning.",
-      "May be unable to shrug off feelings that others are not “good people”.",
-      `May be unable to acknowledge anything that goes against their certainty about the “correct” or
-“right” way to do things`,
-      `May attribute their own problems to arbitrary and improvable notions about the way people
-“ought” to behave.`,
-      `May be at a loss when confronted with situations that require basic technical expertise or clear
-thinking.`,
-      `May be oblivious to all but their own viewpoint, valuing their own certainties to the exclusion of
-others.`,
-      "May be unable to understand verbal logic, and quickly cut off other’s explanations",
-      "May be falsely certain of the true needs and feelings of others.",
-      "May be extremely vulnerable to superstitions, religious cults and media manipulation.",
-      `May react too quickly and too emotionally in a situation better dealt with in a more pragmatic
-fashion`,
+    "potentialProblemAreas": [
+        "আসলে সেরা কী তা সঠিকভাবে বিচার করতে অক্ষম হতে পারে",
+        "স্পষ্ট যৌক্তিক যুক্তির মুখে বিদ্বেষপূর্ণ এবং অত্যন্ত একগুঁয়ে হয়ে উঠতে পারে।",
+        "অন্যরা \"ভালো মানুষ\" নয় এমন অনুভূতি ঝেড়ে ফেলতে অক্ষম হতে পারে।",
+        "জিনিসগুলি করার \"সঠিক\" বা \"নির্ভুল\" উপায় সম্পর্কে তাদের নিশ্চিততার বিরুদ্ধে যায় এমন কোনো কিছু স্বীকার করতে অক্ষম হতে পারে।",
+        "মানুষের \"উচিত\" আচরণ সম্পর্কে নির্বিচারে এবং প্রমাণ অযোগ্য ধারণার জন্য তাদের নিজস্ব সমস্যাগুলিকে দায়ী করতে পারে।",
+        "মৌলিক প্রযুক্তিগত দক্ষতা বা স্পষ্ট চিন্তাভাবনার প্রয়োজন এমন পরিস্থিতির মুখোমুখি হলে কিংকর্তব্যবিমূঢ় হতে পারে।",
+        "নিজেদের দৃষ্টিভঙ্গি ছাড়া আর সব বিষয়ে অজ্ঞ হতে পারে, অন্যদের বাদ দিয়ে নিজেদের নিশ্চিততাকে মূল্য দেয়।",
+        "মৌখিক যুক্তি বুঝতে অক্ষম হতে পারে এবং দ্রুত অন্যদের ব্যাখ্যা থামিয়ে দিতে পারে।",
+        "অন্যদের প্রকৃত চাহিদা এবং অনুভূতি সম্পর্কে মিথ্যাভাবে নিশ্চিত হতে পারে।",
+        "কুসংস্কার, ধর্মীয় গোষ্ঠী এবং মিডিয়া ম্যানিপুলেশনের প্রতি অত্যন্ত ঝুঁকিপূর্ণ হতে পারে।",
+        "আরও বাস্তবসম্মত উপায়ে মোকাবিলা করা ভালো এমন পরিস্থিতিতে খুব দ্রুত এবং খুব আবেগপ্রবণভাবে প্রতিক্রিয়া দেখাতে পারে।"
     ],
-    explanationOfProblems: `Nearly all of the problematic characteristics described above can be attributed in various degrees to the
-ESFJ’s externally mapped, feeling based view of the world not being successfully coupled to an
-appropriate level of Introverted Sensation. Without this internal balance, the ESFJ’s perceptions and ideas
-are determined by feeling judgments which are not in always a valid basis for understanding.
-ESFJ’s are usually stable, certain, reliable and caring in their approach to life, but if unbalanced they are
-likely to treat any point of view other than their own with a kind of amused indifference or a tendency to
-keep those with differing attitudes and opinions at a distance. Whilst this is natural survival behavior for the
-strongly expressed ESFJ personality, if they do not learn how to deal with the wide range of differing
-viewpoints they come into contact with, ESFJ’s can find themselves waging a self created war against all
-that opposes their own. This conflict often expresses itself in various unambiguous and simplistic “Us
-verses Them” generalities, or a penchant for smugly and narrowly defining other people by arbitrary or
-superstitious belief systems, which often actually symbolize and define their own conflict. At its worst, this
-conflict with the obstinate and unfeeling contingent realities of the world creates a situation where the ESFJ
-retreats to a kind of psychological castle where, not only none but those who have the “right” or “nice”
-approach can enter, but also where the ESFJ’s feeling based and often tortured logic, attitudes and
-judgments reign supreme and cannot be questioned; a place where: “give and you shall receive” can
-ironically twist quickly into: “off with his head!”
-The main driver to the ESFJ personality is Extraverted Feeling, whose function is to judge the relative
-human value of the ideas, behaviors, situations and objects they perceive. The resulting world view is tidy,
-and ordered according to its worth to the ESFJ’s own particular character: “Everything has its place and
-everything in its place”. If this picture of the world is threatened by external influences, the ESFJ generally
-tries to shut such new information out of their lives. This is totally natural, and works well to protect the
-individual psyche from getting hurt. However, the ESFJ who exercises this type of self-protection regularly
-will find they can only connect and relate with those who do not actively disturb their increasingly narrow
-and rigid world view. They will always find justification for their own inappropriate behaviors, and will
-always find fault with the outside world for problems that they have in their lives. It will be difficult for
-them to maintain the flexibility needed for a healthy relationship with the messy world outside because the
-differing ways others value things is a constant affront to their personal judgments.
-It is not an uncommon tendency for the ESFJ to support their feeling judgments by selectively using only
-their immediate perceptions of a situation and how it appears to them. However, if this tendency is given
-free reign, the resulting ESFJ personality is too self-centered to be happy or successful. The ESFJ's
-auxiliary function of Introverted Sensing must be allowed to grow beyond this limit, where it is used only
-to support Extraverted Feeling judgments. If the ESFJ uses Introverted Sensing only to serve this purpose,
-then the ESFJ is not using Introversion effectively at all. As a result, the ESFJ does not sufficiently
-recognize and understand the vast number of contingent and differing ways in which the world is perceived
-by others. They see nothing but their own perspective, and deal with the world only so far as they need to in
-order to support their perspective. These individuals usually come across as somewhat illogical and full of
-fixed and often rather staid or conventional ideas about the world. Other people are often surprised by the
-simplicity, ambiguity and often unrelenting vehemence of their ideas.`,
-    solutions: `To grow as an individual, the ESFJ needs to focus on opening their perspective to include a more accurate
-picture of the world and its ways. In order to be in a position in which the ESFJ is able to perceive and
-consider data that is foreign to their value system, the ESFJ needs to recognize that their world view is not
-threatened by the new information. The ESFJ must consciously tell himself/herself that the judgments of
-others are not unrelated to reality; that the ideas of others are also just and valid within a wider and less
-rigorous vision of the world.
-The ESFJ who is concerned with personal growth will pay close attention to the way things appear to them.
-Do they try to find the basic connections between the elements of a situation? Or, do they appreciate only
-those elements which accord them a feeling of worth? At the moment when some connection or
-relationship between things is perceived, is the ESFJ only concerned with whether that perception supports
-something they value? Or is she/he concerned with becoming truly appraised of how things fit together in
-the world? To achieve a better understanding of others and the world in which they live, the ESFJ should
-try to put themselves into the minds of others, to locate and recognize how others see things, before making
-judgments. They should consciously be aware of their tendency to discard anything that doesn't agree with
-their carefully adjudicated system of relative worth, and work towards lessening this tendency. They should
-try to see the way others might see situations, without making personal judgments about how others ought
-to feel. In general, they should work on exercising their Sensation in a truly introverted sense. In other
-words, they should use Sensation to recognize that all parts of a situation are necessary for its functionality
-and that valuing one function or objective connection over another narrows their ability to deal with the real
-world as it truly is. The ESFJ who can successfully envision the world as a realm of functioning and
-connected parts which are all necessary to its balance can be quite a powerful force for positive change.`,
-    livingHappilyTips: `Some ESFJ’s have difficulty fitting into our society. Their problems are often a result of an inability
-understand the connections and relationships necessary to each situation, a too conventional and dogmatic
-set of values which limits the way others can relate to them, or an unrealistic and illogical view of the
-world. These issues mostly stem from using Introverted Sensation in a diminished manner: the lack of a
-strong internally focused viewpoint allowing an often ambiguous and yet strongly defended set of values to
-control the personality. An ESFJ who attempts to envision a more accurate and impartial view of the world
-for the sake of understanding the ways of others, rather than quickly deciding how things alone affect them,
-will have a clearer, more objective understanding of how society is dependant not only upon adherence to
-values and care for others, but also how the world relies upon structure and laws which function regardless
-of their human value. He or she will also be more comfortable and less likely to demand that the world and
-the behavior of others conform to values of right and wrong, good and bad, worthy and worthless etc. Such
-well-adjusted ESFJ’s will fit happily into our society.
-Unless you really understand Psychological Type and the nuances of the various personality functions, it's a
-difficult task to suddenly start to use Sensation in an unambiguous and totally introverted direction. It's
-difficult to even understand what that means, much less to incorporate that directive into your life. With
-that in mind, I am providing some specific suggestions that may help you to begin exercising your
-Introverted Sensation more fully:
-Take care to try and discover how others see things. Try to notice the connections they make between ideas
-and objects. Don’t immediately compare your own vision of things to theirs; simply accept that for them
-the world fits together in a valid way.
-Think of those times and situations in your life when you felt misunderstood or disregarded by others. Now
-try to understand how one or two other people would see the situation. Don't try to assume they would
-judge as you do: "she would have to feel the same way if that happened to her", or "he would change his
-tune if he saw things from my point of view". Rather, try to understand how they would truly see the
-situation. Would they analyze it through a code of values, or see it as an opportunity to grasp a wider
-perspective in which a solution can be found? Would it affect them personally or would they view it
-impartially? Try to determine their point of view without passing judgment or comparing it to your own.
-When having a conversation with a friend or relative, dedicate at least half of your time to finding out how
-the other person sees the world around them. Concentrate on really sensing the relationships within what
-they describe. Tell them how you see the world and compare. Ask questions about why things seem so to
-them.
-Think of the people who are closest to you. As you think of each person, tell yourself "this person has their
-own life going on, and they are more concerned with their own life than they are with mine." Remember
-that this doesn't mean that they don't care about you. It's the natural order of things. Try to visualize what
-that person is seeing right now. What connections are they making or enacting, what thoughts are they
-having? Don't pass judgment, or compare their situation to your own.
-Try to identify the personality type of everyone that you come into contact with for any length of time.`,
-    tenRulesToLive: [
-      `Feed Your Strengths! Let your talent for caring and giving spill out into the world around you,show your gifts to the world. Allow yourself to take opportunities to nurture and developsituations in your home and work environments which bring value for yourself and others. Findwork or a hobby which allows you to realize these strengths.`,
-      `Face Your Weaknesses! Realize and accept that some things are never going to be how you wouldlike them to be. Understand that other peoples need to deal with the world regardless of how itseems. Facing and dealing with discord or differences in others doesn't mean that you have tochange who you are; it means that you are giving yourself opportunities to grow. By facing your}}weaknesses, you honor your true self and that of others.`,
-      `Discover the World of Others. Don't let yourself fall into the trap of thinking you always knowwhat is right for others. Open your heart to the possibility of understanding that their true needsare something that must be discovered through recognition that their view of the world might bevery different, yet just as valid as your own.`,
-      `Don’t be too hasty. Try to let things settle before you make a judgment, allowing others todiscover the best for themselves while you try to see all the variables and contingencies in asituation.`,
-      `Look Carefully at the World. Remember, things are not always what they seem on the surface.You might need to look deeper to discover the truth, particularly when it seems you are sure ofyour first quick judgment. There are layers of meaning and truth beneath everything.`,
-      `Try to Let Others Take Some of the Load. By letting others make their own judgments, you arenot letting things get out of control, but are validating their own need to be a part of your life.Remember, it is better to guide another to see your point of view than keeping them out of thepicture.`,
-      `Be Accountable to Others. Remember that they need to understand you and your needs too.Express your doubts and difficulties as well as your reasons and let them become partners to yourgoals.`,
-      `Don’t Hem Yourself in. Staying in your comfort zone is self defeating in the end. Try to makeevery day one where you get out and discover a little something different about the world andothers. This will broaden your horizons and bring new ideas and opportunities into focus.`,
-      `Assume the Best and Seek for it. Don't wait for others to live up to your expectations. Everyperson has a goldmine of worth in them, just as every situation can be turned to some good. If youlet yourself believe this, you will find yourself discovering ways to make it true for you.`,
-      `When in Doubt, Ask For Help! Don't let your fears leave you on the horns of a dilemma or leadyou into disaster. If you are uncertain of something or someone then get input from others whohave greater experience in dealing with this difficulty.`,
-    ],
-  },
+    "explanationOfProblems": "উপরে বর্ণিত প্রায় সব সমস্যাজনক বৈশিষ্ট্য বিভিন্ন মাত্রায় ESFJ-এর বাহ্যিকভাবে চিত্রিত, অনুভূতি-ভিত্তিক বিশ্ব দৃষ্টিভঙ্গির সাথে ইন্ট্রোভার্টেড সেনসেশনের উপযুক্ত স্তরের সফলভাবে মিলিত না হওয়ার কারণে হতে পারে। এই অভ্যন্তরীণ ভারসাম্য ছাড়া, ESFJ-এর উপলব্ধি এবং ধারণাগুলি অনুভূতি বিচার দ্বারা নির্ধারিত হয় যা বোঝার জন্য সর্বদা একটি বৈধ ভিত্তি নয়।\nESFJ-রা সাধারণত জীবনে তাদের দৃষ্টিভঙ্গিতে স্থিতিশীল, নিশ্চিত, নির্ভরযোগ্য এবং যত্নশীল হয়, কিন্তু ভারসাম্যহীন হলে তারা নিজেদের থেকে ভিন্ন যেকোনো দৃষ্টিভঙ্গিকে এক ধরনের কৌতুকপূর্ণ উদাসীনতা বা ভিন্ন মনোভাব এবং মতামত সম্পন্নদের দূরে রাখার প্রবণতা দেখাতে পারে। যদিও এটি দৃঢ়ভাবে প্রকাশিত ESFJ ব্যক্তিত্বের জন্য স্বাভাবিক টিকে থাকার আচরণ, যদি তারা তাদের সংস্পর্শে আসা বিভিন্ন দৃষ্টিভঙ্গির বিস্তৃত পরিসরের সাথে কীভাবে মোকাবিলা করতে হয় তা না শেখে, ESFJ-রা নিজেদের তৈরি করা একটি যুদ্ধে নিজেদের খুঁজে পেতে পারে যা তাদের নিজেদের বিরুদ্ধেই। এই সংঘাত প্রায়শই বিভিন্ন দ্ব্যর্থহীন এবং সরল \"আমরা বনাম তারা\" সাধারণীকরণে, অথবা নির্বিচারে বা কুসংস্কারপূর্ণ বিশ্বাস ব্যবস্থার দ্বারা অন্য লোকেদেরকে অহংকারীভাবে এবং সংকীর্ণভাবে সংজ্ঞায়িত করার প্রবণতায় প্রকাশ পায়, যা প্রায়শই আসলে তাদের নিজস্ব সংঘাতের প্রতীক এবং সংজ্ঞায়িত করে। সবচেয়ে খারাপ অবস্থায়, বিশ্বের একগুঁয়ে এবং অনুভূতিহীন আপতিক বাস্তবতার সাথে এই সংঘাত এমন একটি পরিস্থিতি তৈরি করে যেখানে ESFJ এক ধরনের মনস্তাত্ত্বিক দুর্গে পিছু হটে যেখানে, কেবল যাদের \"সঠিক\" বা \"সুন্দর\" দৃষ্টিভঙ্গি রয়েছে তারাই প্রবেশ করতে পারে না, বরং যেখানে ESFJ-এর অনুভূতি-ভিত্তিক এবং প্রায়শই বিকৃত যুক্তি, মনোভাব এবং বিচারগুলি সর্বোচ্চ রাজত্ব করে এবং প্রশ্ন করা যায় না; এমন একটি জায়গা যেখানে: \"দাও এবং তুমি পাবে\" ব্যঙ্গাত্মকভাবে দ্রুত \"তার শিরশ্ছেদ কর!\"-এ পরিণত হতে পারে।\nESFJ ব্যক্তিত্বের প্রধান চালিকাশক্তি হলো এক্সট্রাভার্টেড ফিলিং, যার কাজ হলো তাদের অনুভূত ধারণা, আচরণ, পরিস্থিতি এবং বস্তুর আপেক্ষিক মানবিক মূল্য বিচার করা। ফলস্বরূপ বিশ্ব দৃষ্টিভঙ্গি পরিচ্ছন্ন এবং ESFJ-এর নিজস্ব বিশেষ চরিত্রের মূল্যের ক্রমানুসারে সাজানো: \"সবকিছুর নিজস্ব স্থান রয়েছে এবং সবকিছু তার নিজের জায়গায় রয়েছে\"। যদি এই বিশ্ব চিত্রটি বাহ্যিক প্রভাব দ্বারা হুমকির মুখে পড়ে, ESFJ সাধারণত এই ধরনের নতুন তথ্য তাদের জীবন থেকে বাদ দেওয়ার চেষ্টা করে। এটি সম্পূর্ণ স্বাভাবিক এবং ব্যক্তিকে আঘাত পাওয়া থেকে রক্ষা করতে ভালোভাবে কাজ করে। যাইহোক, যে ESFJ নিয়মিতভাবে এই ধরনের আত্মরক্ষা অনুশীলন করে সে দেখতে পাবে যে তারা কেবল তাদের সাথে সংযোগ স্থাপন করতে এবং সম্পর্ক স্থাপন করতে পারে যারা তাদের ক্রমবর্ধমান সংকীর্ণ এবং অনমনীয় বিশ্ব দৃষ্টিভঙ্গিকে সক্রিয়ভাবে বিরক্ত করে না। তারা সর্বদা তাদের নিজস্ব অনুপযুক্ত আচরণের জন্য ন্যায্যতা খুঁজে পাবে এবং তাদের জীবনে যে সমস্যাগুলি রয়েছে তার জন্য সর্বদা বাইরের বিশ্বের দোষ খুঁজে পাবে। বাইরের অগোছালো বিশ্বের সাথে একটি স্বাস্থ্যকর সম্পর্ক বজায় রাখার জন্য প্রয়োজনীয় নমনীয়তা বজায় রাখা তাদের জন্য কঠিন হবে কারণ অন্যরা যেভাবে জিনিসগুলিকে মূল্য দেয় তা তাদের ব্যক্তিগত বিচারের প্রতি একটি ধ্রুব অপমান।\nESFJ-এর জন্য তাদের অনুভূতির বিচারকে সমর্থন করার জন্য শুধুমাত্র একটি পরিস্থিতির তাৎক্ষণিক উপলব্ধি এবং এটি তাদের কাছে কেমন দেখাচ্ছে তা বেছে বেছে ব্যবহার করার একটি অস্বাভাবিক প্রবণতা নয়। যাইহোক, যদি এই প্রবণতাকে অবাধ লাগাম দেওয়া হয়, তবে ফলস্বরূপ ESFJ ব্যক্তিত্ব সুখী বা সফল হওয়ার জন্য খুব বেশি আত্মকেন্দ্রিক হয়ে যায়। ESFJ-এর ইন্ট্রোভার্টেড সেন্সিং-এর সহায়ক ফাংশনকে এই সীমার বাইরে বাড়তে দেওয়া উচিত, যেখানে এটি কেবল এক্সট্রাভার্টেড ফিলিং বিচারকে সমর্থন করার জন্য ব্যবহৃত হয়। যদি ESFJ শুধুমাত্র এই উদ্দেশ্যে ইন্ট্রোভার্টেড সেন্সিং ব্যবহার করে, তবে ESFJ মোটেও কার্যকরভাবে ইন্ট্রোভার্সন ব্যবহার করছে না। ফলস্বরূপ, ESFJ পর্যাপ্তরূপে সেই বিশাল সংখ্যক আপতিক এবং ভিন্ন উপায়গুলিকে স্বীকৃতি দেয় না এবং বোঝে না যেভাবে বিশ্ব অন্যদের দ্বারা অনুভূত হয়। তারা নিজেদের দৃষ্টিভঙ্গি ছাড়া আর কিছুই দেখে না এবং তাদের দৃষ্টিভঙ্গিকে সমর্থন করার জন্য যতটুকু প্রয়োজন ততটুকুই বিশ্বের সাথে মোকাবিলা করে। এই ব্যক্তিরা সাধারণত কিছুটা অযৌক্তিক এবং বিশ্ব সম্পর্কে স্থির এবং প্রায়শই বরং পুরনো বা প্রচলিত ধারণায় পূর্ণ বলে মনে হয়। অন্যান্য লোকেরা প্রায়শই তাদের ধারণার সরলতা, অস্পষ্টতা এবং প্রায়শই নিরলস তীব্রতায় অবাক হয়।",
+    "solutions": "একজন ব্যক্তি হিসেবে উন্নতি করার জন্য, ESFJ-কে তাদের দৃষ্টিভঙ্গি উন্মুক্ত করার দিকে মনোনিবেশ করতে হবে যাতে বিশ্বের এবং এর পদ্ধতিগুলির আরও সঠিক চিত্র অন্তর্ভুক্ত করা যায়। এমন একটি অবস্থানে থাকার জন্য যেখানে ESFJ তাদের মূল্যবোধ ব্যবস্থার সাথে অপরিচিত ডেটা উপলব্ধি করতে এবং বিবেচনা করতে সক্ষম, ESFJ-কে স্বীকার করতে হবে যে তাদের বিশ্ব দৃষ্টিভঙ্গি নতুন তথ্য দ্বারা হুমকির মুখে পড়েনি। ESFJ-কে সচেতনভাবে নিজেকে বলতে হবে যে অন্যদের বিচারগুলি বাস্তবতার সাথে সম্পর্কহীন নয়; অন্যদের ধারণাগুলিও বিশ্বের একটি বিস্তৃত এবং কম কঠোর দৃষ্টিভঙ্গির মধ্যে ন্যায্য এবং বৈধ।\nব্যক্তিগত বৃদ্ধি নিয়ে উদ্বিগ্ন ESFJ জিনিসগুলি তাদের কাছে কেমন দেখাচ্ছে সেদিকে গভীর মনোযোগ দেবে। তারা কি একটি পরিস্থিতির উপাদানগুলির মধ্যে মৌলিক সংযোগগুলি খুঁজে বের করার চেষ্টা করে? নাকি, তারা কেবল সেই উপাদানগুলির প্রশংসা করে যা তাদের মূল্যের অনুভূতি দেয়? যে মুহূর্তে জিনিসগুলির মধ্যে কিছু সংযোগ বা সম্পর্ক অনুভূত হয়, ESFJ কি কেবল সেই উপলব্ধিটি তাদের মূল্যবান কিছুকে সমর্থন করে কিনা তা নিয়ে উদ্বিগ্ন? নাকি সে কি বিশ্বে জিনিসগুলি কীভাবে একসাথে খাপ খায় সে সম্পর্কে সত্যিকারের মূল্যায়ন করার বিষয়ে উদ্বিগ্ন? অন্যদের এবং তারা যে বিশ্বে বাস করে সে সম্পর্কে আরও ভালোভাবে বোঝার জন্য, ESFJ-কে বিচার করার আগে অন্যদের মনে নিজেদেরকে স্থাপন করার চেষ্টা করা উচিত, অন্যরা কীভাবে জিনিসগুলি দেখে তা সনাক্ত এবং স্বীকার করা উচিত। তাদের আপেক্ষিক মূল্যের যত্ন সহকারে বিচার করা সিস্টেমের সাথে একমত নয় এমন কিছু বাতিল করার তাদের প্রবণতা সম্পর্কে তাদের সচেতনভাবে সচেতন হওয়া উচিত এবং এই প্রবণতা হ্রাস করার দিকে কাজ করা উচিত। অন্যরা কীভাবে পরিস্থিতি দেখতে পারে তা দেখার চেষ্টা করা উচিত, অন্যরা কেমন অনুভব করা উচিত সে সম্পর্কে ব্যক্তিগত বিচার না করে। সাধারণভাবে, তাদের সেন্সেশনকে সত্যিকারের অন্তর্মুখী অর্থে অনুশীলন করার জন্য কাজ করা উচিত। অন্য কথায়, তাদের সেন্সেশন ব্যবহার করে স্বীকার করা উচিত যে একটি পরিস্থিতির সমস্ত অংশ তার কার্যকারিতার জন্য প্রয়োজনীয় এবং একটি ফাংশন বা উদ্দেশ্যমূলক সংযোগকে অন্যের চেয়ে বেশি মূল্য দেওয়া বাস্তব বিশ্বের সাথে মোকাবিলা করার তাদের ক্ষমতাকে সংকীর্ণ করে যেমনটি এটি সত্যিই। যে ESFJ সফলভাবে বিশ্বকে কার্যকরী এবং সংযুক্ত অংশগুলির একটি ক্ষেত্র হিসাবে কল্পনা করতে পারে যা সবই এর ভারসাম্যের জন্য প্রয়োজনীয়, সে ইতিবাচক পরিবর্তনের জন্য বেশ শক্তিশালী শক্তি হতে পারে।",
+    "livingHappilyTips": "কিছু ESFJ-এর আমাদের সমাজে মানিয়ে নিতে অসুবিধা হয়। তাদের সমস্যাগুলি প্রায়শই প্রতিটি পরিস্থিতির জন্য প্রয়োজনীয় সংযোগ এবং সম্পর্ক বুঝতে অক্ষমতা, একটি খুব প্রচলিত এবং মতান্ধ মূল্যবোধ যা অন্যদের তাদের সাথে সম্পর্ক স্থাপনের উপায়কে সীমাবদ্ধ করে, বা বিশ্বের একটি অবাস্তব এবং অযৌক্তিক দৃষ্টিভঙ্গির ফল। এই সমস্যাগুলি বেশিরভাগই ইন্ট্রোভার্টেড সেন্সেশনকে হ্রাসকৃত উপায়ে ব্যবহার করা থেকে উদ্ভূত হয়: একটি শক্তিশালী অভ্যন্তরীণভাবে কেন্দ্রিক দৃষ্টিভঙ্গির অভাব একটি প্রায়শই অস্পষ্ট এবং তবুও দৃঢ়ভাবে রক্ষিত মূল্যবোধকে ব্যক্তিত্বকে নিয়ন্ত্রণ করতে দেয়। একজন ESFJ যে অন্যদের পদ্ধতি বোঝার জন্য বিশ্বের আরও সঠিক এবং নিরপেক্ষ দৃষ্টিভঙ্গি কল্পনা করার চেষ্টা করে, জিনিসগুলি একা তাদের কীভাবে প্রভাবিত করে তা দ্রুত সিদ্ধান্ত নেওয়ার পরিবর্তে, সমাজ কেবল মূল্যবোধের প্রতি আনুগত্য এবং অন্যদের যত্নের উপর নির্ভরশীল নয়, বরং বিশ্ব কীভাবে কাঠামো এবং আইনের উপর নির্ভর করে যা তাদের মানবিক মূল্য নির্বিশেষে কাজ করে সে সম্পর্কে একটি পরিষ্কার, আরও বস্তুনিষ্ঠ উপলব্ধি পাবে। সে আরও স্বাচ্ছন্দ্য বোধ করবে এবং বিশ্ব এবং অন্যদের আচরণ সঠিক এবং ভুলের, ভাল এবং মন্দের, যোগ্য এবং অযোগ্যের মূল্যবোধের সাথে সঙ্গতিপূর্ণ হওয়ার দাবি করার সম্ভাবনা কম থাকবে। এই ধরনের সু-সামঞ্জস্যপূর্ণ ESFJ-রা আমাদের সমাজে সুখে মানিয়ে নেবে।\nযদি না আপনি সত্যিই মনস্তাত্ত্বিক প্রকার এবং বিভিন্ন ব্যক্তিত্বের ফাংশনগুলির সূক্ষ্মতা বোঝেন, তবে হঠাৎ করে একটি দ্ব্যর্থহীন এবং সম্পূর্ণ অন্তর্মুখী দিকে সেন্সেশন ব্যবহার শুরু করা একটি কঠিন কাজ। এর অর্থ কী তা বোঝাও কঠিন, আপনার জীবনে সেই নির্দেশকে অন্তর্ভুক্ত করা তো দূরের কথা। এটি মাথায় রেখে, আমি কিছু নির্দিষ্ট পরামর্শ দিচ্ছি যা আপনাকে আপনার ইন্ট্রোভার্টেড সেন্সেশন আরও সম্পূর্ণরূপে অনুশীলন শুরু করতে সাহায্য করতে পারে:\nঅন্যরা কীভাবে জিনিসগুলি দেখে তা আবিষ্কার করার চেষ্টা করার জন্য যত্ন নিন। তারা ধারণা এবং বস্তুর মধ্যে যে সংযোগগুলি তৈরি করে তা লক্ষ্য করার চেষ্টা করুন। অবিলম্বে আপনার নিজের দৃষ্টিভঙ্গির সাথে তাদের তুলনা করবেন না; কেবল গ্রহণ করুন যে তাদের জন্য বিশ্ব একটি বৈধ উপায়ে একসাথে খাপ খায়।\nআপনার জীবনের সেই সময় এবং পরিস্থিতিগুলির কথা ভাবুন যখন আপনি অন্যদের দ্বারা ভুল বোঝা বা অবহেলিত বোধ করেছিলেন। এখন এক বা দুজন অন্য লোক কীভাবে পরিস্থিতিটি দেখবে তা বোঝার চেষ্টা করুন। তারা আপনার মতো বিচার করবে এমনটা ধরে নেওয়ার চেষ্টা করবেন না: \"যদি তার সাথে এমন ঘটত তবে তাকেও একই রকম অনুভব করতে হতো\", অথবা \"যদি সে আমার দৃষ্টিকোণ থেকে জিনিসগুলি দেখত তবে সে তার সুর পরিবর্তন করত\"। বরং, তারা আসলে কীভাবে পরিস্থিতিটি দেখবে তা বোঝার চেষ্টা করুন। তারা কি এটিকে মূল্যবোধের একটি কোডের মাধ্যমে বিশ্লেষণ করবে, নাকি এটিকে একটি বৃহত্তর দৃষ্টিকোণ উপলব্ধি করার সুযোগ হিসাবে দেখবে যেখানে একটি সমাধান পাওয়া যেতে পারে? এটি কি তাদের ব্যক্তিগতভাবে প্রভাবিত করবে নাকি তারা এটিকে নিরপেক্ষভাবে দেখবে? বিচার না করে বা আপনার নিজের সাথে তুলনা না করে তাদের দৃষ্টিভঙ্গি নির্ধারণ করার চেষ্টা করুন।\nবন্ধু বা আত্মীয়ের সাথে কথোপকথনের সময়, আপনার সময়ের অন্তত অর্ধেক অন্য ব্যক্তি তাদের চারপাশের বিশ্বকে কীভাবে দেখে তা খুঁজে বের করার জন্য উত্সর্গ করুন। তারা যা বর্ণনা করে তার মধ্যেকার সম্পর্কগুলি সত্যিই অনুভব করার উপর মনোযোগ কেন্দ্রীভূত করুন। আপনি বিশ্বকে কীভাবে দেখেন তা তাদের বলুন এবং তুলনা করুন। তাদের কাছে জিনিসগুলি কেন এমন মনে হয় সে সম্পর্কে প্রশ্ন জিজ্ঞাসা করুন।\nআপনার সবচেয়ে কাছের মানুষগুলির কথা ভাবুন। প্রতিটি ব্যক্তির কথা ভাবার সময়, নিজেকে বলুন \"এই ব্যক্তির নিজস্ব জীবন চলছে এবং তারা আমার চেয়ে তাদের নিজস্ব জীবন নিয়ে বেশি উদ্বিগ্ন।\" মনে রাখবেন যে এর অর্থ এই নয় যে তারা আপনার সম্পর্কে চিন্তা করে না। এটি জিনিসের স্বাভাবিক ক্রম। সেই ব্যক্তি এই মুহূর্তে কী দেখছে তা কল্পনা করার চেষ্টা করুন। তারা কী সংযোগ তৈরি করছে বা কার্যকর করছে, তারা কী চিন্তা করছে? বিচার করবেন না বা তাদের পরিস্থিতির সাথে আপনার নিজের তুলনা করবেন না।\nযেকোনো সময়ের জন্য আপনার সংস্পর্শে আসা প্রত্যেকের ব্যক্তিত্বের ধরণ চিহ্নিত করার চেষ্টা করুন।",
+    "tenRulesToLive": [
+        "আপনার শক্তি বৃদ্ধি করুন! আপনার যত্ন নেওয়া এবং দেওয়ার প্রতিভাকে আপনার চারপাশের বিশ্বে ছড়িয়ে দিন, বিশ্বকে আপনার উপহারগুলি দেখান। আপনার বাড়িতে এবং কাজের পরিবেশে এমন পরিস্থিতি লালন ও বিকাশের সুযোগ নিজেকে দিন যা আপনার এবং অন্যদের জন্য মূল্য নিয়ে আসে। এমন কাজ বা শখ খুঁজুন যা আপনাকে এই শক্তিগুলি উপলব্ধি করতে দেয়।",
+        "আপনার দুর্বলতার মুখোমুখি হোন! উপলব্ধি করুন এবং গ্রহণ করুন যে কিছু জিনিস কখনই আপনার ইচ্ছামতো হবে না। বুঝুন যে অন্যান্য লোকেদের বিশ্বকে যেভাবে মনে হোক না কেন তা মোকাবেলা করতে হবে। অন্যদের মধ্যে মতবিরোধ বা পার্থক্যগুলির মুখোমুখি হওয়া এবং মোকাবেলা করার অর্থ এই নয় যে আপনাকে কে আপনি তা পরিবর্তন করতে হবে; এর অর্থ হলো আপনি নিজেকে বিকাশের সুযোগ দিচ্ছেন। আপনার দুর্বলতার মুখোমুখি হয়ে, আপনি আপনার প্রকৃত সত্তা এবং অন্যদের সম্মান করেন।",
+        "অন্যদের জগত আবিষ্কার করুন। আপনি সর্বদা অন্যদের জন্য সঠিক কী তা জানেন এমন চিন্তার ফাঁদে নিজেকে পড়তে দেবেন না। তাদের প্রকৃত চাহিদাগুলি এমন কিছু যা তাদের বিশ্বের দৃষ্টিভঙ্গি খুব ভিন্ন হতে পারে, তবুও আপনার নিজের মতোই বৈধ, এই স্বীকৃতির মাধ্যমে আবিষ্কার করতে হবে এমন সম্ভাবনা বোঝার জন্য আপনার হৃদয় উন্মুক্ত করুন।",
+        "খুব তাড়াহুড়ো করবেন না। বিচার করার আগে জিনিসগুলি স্থির হতে দেওয়ার চেষ্টা করুন, অন্যদের নিজেদের জন্য সেরাটা আবিষ্কার করতে দিন যখন আপনি একটি পরিস্থিতির সমস্ত চলক এবং আপতিকতা দেখার চেষ্টা করেন।",
+        "বিশ্বের দিকে মনোযোগ সহকারে তাকান। মনে রাখবেন, জিনিসগুলি সর্বদা পৃষ্ঠের উপর যেমন দেখায় তেমন হয় না। সত্য আবিষ্কার করার জন্য আপনাকে আরও গভীরে তাকাতে হতে পারে, বিশেষত যখন মনে হয় আপনি আপনার প্রথম দ্রুত বিচারে নিশ্চিত। সবকিছুর নীচে অর্থ এবং সত্যের স্তর রয়েছে।",
+        "অন্যদের কিছু বোঝা বহন করতে দেওয়ার চেষ্টা করুন। অন্যদের তাদের নিজস্ব বিচার করতে দিয়ে, আপনি জিনিসগুলিকে নিয়ন্ত্রণের বাইরে যেতে দিচ্ছেন না, বরং আপনার জীবনের একটি অংশ হওয়ার তাদের নিজস্ব প্রয়োজনকে বৈধতা দিচ্ছেন। মনে রাখবেন, কাউকে আপনার দৃষ্টিভঙ্গি দেখতে গাইড করা তাদের চিত্রের বাইরে রাখার চেয়ে ভালো।",
+        "অন্যদের কাছে দায়বদ্ধ হন। মনে রাখবেন তাদেরও আপনাকে এবং আপনার চাহিদাগুলি বুঝতে হবে। আপনার সন্দেহ এবং অসুবিধাগুলির পাশাপাশি আপনার কারণগুলি প্রকাশ করুন এবং তাদের আপনার লক্ষ্যের অংশীদার হতে দিন।",
+        "নিজেকে সীমাবদ্ধ করবেন না। আপনার আরাম অঞ্চলে থাকা শেষ পর্যন্ত আত্মঘাতী। প্রতিদিন এমন একটি দিন তৈরি করার চেষ্টা করুন যেখানে আপনি বাইরে যান এবং বিশ্ব এবং অন্যদের সম্পর্কে কিছুটা ভিন্ন কিছু আবিষ্কার করেন। এটি আপনার দিগন্তকে প্রসারিত করবে এবং নতুন ধারণা এবং সুযোগগুলিকে কেন্দ্রবিন্দুতে নিয়ে আসবে।",
+        "সবচেয়ে ভালোটা ধরে নিন এবং এটির জন্য সন্ধান করুন। অন্যরা আপনার প্রত্যাশা পূরণ করবে তার জন্য অপেক্ষা করবেন না। প্রতিটি ব্যক্তির মধ্যে মূল্যের একটি খনি রয়েছে, ঠিক যেমন প্রতিটি পরিস্থিতিকে কিছু ভালোর দিকে ঘুরিয়ে দেওয়া যেতে পারে। যদি আপনি নিজেকে এটি বিশ্বাস করতে দেন, তবে আপনি নিজের জন্য এটি সত্য করার উপায়গুলি আবিষ্কার করতে পারবেন।",
+        "সন্দেহ হলে, সাহায্য চান! আপনার ভয় যেন আপনাকে উভয়সঙ্কটে না ফেলে বা আপনাকে বিপর্যয়ের দিকে নিয়ে না যায়। যদি আপনি কোনো কিছু বা কারও সম্পর্কে অনিশ্চিত হন তবে এই অসুবিধা মোকাবেলায় যাদের বেশি অভিজ্ঞতা রয়েছে তাদের কাছ থেকে ইনপুট নিন।"
+    ]
+},
   {
     type: "ESFP",
     name: "Extraverted Sensing Feeling Perceiving",
