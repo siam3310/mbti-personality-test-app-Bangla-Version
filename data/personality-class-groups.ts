@@ -238,302 +238,102 @@ export const personalityClassGroup: PersonalityClassGroup[] = [
         "সন্দেহ হলে প্রশ্ন করুন! প্রতিক্রিয়ার অভাবকে নেতিবাচক প্রতিক্রিয়ার সমতুল্য বলে ধরে নেবেন না। যদি আপনার প্রতিক্রিয়ার প্রয়োজন হয় এবং আপনার কাছে কোনোটি না থাকে, তবে তা চেয়ে নিন।"
     ]
 },
-  {
-    type: "ENTP",
-    name: "Extraverted Intuitive Thinking Perceiving",
-    nameDescription: "Extraverted Intuition with Introverted Thinking",
-    epithet: "The Visionary",
-    description: `As an ENTP, your primary mode of living is focused externally, where you take things in primarily via
-your intuition. Your secondary mode is internal, where you deal with things rationally and logically.
-With Extraverted Intuition dominating their personality, the ENTP's primary interest in life is
-understanding the world that they live in. They are constantly absorbing ideas and images about the
-situations they are presented in their lives. Using their intuition to process this information, they are usually
-extremely quick and accurate in their ability to size up a situation. With the exception of their ENFP
-cousin, the ENTP has a deeper understanding of their environment than any of the other types.
-This ability to intuitively understand people and situations puts the ENTP at a distinct advantage in their
-lives. They generally understand things quickly and with great depth. Accordingly, they are quite flexible
-and adapt well to a wide range of tasks. They are good at most anything that interests them. As they grow
-and further develop their intuitive abilities and insights, they become very aware of possibilities, and this
-makes them quite resourceful when solving problems.
-ENTP's are idea people. Their perceptive abilities cause them to see possibilities everywhere. They get
-excited and enthusiastic about their ideas, and are able to spread their enthusiasm to others. In this way,
-they get the support that they need to fulfill their visions.
-ENTP’s are less interested in developing plans of actions or making decisions than they are in generating
-possibilities and ideas. Following through on the implementation of an idea is usually a chore to the ENTP.
-For some ENTP’s, this results in the habit of never finishing what they start. The ENTP who has not
-developed their Thinking process will have problems with jumping enthusiastically from idea to idea,
-without following through on their plans. The ENTP needs to take care to think through their ideas fully in
-order to take advantage of them.
-The ENTP's auxiliary process of Introverted Thinking drives their decision making process. Although the
-ENTP is more interested in absorbing information than in making decisions, they are quite rational and
-logical in reaching conclusions. When they apply Thinking to their Intuitive perceptions, the outcome can
-be very powerful indeed. A well-developed ENTP is extremely visionary, inventive, and enterprising.
-ENTP’s are fluent conversationalists, mentally quick, and enjoy verbal sparring with others. They love to
-debate issues, and may even switch sides sometimes just for the love of the debate. When they express their
-underlying principles, however, they may feel awkward and speak abruptly and intensely.
-The ENTP personality type is sometimes referred to the "Lawyer" type. The ENTP "lawyer" quickly and
-accurately understands a situation, and objectively and logically acts upon the situation. Their Thinking
-side makes their actions and decisions based on an objective list of rules or laws. If the ENTP was
-defending someone who had actually committed a crime, they are likely to take advantage of quirks in the
-law that will get their client off the hook. If they were to actually win the case, they would see their actions
-as completely fair and proper to the situation, because their actions were lawful. The guilt or innocence of
-their client would not be as relevant. If this type of reasoning goes incompletely unchecked by the ENTP, it
-could result in a character that is perceived by others as unethical or even dishonest. The ENTP, who does
-not naturally consider the more personal or human element in decision making, should take care to notice
-the subjective, personal side of situations. This is a potential problem are for ENTP’s. Although their
-logical abilities lend strength and purpose to the ENTP, they may also isolate them from their feelings and
-from other people.
-The least developed area for the ENTP is the Sensing-Feeling arena. If the Sensing areas are neglected, the
-ENTP may tend to not take care of details in their life. If their Feeling part is neglected, the ENTP may not
-value other people's input enough, or may become overly harsh and aggressive.
-Under stress, the ENTP may lose their ability to generate possibilities, and become obsessed with minor
-details. These details may seem to be extremely important to the ENTP, but in reality are usually not
-important to the big picture.
-In general, ENTP’s are upbeat visionaries. They highly value knowledge, and spend much of their lives
-seeking a higher understanding. They live in the world of possibilities, and become excited about concepts,
-challenges and difficulties. When presented with a problem, they're good at improvising and quickly come
-up with a creative solution. Creative, clever, curious, and theoretical, ENTP’s have a broad range of
-possibilities in their lives.`,
-    jungianFunctionalPreference: {
-      auxiliary: "Introverted Thinking",
-      dominant: "Extraverted Intuition",
-      inferior: "Introverted Sensing",
-      tertiary: "Extraverted Feeling",
+{
+    "type": "ENTP (ইএনটিপি)",
+    "name": "Extraverted Intuitive Thinking Perceiving (এক্সট্রাভার্টেড ইন্টুইটিভ থিংকিং পারসিভিং)",
+    "nameDescription": "Extraverted Intuition with Introverted Thinking (এক্সট্রাভার্টেড ইন্টুইশন এবং ইন্ট্রোভার্টেড থিংকিং)",
+    "epithet": "The Visionary (দ্য ভিশনারি)",
+    "description": "একজন ENTP হিসেবে, আপনার জীবনযাপনের প্রাথমিক পদ্ধতিটি বাহ্যিকভাবে কেন্দ্রিক, যেখানে আপনি প্রাথমিকভাবে আপনার স্বজ্ঞার মাধ্যমে জিনিসগুলি গ্রহণ করেন। আপনার দ্বিতীয় পদ্ধতিটি অভ্যন্তরীণ, যেখানে আপনি জিনিসগুলির সাথে যুক্তিসঙ্গতভাবে এবং যৌক্তিকভাবে মোকাবিলা করেন।\nএক্সট্রাভার্টেড ইনটুইশন তাদের ব্যক্তিত্বে আধিপত্য বিস্তার করার কারণে, ENTP-এর জীবনের প্রাথমিক আগ্রহ হলো তারা যে বিশ্বে বাস করে তা বোঝা। তারা তাদের জীবনে উপস্থাপিত পরিস্থিতি সম্পর্কে ক্রমাগত ধারণা এবং চিত্র শোষণ করে। এই তথ্য প্রক্রিয়াকরণের জন্য তাদের স্বজ্ঞা ব্যবহার করে, তারা সাধারণত একটি পরিস্থিতি মূল্যায়ন করার ক্ষমতায় অত্যন্ত দ্রুত এবং নির্ভুল হয়। তাদের ENFP আত্মীয় ছাড়া, অন্য যেকোনো ধরনের ব্যক্তিত্বের তুলনায় ENTP-দের তাদের পরিবেশ সম্পর্কে গভীর উপলব্ধি রয়েছে।\nমানুষ এবং পরিস্থিতি স্বজ্ঞাতভাবে বোঝার এই ক্ষমতা ENTP-কে তাদের জীবনে একটি স্বতন্ত্র সুবিধা দেয়। তারা সাধারণত জিনিসগুলি দ্রুত এবং গভীরতার সাথে বুঝতে পারে। তদনুসারে, তারা বেশ নমনীয় এবং বিস্তৃত কাজের সাথে ভালোভাবে খাপ খাইয়ে নেয়। তারা যে কোনো বিষয়ে আগ্রহী তাতেই ভালো। যখন তারা বড় হয় এবং তাদের স্বজ্ঞাত ক্ষমতা এবং অন্তর্দৃষ্টি আরও বিকশিত করে, তখন তারা সম্ভাবনা সম্পর্কে খুব সচেতন হয়ে ওঠে এবং এটি সমস্যা সমাধানের সময় তাদের বেশ সম্পদশালী করে তোলে।\nENTP-রা হলো ধারণার মানুষ। তাদের উপলব্ধি করার ক্ষমতা তাদের সর্বত্র সম্ভাবনা দেখতে বাধ্য করে। তারা তাদের ধারণা সম্পর্কে উত্তেজিত এবং উৎসাহী হয় এবং তাদের উৎসাহ অন্যদের মধ্যে ছড়িয়ে দিতে সক্ষম হয়। এইভাবে, তারা তাদের স্বপ্ন পূরণের জন্য প্রয়োজনীয় সমর্থন পায়।\nENTP-রা সম্ভাবনা এবং ধারণা তৈরি করার চেয়ে কর্ম পরিকল্পনা তৈরি বা সিদ্ধান্ত নেওয়ার প্রতি কম আগ্রহী। একটি ধারণা বাস্তবায়নের কাজটি সাধারণত ENTP-এর জন্য একটি ক্লান্তিকর কাজ। কিছু ENTP-এর জন্য, এটি তাদের শুরু করা কাজ कभी শেষ না করার অভ্যাসের দিকে পরিচালিত করে। যে ENTP তাদের চিন্তা প্রক্রিয়া বিকশিত করেনি তারা তাদের পরিকল্পনাগুলি অনুসরণ না করে উৎসাহের সাথে এক ধারণা থেকে অন্য ধারণায় ঝাঁপিয়ে পড়ার সমস্যায় পড়বে। ENTP-দের তাদের ধারণাগুলি থেকে সুবিধা নেওয়ার জন্য সেগুলিকে সম্পূর্ণরূপে চিন্তা করার যত্ন নেওয়া দরকার।\nENTP-এর ইন্ট্রোভার্টেড থিংকিং-এর সহায়ক প্রক্রিয়া তাদের সিদ্ধান্ত গ্রহণ প্রক্রিয়াকে চালিত করে। যদিও ENTP তথ্য শোষণে সিদ্ধান্ত নেওয়ার চেয়ে বেশি আগ্রহী, তারা সিদ্ধান্তে পৌঁছানোর ক্ষেত্রে বেশ যুক্তিসঙ্গত এবং যৌক্তিক। যখন তারা তাদের স্বজ্ঞাত উপলব্ধিতে চিন্তা প্রয়োগ করে, তখন ফলাফল সত্যিই খুব শক্তিশালী হতে পারে। একজন সু-বিকশিত ENTP অত্যন্ত দূরদর্শী, উদ্ভাবনী এবং উদ্যোগী হয়।\nENTP-রা অনর্গল কথোপকথনকারী, মানসিকভাবে দ্রুত এবং অন্যদের সাথে মৌখিক বিতর্কে আনন্দ পায়। তারা বিষয় নিয়ে বিতর্ক করতে ভালোবাসে এবং বিতর্কের ভালোবাসার জন্য কখনও কখনও পক্ষ পরিবর্তনও করতে পারে। যাইহোক, যখন তারা তাদের অন্তর্নিহিত নীতিগুলি প্রকাশ করে, তখন তারা বিশ্রী বোধ করতে পারে এবং হঠাৎ এবং তীব্রভাবে কথা বলতে পারে।\nENTP ব্যক্তিত্বের প্রকারকে কখনও কখনও \"আইনজীবী\" প্রকার হিসাবে উল্লেখ করা হয়। ENTP \"আইনজীবী\" দ্রুত এবং নির্ভুলভাবে একটি পরিস্থিতি বোঝে এবং পরিস্থিতি অনুযায়ী বস্তুনিষ্ঠ ও যৌক্তিকভাবে কাজ করে। তাদের চিন্তাভাবনার দিকটি তাদের কাজ এবং সিদ্ধান্তগুলিকে নিয়ম বা আইনের একটি বস্তুনিষ্ঠ তালিকার উপর ভিত্তি করে তৈরি করে। যদি ENTP এমন কাউকে রক্ষা করত যে আসলে একটি অপরাধ করেছে, তবে তারা সম্ভবত আইনের এমন ফাঁকফোকরের সুবিধা নেবে যা তাদের ক্লায়েন্টকে রেহাই পেতে সাহায্য করবে। যদি তারা মামলাটি জিততে পারত, তবে তারা তাদের কাজকে পরিস্থিতির জন্য সম্পূর্ণরূপে ন্যায্য এবং সঠিক হিসাবে দেখত, কারণ তাদের কাজ আইনসম্মত ছিল। তাদের ক্লায়েন্টের দোষ বা নির্দোষতা ততটা প্রাসঙ্গিক হবে না। যদি এই ধরনের যুক্তি ENTP দ্বারা অসম্পূর্ণভাবে পরীক্ষা না করা হয়, তবে এটি এমন একটি চরিত্রের দিকে পরিচালিত করতে পারে যা অন্যরা অনৈতিক বা এমনকি অসৎ হিসাবে উপলব্ধি করে। ENTP, যে সিদ্ধান্ত গ্রহণে স্বাভাবিকভাবেই আরও ব্যক্তিগত বা মানবিক উপাদান বিবেচনা করে না, তাদের পরিস্থিতির বিষয়ভিত্তিক, ব্যক্তিগত দিকটি লক্ষ্য করার জন্য যত্ন নেওয়া উচিত। এটি ENTP-দের জন্য একটি সম্ভাব্য সমস্যা। যদিও তাদের যৌক্তিক ক্ষমতা ENTP-কে শক্তি এবং উদ্দেশ্য ধার দেয়, তারা তাদের অনুভূতি এবং অন্যান্য মানুষ থেকে তাদের বিচ্ছিন্নও করতে পারে।\nENTP-এর জন্য সবচেয়ে কম বিকশিত ক্ষেত্র হলো সেন্সিং-ফিলিং ক্ষেত্র। যদি সেন্সিং ক্ষেত্রগুলি অবহেলিত হয়, তবে ENTP তাদের জীবনের বিস্তারিত বিষয়গুলির যত্ন না নেওয়ার প্রবণতা দেখাতে পারে। যদি তাদের ফিলিং অংশটি অবহেলিত হয়, তবে ENTP অন্যান্য লোকের ইনপুটকে যথেষ্ট মূল্য নাও দিতে পারে, বা অতিরিক্ত কঠোর এবং আক্রমণাত্মক হয়ে উঠতে পারে।\nচাপের মধ্যে, ENTP সম্ভাবনা তৈরি করার ক্ষমতা হারাতে পারে এবং ছোটখাটো বিবরণে আচ্ছন্ন হয়ে যেতে পারে। এই বিবরণগুলি ENTP-এর কাছে অত্যন্ত গুরুত্বপূর্ণ বলে মনে হতে পারে, কিন্তু বাস্তবে সেগুলি সাধারণত বড় চিত্রের জন্য গুরুত্বপূর্ণ নয়।\nসাধারণভাবে, ENTP-রা আশাবাদী দূরদর্শী। তারা জ্ঞানকে অত্যন্ত মূল্যবান মনে করে এবং তাদের জীবনের বেশিরভাগ সময় উচ্চতর উপলব্ধি অর্জনের জন্য ব্যয় করে। তারা সম্ভাবনার জগতে বাস করে এবং ধারণা, চ্যালেঞ্জ এবং অসুবিধা সম্পর্কে উত্তেজিত হয়ে ওঠে। যখন কোনো সমস্যার সম্মুখীন হয়, তখন তারা পরিস্থিতি অনুযায়ী কাজ করতে এবং দ্রুত একটি সৃজনশীল সমাধান নিয়ে আসতে পারদর্শী। সৃজনশীল, চতুর, কৌতূহলী এবং তাত্ত্বিক, ENTP-দের জীবনে সম্ভাবনার বিস্তৃত পরিসর রয়েছে।",
+    "jungianFunctionalPreference": {
+        "auxiliary": "Introverted Thinking (ইন্ট্রোভার্টেড থিংকিং)",
+        "dominant": "Extraverted Intuition (এক্সট্রাভার্টেড ইন্টুইশন)",
+        "inferior": "Introverted Sensing (ইন্ট্রোভার্টেড সেন্সিং)",
+        "tertiary": "Extraverted Feeling (এক্সট্রাভার্টেড ফিলিং)"
     },
-    generalTraits: [
-      "Project-oriented",
-      "Enjoy generating ideas and theories",
-      "Creative and ingenious",
-      "Bright and capable",
-      "Flexible and Diverse",
-      "Excellent communication skills",
-      "Enjoy debating issues with other people",
-      "Excellent people skills",
-      "Natural leaders, but do not like to control people",
-      "Resist being controlled by people",
-      "Lively and energetic; able to motivate others",
-      "Highly value knowledge and competence",
-      "Logical, rational thinkers",
-      "Able to grasp difficult concepts and theories",
-      "Enjoy solving difficult problems",
-      "Dislike confining schedules and environments",
-      "Dislike routine, detailed tasks",
+    "generalTraits": [
+        "প্রকল্প-ভিত্তিক",
+        "ধারণা এবং তত্ত্ব তৈরি করতে উপভোগ করে",
+        "সৃজনশীল এবং উদ্ভাবনী",
+        "উজ্জ্বল এবং সক্ষম",
+        "নমনীয় এবং বৈচিত্র্যময়",
+        "চমৎকার যোগাযোগ দক্ষতা",
+        "অন্যান্য মানুষের সাথে বিষয় নিয়ে বিতর্ক উপভোগ করে",
+        "চমৎকার মানবিক দক্ষতা",
+        "সহজাত নেতা, কিন্তু মানুষকে নিয়ন্ত্রণ করতে পছন্দ করে না",
+        "মানুষের দ্বারা নিয়ন্ত্রিত হওয়া প্রতিরোধ করে",
+        "প্রাণবন্ত এবং উদ্যমী; অন্যদের অনুপ্রাণিত করতে সক্ষম",
+        "জ্ঞান এবং যোগ্যতাকে অত্যন্ত মূল্যবান মনে করে",
+        "যৌক্তিক, বিচারবুদ্ধিসম্পন্ন চিন্তাবিদ",
+        "কঠিন ধারণা এবং তত্ত্ব উপলব্ধি করতে সক্ষম",
+        "কঠিন সমস্যার সমাধান উপভোগ করে",
+        "সীমাবদ্ধ সময়সূচী এবং পরিবেশ অপছন্দ করে",
+        "রুটিন, বিস্তারিত কাজ অপছন্দ করে"
     ],
-    relationshipStrengths: [
-      "Enthusiastic, upbeat, and popular",
-      "Can be very charming",
-      "Excellent communication skills",
-      "Extremely interested in self-improvement and growth in their relationships",
-      "Laid-back and flexible, usually easy to get along with",
-      "Big idea-people, always working on a grand scheme or idea",
-      "Usually good at making money, although not so good at managing it",
-      "Take their commitments and relationships very seriously",
-      "Able to move on with their lives after leaving a relationship",
+    "relationshipStrengths": [
+        "উৎসাহী, আশাবাদী এবং জনপ্রিয়",
+        "খুব কমনীয় হতে পারে",
+        "চমৎকার যোগাযোগ দক্ষতা",
+        "তাদের সম্পর্কের মধ্যে আত্ম-উন্নয়ন এবং বৃদ্ধিতে অত্যন্ত আগ্রহী",
+        "느긋하고 নমনীয়, সাধারণত সহজে মানিয়ে নিতে পারে",
+        "বড় ধারণার মানুষ, সর্বদা একটি বৃহৎ পরিকল্পনা বা ধারণার উপর কাজ করে",
+        "সাধারণত অর্থ উপার্জনে ভালো, যদিও এটি পরিচালনা করতে ততটা ভালো নয়",
+        "তাদের প্রতিশ্রুতি এবং সম্পর্ককে খুব গুরুত্ব সহকারে নেয়",
+        "সম্পর্ক শেষ হওয়ার পর তাদের জীবন নিয়ে এগিয়ে যেতে সক্ষম"
     ],
-    relationshipWeaknesses: [
-      "Always excited by anything new, they may change partners frequently",
-      "Tendency to not follow through on their plans and ideas",
-      "Their love of debate may cause them to provoke arguments",
-      "Big risk-takers and big spenders, not usually good at managing money",
-      `Although they take their commitments seriously, they tend to abandon their relationships which no
-longer offer opportunity for growth`,
+    "relationshipWeaknesses": [
+        "নতুন কিছুতে সর্বদা উত্তেজিত, তারা ঘন ঘন সঙ্গী পরিবর্তন করতে পারে",
+        "তাদের পরিকল্পনা এবং ধারণাগুলি সম্পন্ন না করার প্রবণতা",
+        "তাদের বিতর্কের প্রতি ভালোবাসা তাদের তর্ক উস্কে দিতে পারে",
+        "বড় ঝুঁকি গ্রহণকারী এবং বড় ব্যয়কারী, সাধারণত অর্থ পরিচালনায় ভালো নয়",
+        "যদিও তারা তাদের প্রতিশ্রুতিগুলি গুরুত্ব সহকারে নেয়, তারা সেই সম্পর্কগুলি ত্যাগ করার প্রবণতা দেখায় যেগুলি আর বৃদ্ধির সুযোগ দেয় না"
     ],
-    successDefinition: `ENTP personalities are motivated by possibilities. They love the outside chances; the new or unusual
-combinations lurking within the ordinary everyday world of things and ideas. For them, something is
-always on the up, something is always tantalizing their desire to re-orchestrate life into new patterns and
-shapes; new ways of fulfilling what can be as strong as a never ending desire to beat the odds and win at
-every game in town, or as mild as a quirky personal need for constant variety and change. With their
-thinking tied to the myriad possibilities they see in the world, they act swiftly and decisively upon those
-angles, choices and combinations scarcely noticed by other types, but through which they can build whole
-new frameworks or completely redefine an existing external situation in such a way that it appears new,
-revitalized and once again full of promise. Sameness, stasis, conservatism - even daily routine - can be
-loathsome to fervent ENTP’s, whose drive is always to be into something new, different and full of fresh
-possibilities, and who, given the opportunity, will always be the first to show others a new path to success
-in a venture, or to find a way of doing something that no-one has done before.
-ENTP people measure their success by their “aha” moments, by the sense of satisfaction which comes as
-they spread their newly written maps before them and contemplate the new adventure, design, investigation
-or conquest which has now become their road ahead. What has gone before, previous achievements, ways
-of living - even people met along the way - are often now forgotten or considered passé, mere steps along a
-path which has now brought a new frontier to be exploited for its gifts. Whether it is the search for
-knowledge, money, power, fame or pleasure, the ENTP will be found at the frontline, gazing into the
-distance and discovering new avenues toward, bigger, better or more satisfying outcomes.
-ENTP’s are the great problem solvers, discoverers and re-inventors of the world. Their insights into the
-world around them, their ability to see new ways of putting things together and making them work can
-bring them great success in virtually any industry or human pursuit that interests them. For this reason the
-ENTP is happiest in situations where they can use their intuitive powers freely and have the space in which
-to think upon the aspects and angles which come to them. Without fulfilling work and the freedom to use
-their mind most productively, ENTP’s can quickly tire of a limiting situation. For this reason an open road
-toward success is an extremely important factor in the ENTP’s life. Some, given a little opportunity, will
-clear one for themselves, but of all the types, it is the ENTP who has most need to be aware of the life and
-career situations they might commit to without sufficient thought for the future.`,
-    strengths: [
-      "The ability to hold many points of view in mind and see their differing merits.",
-      "Seeing ways to do things others have not thought of.",
-      "Able to give quick and diverse answers to any question of interest.",
-      "Seeing the other side of a situation and making it known.",
-      "Being able to juggle many differing jobs or processes at the one time.",
-      "Easily capable of holding your own in any argument or discussion.",
-      "The ability to quickly find the best or most useful side of others.",
-      `Seeing the many connections between events and things which are not immediately obvious to
-others.`,
+    "successDefinition": "ENTP ব্যক্তিত্ব সম্ভাবনার দ্বারা অনুপ্রাণিত হয়। তারা বাইরের সুযোগ ভালোবাসে; সাধারণ দৈনন্দিন বস্তু এবং ধারণার জগতের মধ্যে লুকিয়ে থাকা নতুন বা অস্বাভাবিক সমন্বয়। তাদের জন্য, কিছু সবসময় উন্নত হচ্ছে, কিছু সবসময় তাদের জীবনকে নতুন বিন্যাস এবং আকারে পুনর্গঠিত করার আকাঙ্ক্ষাকে প্রলুব্ধ করছে; প্রতিকূলতাকে জয় করার এবং শহরের প্রতিটি খেলায় জেতার মতো একটি অফুরন্ত আকাঙ্ক্ষার মতো শক্তিশালী হতে পারে, অথবা ধ্রুব বৈচিত্র্য এবং পরিবর্তনের জন্য একটি অদ্ভুত ব্যক্তিগত প্রয়োজনের মতো হালকা হতে পারে। তাদের চিন্তাভাবনা বিশ্বের অগণিত সম্ভাবনার সাথে আবদ্ধ থাকায়, তারা সেইসব কোণ, পছন্দ এবং সমন্বয়গুলির উপর দ্রুত এবং নিষ্পত্তিমূলকভাবে কাজ করে যা অন্যান্য প্রকারের দ্বারা খুব কমই নজরে আসে, কিন্তু যার মাধ্যমে তারা সম্পূর্ণ নতুন কাঠামো তৈরি করতে পারে বা বিদ্যমান বাহ্যিক পরিস্থিতিকে এমনভাবে সম্পূর্ণরূপে重新 সংজ্ঞায়িত করতে পারে যাতে এটি নতুন, পুনরুজ্জীবিত এবং আবারও প্রতিশ্রুতিতে পূর্ণ বলে মনে হয়। অভিন্নতা, স্থবিরতা, রক্ষণশীলতা - এমনকি দৈনন্দিন রুটিন - উত্সাহী ENTP-দের কাছে ঘৃণ্য হতে পারে, যাদের চালিকাশক্তি সর্বদা নতুন, ভিন্ন এবং সতেজ সম্ভাবনায় পূর্ণ কিছুতে থাকা, এবং যাদের সুযোগ পেলে, সর্বদা অন্যদের একটি উদ্যোগে সাফল্যের নতুন পথ দেখাতে বা এমন কিছু করার উপায় খুঁজে বের করতে প্রথম হবে যা আগে কেউ করেনি।\nENTP ব্যক্তিরা তাদের \"আহা\" মুহূর্তগুলির দ্বারা, সেই সন্তুষ্টির অনুভূতি দ্বারা তাদের সাফল্য পরিমাপ করে যা আসে যখন তারা তাদের নতুন লেখা মানচিত্রগুলি তাদের সামনে ছড়িয়ে দেয় এবং নতুন অ্যাডভেঞ্চার, নকশা, তদন্ত বা বিজয় নিয়ে চিন্তা করে যা এখন তাদের সামনের পথ হয়ে উঠেছে। যা আগে চলে গেছে, পূর্ববর্তী অর্জন, জীবনযাপনের উপায় - এমনকি পথে যাদের সাথে দেখা হয়েছে - সেগুলি প্রায়শই এখন ভুলে যাওয়া বা পুরনো বলে বিবেচিত হয়, একটি পথের নিছক ধাপ যা এখন তার উপহারগুলির জন্য কাজে লাগানোর জন্য একটি নতুন সীমান্ত নিয়ে এসেছে। জ্ঞান, অর্থ, ক্ষমতা, খ্যাতি বা আনন্দের সন্ধান হোক না কেন, ENTP-কে সামনের সারিতে পাওয়া যাবে, দূরত্বের দিকে তাকিয়ে এবং বৃহত্তর, উন্নত বা আরও সন্তোষজনক ফলাফলের দিকে নতুন পথ আবিষ্কার করতে দেখা যাবে।\nENTP-রা হলো বিশ্বের মহান সমস্যা সমাধানকারী, আবিষ্কারক এবং পুনঃউদ্ভাবক। তাদের চারপাশের বিশ্ব সম্পর্কে তাদের অন্তর্দৃষ্টি, জিনিসগুলিকে একত্রিত করার এবং সেগুলিকে কার্যকর করার নতুন উপায় দেখার তাদের ক্ষমতা তাদের কার্যত যে কোনও শিল্প বা মানবিক প্রচেষ্টায় দুর্দান্ত সাফল্য এনে দিতে পারে যা তাদের আগ্রহী করে। এই কারণে ENTP এমন পরিস্থিতিতে সবচেয়ে সুখী হয় যেখানে তারা তাদের স্বজ্ঞাত ক্ষমতা অবাধে ব্যবহার করতে পারে এবং তাদের কাছে আসা দিক এবং কোণগুলি নিয়ে চিন্তা করার জন্য স্থান পায়। পরিপূর্ণ কাজ এবং তাদের মনকে সবচেয়ে উত্পাদনশীলভাবে ব্যবহার করার স্বাধীনতা ছাড়া, ENTP-রা দ্রুত একটি সীমাবদ্ধ পরিস্থিতি থেকে ক্লান্ত হয়ে পড়তে পারে। এই কারণে সাফল্যের দিকে একটি উন্মুক্ত পথ ENTP-এর জীবনে একটি অত্যন্ত গুরুত্বপূর্ণ বিষয়। কেউ কেউ, সামান্য সুযোগ পেলে, নিজেদের জন্য একটি পরিষ্কার করবে, কিন্তু সমস্ত প্রকারের মধ্যে, এটি ENTP যার ভবিষ্যতের জন্য পর্যাপ্ত চিন্তা না করে তারা যে জীবন এবং কর্মজীবনের পরিস্থিতিতে প্রতিশ্রুতিবদ্ধ হতে পারে সে সম্পর্কে সবচেয়ে বেশি সচেতন হওয়া প্রয়োজন।",
+    "strengths": [
+        "অনেকগুলি দৃষ্টিভঙ্গি মনে রাখার এবং তাদের বিভিন্ন গুণাবলী দেখার ক্ষমতা।",
+        "অন্যরা যা ভাবেনি তেমন কিছু করার উপায় দেখা।",
+        "আগ্রহের যেকোনো প্রশ্নের দ্রুত এবং বৈচিত্র্যময় উত্তর দিতে সক্ষম।",
+        "একটি পরিস্থিতির অন্য দিক দেখা এবং তা জানানো।",
+        "একই সময়ে বিভিন্ন কাজ বা প্রক্রিয়া পরিচালনা করতে সক্ষম হওয়া।",
+        "যেকোনো তর্ক বা আলোচনায় সহজেই নিজের অবস্থান ধরে রাখতে সক্ষম।",
+        "অন্যদের সেরা বা সবচেয়ে দরকারী দিকটি দ্রুত খুঁজে বের করার ক্ষমতা।",
+        "ঘটনা এবং জিনিসগুলির মধ্যেকার অনেক সংযোগ দেখা যা অন্যদের কাছে তাৎক্ষণিকভাবে স্পষ্ট নয়।"
     ],
-    gifts: [
-      "The ability to solve puzzles and problems that have no obvious way to resolution.",
-      "The ability to define schematically a new structure or design and know it will work.",
-      "Knowing and giving to others the very thing they need when they are not sure themselves.",
-      "A talent for innovative creation in writing, music or the visual arts.",
-      `The gift of knowing which new ideas or changes will enhance rather than detract from their
-relationships with others`,
+    "gifts": [
+        "ধাঁধা এবং সমস্যাগুলি সমাধান করার ক্ষমতা যার সমাধানের কোনো সুস্পষ্ট উপায় নেই।",
+        "একটি নতুন কাঠামো বা নকশা পরিকল্পিতভাবে সংজ্ঞায়িত করার এবং এটি কাজ করবে তা জানার ক্ষমতা।",
+        "অন্যরা যখন নিজেরা নিশ্চিত নয় তখন তাদের যা প্রয়োজন ঠিক তাই জানা এবং দেওয়া।",
+        "লেখা, সঙ্গীত বা ভিজ্যুয়াল আর্টে উদ্ভাবনী সৃষ্টির প্রতিভা।",
+        "কোন নতুন ধারণা বা পরিবর্তনগুলি অন্যদের সাথে তাদের সম্পর্ককে খারাপ না করে বরং উন্নত করবে তা জানার উপহার।"
     ],
-    potentialProblemAreas: [
-      `The inability to maintain a comfortable situation or relationship once its possibilities have been
-realized or exhausted.`,
-      `A tendency to consider careful or meticulous thinkers as unworthy plodders or time wasters.`,
-      `Blindness to the needs and feelings of others not directly involved in the ENTP’s current area of
-interest.`,
-      `A lack of sensitivity to the feelings and ways of those who might need reassurance, security or
-commitment.`,
-      `The inability to deal carefully and calmly with the finer details of a situation or work in progress.`,
-      `Becoming overly annoyed by minor setbacks or small things that have to be set right before the
-goal can be realized.`,
-      `A tendency to be arrogant or boastful, or to demean those who cannot see the same answers.`,
-      `Can often find themselves in bad situations by too quickly taking a big step forward or by being
-“too smart for their own good”.`,
+    "potentialProblemAreas": [
+        "একটি আরামদায়ক পরিস্থিতি বা সম্পর্ক বজায় রাখতে অক্ষমতা যখন এর সম্ভাবনাগুলি উপলব্ধি করা বা শেষ হয়ে যায়।",
+        "সতর্ক বা খুঁতখুঁতে চিন্তাবিদদের অযোগ্য ধীরগতির বা সময় নষ্টকারী হিসাবে বিবেচনা করার প্রবণতা।",
+        "ENTP-এর বর্তমান আগ্রহের ক্ষেত্রের সাথে সরাসরি জড়িত নয় এমন অন্যদের চাহিদা এবং অনুভূতির প্রতি অন্ধত্ব।",
+        "যাদের আশ্বাস, নিরাপত্তা বা প্রতিশ্রুতির প্রয়োজন হতে পারে তাদের অনুভূতি এবং উপায়ের প্রতি সংবেদনশীলতার অভাব।",
+        "একটি পরিস্থিতি বা চলমান কাজের সূক্ষ্ম বিবরণগুলির সাথে যত্ন সহকারে এবং শান্তভাবে মোকাবেলা করতে অক্ষমতা।",
+        "ছোটখাটো বিপত্তি বা ছোট জিনিসগুলির দ্বারা অতিরিক্ত বিরক্ত হওয়া যেগুলি লক্ষ্য অর্জনের আগে ঠিক করতে হবে।",
+        "অহংকারী বা দাম্ভিক হওয়ার প্রবণতা, বা যারা একই উত্তর দেখতে পায় না তাদের ছোট করা।",
+        "প্রায়শই খুব দ্রুত একটি বড় পদক্ষেপ নেওয়ার মাধ্যমে বা \"নিজের ভালোর জন্য খুব স্মার্ট\" হওয়ার মাধ্যমে খারাপ পরিস্থিতিতে নিজেদের খুঁজে পেতে পারে।"
     ],
-    explanationOfProblems: `Nearly all of the problematic characteristics described above can be attributed in various degrees to the
-common ENTP problem of being so fascinated with their Extroverted Intuitions that they fail to develop a
-careful thinking process sufficient to balance it. Leaps of perception, new ideas and strange but fascinating
-juxtapositions are wonderful for the potential freshness and possible success they might bring. But if not
-carefully appraised and chosen wisely they can also take us far from the right path in life, take us from our
-friends, spoil our relationships and even bring personal or financial disaster. Without a well developed
-thinking function, the ENTP is always in danger of leaping over social, financial and personal constraints
-for the sake of following a new vision. This might be as simple as arousing the wrath of ones partner by
-suddenly deciding to by an expensive gadget or change something around the house without being
-concerned for their input or feelings, or as complex as allowing an ill considered entrepreneurial idea lead
-them into financial and social disaster, simply because the one sided vision of Extroverted Intuition does
-not recognize or count the amount of small but important details which need to be right before such ideas
-can be realized.
-Without a solid thinking function, the ENTP can easily discount or fail to notice the essential ethics of
-social and interpersonal relationship, often considering themselves “above” or untouched by such limiting
-values and often discounting the possibility that their actions might be or hurtful or seen as unethical by
-others. It is not that the one sided ENTP is deliberately hurtful, but simply ignorant of the effects which can
-flow from their often compulsive need for change or need to show how clever or individual they are. In the
-ENTP, the lack of a well developed Feeling Function means that they must learn to “understand” feeling in
-both themselves and others and come to terms with its affects. This understanding can only come from
-thinking carefully about the ways feeling affects not only themselves, but others, and the importance others
-place on this function. The ENTP has a feeling function more or less global in character and one which
-does not judge fine differences. This inability to discriminate feelings can allow the ENTP to say and do
-much that leaves others in the cold, so an effort to think about the feeling process can be essential. Without
-the understanding this brings, the ENTP can separate themselves from the ground of their life, from the
-constancy of their friends and family and, without even realizing it, they can easily find themselves in
-untenable positions where, without support, they wonder why they are suddenly alone and lost.
-Another significant problem arises where the ENTP has grown within or is locked by circumstances to an
-environment which limits their freedom or their ability to utilize their specific abilities. This forces the
-ENTP to narrow down their intuitive process to the point where it retains at least some freedom to operate
-within their life. Under such conditions however, the intuition is free only to range over a small and limited
-field of vision, a field which usually consists only of the very things the ENTP is normally unconcerned
-about: the small details of life and its familiar objects. Without the ability to take stock and apply careful
-thought to the ways they might expand their horizons, the ENTP in such situations can become morose,
-niggardly and obsessed with the most minor or intangible details – to the point where such minutiae fill
-their life and each day becomes a frustrating process of eliminating again and again the little problems
-which ever seem to stand in the way of the “big” picture – a picture which, as those around them know only
-too well, will never be realized.`,
-    solutions: "",
-    livingHappilyTips: `To grow as an individual, the ENTP needs to focus on carefully analyzing the information they receive via
-their Extraverted Intuition. They need to allow themselves sufficient time and space to relax with the ideas
-and possibilities they can see. It is all too easy for the ENTP to assume that what they see is what they
-need. Careful thinking can allow the ENTP to figure out the best possible ways to proceed out of all the
-possibilities that come to them. At the same time, even if they are not able to share them, ENTP’s need at
-least to understand the joys and satisfactions that others derive within those situations the ENTP would not
-normally choose in life. Awareness of the ways and needs of others can be the key to understanding the
-most life affirming way ahead for the ENTP, for there is always a danger that they might choose paths
-without regard to the feelings and needs of others close to them. The ENTP learns from analyzing his
-experience, so the best way for the ENTP to grow as a person is to develop his thinking capacity. Thus, that
-while the desire to run out and do something "new" is an ENTP pattern of need, this need must be
-integrated into a whole way of life in which the rest of our human needs and those of others who rely upon
-our presence are also satisfied. Your task, as a person interested in personal growth, is to understand
-yourself in a truly objective fashion, and how you can best give to the world, rather than just exploit the
-possibilities it bring to you.
-The ENTP should always pay close attention to why they are acting upon new information. Are they acting
-out of a carefully considered motive to realize something truly worthwhile for themselves and others? Are
-they really seeking to improve life, or concerned with just making the next play, proving the point, showing
-others the moves or climbing the mountain just because it is there to climb, regardless of the consequences?
-Living Happily in our World as an ENTP
-The problems ENTP’s might have fitting into the world are not usually directly related to friends or
-relationships. Rather, the ENTP has trouble maintaining a stable and consistent lifestyle. While this can
-affect love relationships, the ENTP usually has such an endearing and capable “way” about them that
-others tend to follow their lead, even in the most trying of situations. The problems the ENTP generates in
-life are those associated with their constant need for individuality, excellence and new experiences which
-test their talents. While this can place great demand upon relationships, tensions are usually only apparent
-where the ENTP has made a love match with a person whose security needs are greater than their ability to
-allow their ENTP partner the freedom they need. The self aware ENTP must therefore not only be careful
-in considering their career choices, but also in choosing a life situation with a partner. Of all the types, the
-ENTP is most uncomfortable with compromise and ought not to place themselves in situations which
-demand it. Most importantly the ENTP must become aware, through careful analysis of experience, just
-what kind of changes for the good or bad have been the direct result of their need for constant refreshment
-of life. Only through this awareness will the ENTP be able to focus on those perceptions which promise a
-better and more fruitful life.
-Most ENTP’s will experience career/life frustration and some relationship difficulties through their lives.
-The ENTP with well-developed Introverted Thinking will find these times easier to deal with. Accordingly,
-we offer some general suggestions for dealing with these difficulties, as well as some advice that will help
-the ENTP develop their Introverted Thinking.`,
-    suggestions: [
-      `Take time to really listen to the thoughts of others and try to see how they understand the world. Think
-about the ways in which your view of the world and your needs can mesh with theirs.
-Don't expect others to simply follow you or expect that they should see what you can see as a worthy goal.
-A good exercise is to imagine yourself as a blind or severely disabled person. Try to get the feel of what it
-would be like to have to organize your life from such a different perspective. Would your goals still be
-valid? Would they need re-thinking? Consider the possibility that while your way of thinking leads you to
-see other types as having limited vision or ability, the truth is that they are no more limited than yourself,
-but simply have a differing focus in life and differing needs.
-Realize and accept that for you a satisfying relationship will require you to attend to the small details of life
-and show an awareness of your partner’s feelings. You might find this difficult, but it will pay the biggest
-dividends in return for your effort.
-Expanding your appreciation of the differences between people will expand your understanding of human
-expectations. Try to figure out the personality type of people that you know and encounter in your life.
-Take care to listen to what people express within different social and work situations. Notice the different
-ways they go about their dealings with others or solving their problems. Do not try to compare or judge
-their ways against your own, simply try to recognize the many ways it is possible to be at peace in the
-world.
-When having a conversation with a friend or relative, spend at least half of the time talking about them.
-Concentrate on really understanding where the person is coming from with their concerns. Ask questions.
-Think of the people who are closest to you. Remember that they have their own passions, satisfactions and
-needs. Try to visualize what that person is doing, and narrow down to how they are feeling at this moment;
-to one thing they might be thinking about. Don't pass judgment, just consider and reflect on why they might
-think or feel in just such a way.`,
+    "explanationOfProblems": "উপরে বর্ণিত প্রায় সব সমস্যাজনক বৈশিষ্ট্য বিভিন্ন মাত্রায় ENTP-দের সাধারণ সমস্যা, অর্থাৎ তাদের এক্সট্রোভার্টেড ইনটুইশনের প্রতি এতটাই মুগ্ধ হওয়া যে তারা এটিকে ভারসাম্য বজায় রাখার জন্য যথেষ্ট সতর্ক চিন্তা প্রক্রিয়া তৈরি করতে ব্যর্থ হয়, এর কারণে হতে পারে। উপলব্ধির উল্লম্ফন, নতুন ধারণা এবং অদ্ভুত কিন্তু মুগ্ধকর সমন্বয়গুলি সতেজতা এবং সম্ভাব্য সাফল্যের জন্য চমৎকার। কিন্তু যদি সাবধানে মূল্যায়ন করা না হয় এবং বিজ্ঞতার সাথে বেছে নেওয়া না হয় তবে সেগুলি আমাদের জীবনের সঠিক পথ থেকে অনেক দূরে নিয়ে যেতে পারে, আমাদের বন্ধুদের কাছ থেকে দূরে নিয়ে যেতে পারে, আমাদের সম্পর্ক নষ্ট করতে পারে এবং এমনকি ব্যক্তিগত বা আর্থিক বিপর্যয়ও ডেকে আনতে পারে। একটি সু-বিকশিত চিন্তা ফাংশন ছাড়া, ENTP সর্বদা একটি নতুন দৃষ্টিভঙ্গি অনুসরণ করার জন্য সামাজিক, আর্থিক এবং ব্যক্তিগত সীমাবদ্ধতাগুলি অতিক্রম করার ঝুঁকিতে থাকে। এটি অংশীদারের ইনপুট বা অনুভূতির জন্য উদ্বিগ্ন না হয়ে হঠাৎ করে একটি ব্যয়বহুল গ্যাজেট কেনার বা বাড়ির চারপাশে কিছু পরিবর্তন করার সিদ্ধান্ত নেওয়ার মাধ্যমে তার সঙ্গীর ক্রোধ জাগানোর মতো সাধারণ হতে পারে, অথবা একটি অবিবেচনাপূর্ণ উদ্যোক্তা ধারণাকে তাদের আর্থিক এবং সামাজিক বিপর্যয়ের দিকে পরিচালিত করার মতো জটিল হতে পারে, কারণ এক্সট্রোভার্টেড ইনটুইশনের একতরফা দৃষ্টিভঙ্গি এই ধরনের ধারণাগুলি বাস্তবায়িত হওয়ার আগে সঠিক হতে প্রয়োজনীয় ছোট কিন্তু গুরুত্বপূর্ণ বিবরণগুলির পরিমাণকে স্বীকৃতি দেয় না বা গণনা করে না।\nএকটি দৃঢ় চিন্তা ফাংশন ছাড়া, ENTP সহজেই সামাজিক এবং আন্তঃব্যক্তিক সম্পর্কের অপরিহার্য নৈতিকতাগুলিকে উপেক্ষা করতে বা লক্ষ্য করতে ব্যর্থ হতে পারে, প্রায়শই নিজেদেরকে এই ধরনের সীমাবদ্ধ মানগুলির \"উপরে\" বা অস্পৃষ্ট বলে মনে করে এবং প্রায়শই তাদের কাজগুলি অন্যদের দ্বারা ক্ষতিকর বা অনৈতিক হিসাবে দেখা হতে পারে এমন সম্ভাবনাকে উপেক্ষা করে। একতরফা ENTP ইচ্ছাকৃতভাবে ক্ষতিকর নয়, বরং পরিবর্তন বা তারা কতটা চতুর বা স্বতন্ত্র তা দেখানোর তাদের প্রায়শই বাধ্যতামূলক প্রয়োজন থেকে প্রবাহিত হতে পারে এমন প্রভাব সম্পর্কে অজ্ঞ। ENTP-তে, একটি সু-বিকশিত ফিলিং ফাংশনের অভাবের অর্থ হলো তাদের নিজেদের এবং অন্যদের উভয়ের মধ্যেই অনুভূতি \"বুঝতে\" শিখতে হবে এবং এর প্রভাবগুলির সাথে মানিয়ে নিতে হবে। এই উপলব্ধি কেবল অনুভূতিগুলি কীভাবে কেবল নিজেদেরকেই নয়, অন্যদেরকেও প্রভাবিত করে এবং অন্যরা এই ফাংশনে যে গুরুত্ব দেয় সে সম্পর্কে সাবধানে চিন্তা করার মাধ্যমেই আসতে পারে। ENTP-এর একটি অনুভূতি ফাংশন রয়েছে যা কমবেশি বৈশ্বিক প্রকৃতির এবং যা সূক্ষ্ম পার্থক্য বিচার করে না। অনুভূতিগুলি পার্থক্য করতে এই অক্ষমতা ENTP-কে এমন অনেক কিছু বলতে এবং করতে দেয় যা অন্যদের ঠান্ডা মাথায় ফেলে দেয়, তাই অনুভূতি প্রক্রিয়া সম্পর্কে চিন্তা করার প্রচেষ্টা অপরিহার্য হতে পারে। এই উপলব্ধি যা নিয়ে আসে তা ছাড়া, ENTP তাদের জীবনের ভিত্তি থেকে, তাদের বন্ধু এবং পরিবারের স্থিরতা থেকে নিজেদেরকে আলাদা করতে পারে এবং, এমনকি এটি উপলব্ধি না করেও, তারা সহজেই নিজেদেরকে অসহায় অবস্থানে খুঁজে পেতে পারে যেখানে, সমর্থন ছাড়া, তারা অবাক হয় কেন তারা হঠাৎ একা এবং হারিয়ে গেছে।\nআরেকটি উল্লেখযোগ্য সমস্যা দেখা দেয় যেখানে ENTP এমন একটি পরিবেশে বেড়ে উঠেছে বা পরিস্থিতির দ্বারা আবদ্ধ যা তাদের স্বাধীনতা বা তাদের নির্দিষ্ট ক্ষমতাগুলি ব্যবহার করার ক্ষমতাকে সীমাবদ্ধ করে। এটি ENTP-কে তাদের স্বজ্ঞামূলক প্রক্রিয়াটিকে এমন পর্যায়ে সংকীর্ণ করতে বাধ্য করে যেখানে এটি তাদের জীবনের মধ্যে কাজ করার জন্য অন্তত কিছু স্বাধীনতা বজায় রাখে। যাইহোক, এই ধরনের পরিস্থিতিতে, স্বজ্ঞা কেবল একটি ছোট এবং সীমিত দৃষ্টির ক্ষেত্রের উপর ঘোরাফেরা করার জন্য মুক্ত, একটি ক্ষেত্র যা সাধারণত কেবল সেই জিনিসগুলি নিয়ে গঠিত যা সম্পর্কে ENTP সাধারণত উদ্বিগ্ন নয়: জীবনের ছোট বিবরণ এবং এর পরিচিত বস্তুগুলি। তাদের দিগন্ত প্রসারিত করার উপায়গুলি সম্পর্কে হিসাব নিতে এবং সতর্ক চিন্তা প্রয়োগ করার ক্ষমতা ছাড়া, এই ধরনের পরিস্থিতিতে ENTP বিষণ্ণ, কৃপণ এবং সবচেয়ে ছোট বা অস্পষ্ট বিবরণে আচ্ছন্ন হয়ে পড়তে পারে - এমন পর্যায়ে যেখানে এই ধরনের ছোটখাটো বিষয়গুলি তাদের জীবন পূর্ণ করে এবং প্রতিটি দিন \"বড়\" চিত্রের পথে সর্বদা দাঁড়িয়ে থাকা ছোট সমস্যাগুলিকে বারবার নির্মূল করার একটি হতাশাজনক প্রক্রিয়া হয়ে ওঠে - এমন একটি চিত্র যা, তাদের চারপাশের লোকেরা খুব ভালো করেই জানে, কখনই বাস্তবায়িত হবে না।",
+    "solutions": "",
+    "livingHappilyTips": "একজন ব্যক্তি হিসেবে উন্নতি করার জন্য, ENTP-কে তাদের এক্সট্রোভার্টেড ইনটুইশনের মাধ্যমে প্রাপ্ত তথ্য সাবধানে বিশ্লেষণ করার দিকে মনোনিবেশ করতে হবে। তাদের ধারণা এবং সম্ভাবনাগুলি নিয়ে আরাম করার জন্য নিজেদেরকে যথেষ্ট সময় এবং স্থান দিতে হবে। ENTP-এর পক্ষে যা দেখে তাই তাদের প্রয়োজন বলে ধরে নেওয়া খুব সহজ। সতর্ক চিন্তাভাবনা ENTP-কে তাদের কাছে আসা সমস্ত সম্ভাবনা থেকে এগিয়ে যাওয়ার সর্বোত্তম সম্ভাব্য উপায়গুলি বের করতে সাহায্য করতে পারে। একই সময়ে, এমনকি যদি তারা সেগুলি ভাগ করতে না পারে, ENTP-দের অন্তত সেই আনন্দ এবং সন্তুষ্টিগুলি বুঝতে হবে যা অন্যরা সেই পরিস্থিতিগুলির মধ্যে অর্জন করে যা ENTP সাধারণত জীবনে বেছে নেবে না। অন্যদের উপায় এবং চাহিদার প্রতি সচেতনতা ENTP-এর জন্য জীবনের সবচেয়ে ইতিবাচক পথের চাবিকাঠি হতে পারে, কারণ তাদের কাছের মানুষদের অনুভূতি এবং চাহিদার প্রতি মনোযোগ না দিয়ে পথ বেছে নেওয়ার বিপদ সবসময়ই থাকে। ENTP তার অভিজ্ঞতা বিশ্লেষণ করে শেখে, তাই ENTP-এর ব্যক্তি হিসেবে বেড়ে ওঠার সর্বোত্তম উপায় হলো তার চিন্তা করার ক্ষমতা বিকাশ করা। সুতরাং, যদিও \"নতুন\" কিছু করার জন্য ছুটে যাওয়ার আকাঙ্ক্ষা একটি ENTP-এর প্রয়োজনের ধরণ, এই প্রয়োজনটিকে এমন একটি সম্পূর্ণ জীবনযাত্রায় একীভূত করতে হবে যেখানে আমাদের বাকি মানবিক চাহিদা এবং আমাদের উপস্থিতির উপর নির্ভরশীল অন্যদের চাহিদাও পূরণ হয়। ব্যক্তিগত বৃদ্ধিতে আগ্রহী একজন ব্যক্তি হিসেবে আপনার কাজ হলো নিজেকে একটি সত্যিকারের বস্তুনিষ্ঠ উপায়ে বোঝা, এবং আপনি কীভাবে বিশ্বকে সর্বোত্তমভাবে দিতে পারেন, কেবল এটি আপনার কাছে যে সম্ভাবনাগুলি নিয়ে আসে সেগুলির সদ্ব্যবহার করার পরিবর্তে।\nENTP-কে সর্বদা নতুন তথ্যের উপর কেন তারা কাজ করছে সেদিকে গভীর মনোযোগ দেওয়া উচিত। তারা কি নিজেদের এবং অন্যদের জন্য সত্যিই মূল্যবান কিছু উপলব্ধি করার জন্য একটি সাবধানে বিবেচিত উদ্দেশ্য থেকে কাজ করছে? তারা কি সত্যিই জীবন উন্নত করার চেষ্টা করছে, নাকি কেবল পরবর্তী খেলা করা, বিষয়টি প্রমাণ করা, অন্যদের চাল দেখানো বা কেবল আরোহণের জন্য পর্বত আরোহণ করার বিষয়ে উদ্বিগ্ন, পরিণতির তোয়াক্কা না করে?\nENTP হিসেবে আমাদের বিশ্বে সুখে বসবাস\nENTP-দের বিশ্বে মানিয়ে নিতে যে সমস্যাগুলি হতে পারে সেগুলি সাধারণত সরাসরি বন্ধু বা সম্পর্কের সাথে সম্পর্কিত নয়। বরং, ENTP-এর একটি স্থিতিশীল এবং সামঞ্জস্যপূর্ণ জীবনধারা বজায় রাখতে সমস্যা হয়। যদিও এটি প্রেমের সম্পর্ককে প্রভাবিত করতে পারে, ENTP-এর সাধারণত এমন একটি প্রিয় এবং সক্ষম \"উপায়\" থাকে যে অন্যরা সবচেয়ে কঠিন পরিস্থিতিতেও তাদের নেতৃত্ব অনুসরণ করে। ENTP জীবনে যে সমস্যাগুলি তৈরি করে সেগুলি তাদের স্বতন্ত্রতা, শ্রেষ্ঠত্ব এবং নতুন অভিজ্ঞতার জন্য তাদের ধ্রুবক চাহিদার সাথে যুক্ত যা তাদের প্রতিভাকে পরীক্ষা করে। যদিও এটি সম্পর্কের উপর দারুণ চাপ সৃষ্টি করতে পারে, উত্তেজনা সাধারণত কেবল তখনই স্পষ্ট হয় যখন ENTP এমন একজন ব্যক্তির সাথে প্রেমের সম্পর্কে আবদ্ধ হয় যার নিরাপত্তার চাহিদা তাদের ENTP সঙ্গীকে তাদের প্রয়োজনীয় স্বাধীনতা দেওয়ার ক্ষমতার চেয়ে বেশি। স্ব-সচেতন ENTP-কে তাই কেবল তাদের কর্মজীবনের পছন্দগুলি বিবেচনা করার সময়ই সতর্ক থাকতে হবে না, বরং একজন সঙ্গীর সাথে জীবনের পরিস্থিতি বেছে নেওয়ার ক্ষেত্রেও সতর্ক থাকতে হবে। সমস্ত প্রকারের মধ্যে, ENTP আপোসের সাথে সবচেয়ে অস্বস্তিকর এবং নিজেদেরকে এমন পরিস্থিতিতে ফেলা উচিত নয় যা এটির দাবি করে। সবচেয়ে গুরুত্বপূর্ণভাবে ENTP-কে অভিজ্ঞতার সতর্ক বিশ্লেষণের মাধ্যমে সচেতন হতে হবে, জীবনের ধ্রুব সতেজতার জন্য তাদের প্রয়োজনের প্রত্যক্ষ ফলাফল হিসেবে ভালো বা খারাপের জন্য ঠিক কী ধরনের পরিবর্তন হয়েছে। কেবল এই সচেতনতার মাধ্যমেই ENTP সেই উপলব্ধিগুলির উপর মনোযোগ কেন্দ্রীভূত করতে সক্ষম হবে যা একটি উন্নত এবং আরও ফলপ্রসূ জীবনের প্রতিশ্রুতি দেয়।\nবেশিরভাগ ENTP তাদের জীবনব্যাপী কর্মজীবন/জীবনের হতাশা এবং কিছু সম্পর্কের অসুবিধা অনুভব করবে। সু-বিকশিত ইন্ট্রোভার্টেড থিংকিং সম্পন্ন ENTP এই সময়গুলি মোকাবেলা করা সহজতর মনে করবে। তদনুসারে, আমরা এই অসুবিধাগুলি মোকাবেলার জন্য কিছু সাধারণ পরামর্শ দিচ্ছি, সেইসাথে কিছু পরামর্শ যা ENTP-কে তাদের ইন্ট্রোভার্টেড থিংকিং বিকাশে সহায়তা করবে।",
+    "suggestions": [
+        "অন্যদের চিন্তাভাবনাগুলি সত্যিই শোনার জন্য সময় নিন এবং তারা কীভাবে বিশ্বকে বোঝে তা দেখার চেষ্টা করুন। আপনার বিশ্বের দৃষ্টিভঙ্গি এবং আপনার চাহিদাগুলি কীভাবে তাদের সাথে মিশে যেতে পারে সে সম্পর্কে চিন্তা করুন।\nঅন্যরা কেবল আপনাকে অনুসরণ করবে বা তারা আপনার মতো একটি যোগ্য লক্ষ্য দেখতে পাবে এমনটা আশা করবেন না। একটি ভাল অনুশীলন হলো নিজেকে একজন অন্ধ বা গুরুতরভাবে প্রতিবন্ধী ব্যক্তি হিসাবে কল্পনা করা। এমন একটি ভিন্ন দৃষ্টিকোণ থেকে আপনার জীবনকে সংগঠিত করতে কেমন লাগবে তার অনুভূতি পাওয়ার চেষ্টা করুন। আপনার লক্ষ্যগুলি কি তখনও বৈধ থাকবে? তাদের কি পুনরায় চিন্তা করার প্রয়োজন হবে? এই সম্ভাবনাটি বিবেচনা করুন যে যদিও আপনার চিন্তাভাবনার ধরণ আপনাকে অন্যান্য প্রকারগুলিকে সীমিত দৃষ্টি বা ক্ষমতা সম্পন্ন হিসাবে দেখতে পরিচালিত করে, সত্য হলো তারা আপনার চেয়ে বেশি সীমিত নয়, তবে জীবনে কেবল একটি ভিন্ন কেন্দ্রবিন্দু এবং ভিন্ন চাহিদা রয়েছে।\nউপলব্ধি করুন এবং গ্রহণ করুন যে আপনার জন্য একটি সন্তোষজনক সম্পর্কের জন্য আপনাকে জীবনের ছোটখাটো বিবরণগুলিতে মনোযোগ দিতে হবে এবং আপনার সঙ্গীর অনুভূতির প্রতি সচেতনতা দেখাতে হবে। আপনার কাছে এটি কঠিন মনে হতে পারে, তবে এটি আপনার প্রচেষ্টার বিনিময়ে সবচেয়ে বড় লভ্যাংশ দেবে।\nমানুষের মধ্যে পার্থক্যের প্রতি আপনার উপলব্ধি প্রসারিত করা মানব প্রত্যাশা সম্পর্কে আপনার বোঝাপড়াকে প্রসারিত করবে। আপনার জীবনে যাদের সাথে আপনার দেখা হয় এবং যাদের আপনি চেনেন তাদের ব্যক্তিত্বের ধরণ বের করার চেষ্টা করুন।\nবিভিন্ন সামাজিক এবং কাজের পরিস্থিতিতে লোকেরা যা প্রকাশ করে তা শোনার জন্য যত্ন নিন। অন্যদের সাথে তাদের লেনদেন বা তাদের সমস্যা সমাধানের বিভিন্ন উপায় লক্ষ্য করুন। তাদের উপায়গুলিকে আপনার নিজের সাথে তুলনা বা বিচার করার চেষ্টা করবেন না, কেবল পৃথিবীতে শান্তিতে থাকার অনেক উপায় চেনার চেষ্টা করুন।\nবন্ধু বা আত্মীয়ের সাথে কথোপকথনের সময়, অন্তত অর্ধেক সময় তাদের সম্পর্কে কথা বলুন। ব্যক্তিটি তাদের উদ্বেগ নিয়ে কোথা থেকে আসছে তা সত্যিই বোঝার উপর মনোযোগ কেন্দ্রীভূত করুন। প্রশ্ন জিজ্ঞাসা করুন।\nআপনার সবচেয়ে কাছের মানুষগুলির কথা ভাবুন। মনে রাখবেন তাদের নিজস্ব আবেগ, সন্তুষ্টি এবং চাহিদা রয়েছে। সেই ব্যক্তি কী করছে তা কল্পনা করার চেষ্টা করুন এবং এই মুহূর্তে তারা কেমন অনুভব করছে সেদিকে সংকীর্ণ করুন; একটি জিনিস যা তারা চিন্তা করতে পারে। বিচার করবেন না, কেবল বিবেচনা করুন এবং প্রতিফলন করুন কেন তারা ঠিক এইভাবে চিন্তা বা অনুভব করতে পারে।"
     ],
-    tenRulesToLive: [
-      `Feed Your Strengths! Realize your gift of seeing past the obvious brings you a great capacity to
-reward yourself and others through your cleverness. Make sure you engage in activities and which
-can expose this potential at its most valuable level.`,
-      `Face Your Weaknesses! We all have weaknesses. Recognizing your weaknesses for what they are
-(without beating yourself up) will give you the power to change your life for the better.`,
-      `Talk Through Your Perceptions. Discussing what you see with others will them understand where
-you are coming from, and offer you the chance to discover the ways in which their input can
-balance your ideas.`,
-      `Relax and Enjoy the View. Take the time to consider what you have, the gifts life has already
-brought to you. Try and discover the value and importance of those constant day to day things
-which support and nourish you.`,
-      `Be Aware of Others Understand that everyone has their own lives and their own perspectives.
-Everyone has something to offer. Try to identify people's personality type.`,
-      `Recognize Norms and Structures Are Necessary. Remember that without the support and
-constancy of others, no-one can follow their dreams. The path you walk was laid by others, each
-of its stepping stones created to fulfill a different part of the human need for constancy and
-security. Without this support structure, you cannot go far.`,
-      `Get Out of Your Comfort Zone Understand that the only way to grow is to get outside of your
-comfort zone. If you're feeling uncomfortable in situation because it seems to be going nowhere,
-that's good! That's an opportunity for growth.`,
-      `Identify and Express Your Feelings You may have a hard time understanding your feelings. It's
-important that you try to figure this out. Don't let people down. If you determine that you value a
-person, tell them so every time you think of it. This is the best way to make them feel secure in
-your affections, and so to promote a long-lasting relationship.`,
-      `Be Accountable for Yourself Remember that no one has more control over your life than you
-have. Don't be a victim.`,
-      `Assume the Best, But Be Wary. Your positive attitude nearly always creates positive situations.
-Just remember: to make them lasting and worthwhile you must build them on solid, carefully
-planned foundations`,
-    ],
-  },
+    "tenRulesToLive": [
+        "আপনার শক্তি বৃদ্ধি করুন! উপলব্ধি করুন যে সুস্পষ্টের বাইরে দেখার আপনার উপহারটি আপনার চতুরতার মাধ্যমে নিজেকে এবং অন্যদের পুরস্কৃত করার একটি দুর্দান্ত ক্ষমতা নিয়ে আসে। নিশ্চিত করুন যে আপনি এমন ক্রিয়াকলাপে নিযুক্ত হন যা এই সম্ভাবনাটিকে তার সবচেয়ে মূল্যবান স্তরে প্রকাশ করতে পারে।",
+        "আপনার দুর্বলতার মুখোমুখি হোন! আমাদের সকলেরই দুর্বলতা রয়েছে। আপনার দুর্বলতাগুলি কী তা স্বীকার করা (নিজেকে দোষারোপ না করে) আপনাকে আপনার জীবনকে আরও ভাল করার জন্য পরিবর্তন করার ক্ষমতা দেবে।",
+        "আপনার উপলব্ধিগুলি নিয়ে কথা বলুন। আপনি যা দেখেন তা অন্যদের সাথে আলোচনা করলে তারা বুঝতে পারবে আপনি কোথা থেকে আসছেন এবং আপনার ধারণাগুলিকে ভারসাম্য বজায় রাখার জন্য তাদের ইনপুট কীভাবে কাজে লাগতে পারে তা আবিষ্কার করার সুযোগ দেবে।",
+        "আরাম করুন এবং দৃশ্য উপভোগ করুন। আপনার যা আছে, জীবন আপনাকে ইতিমধ্যে যে উপহারগুলি দিয়েছে সেগুলি বিবেচনা করার জন্য সময় নিন। সেইসব ধ্রুব দৈনন্দিন জিনিসগুলির মূল্য এবং গুরুত্ব আবিষ্কার করার চেষ্টা করুন যা আপনাকে সমর্থন করে এবং পুষ্ট করে।",
+        "অন্যদের সম্পর্কে সচেতন হন। বুঝুন যে প্রত্যেকের নিজস্ব জীবন এবং নিজস্ব দৃষ্টিকোণ রয়েছে। প্রত্যেকেরই কিছু দেওয়ার আছে। মানুষের ব্যক্তিত্বের ধরণ চিহ্নিত করার চেষ্টা করুন।",
+        "স্বীকৃতি দিন যে নিয়ম এবং কাঠামো প্রয়োজনীয়। মনে রাখবেন যে অন্যদের সমর্থন এবং স্থিরতা ছাড়া কেউ তাদের স্বপ্ন অনুসরণ করতে পারে না। আপনি যে পথে চলেন তা অন্যরা তৈরি করেছে, এর প্রতিটি পদক্ষেপ ধ্রুবতা এবং সুরক্ষার জন্য মানুষের চাহিদার একটি ভিন্ন অংশ পূরণ করার জন্য তৈরি করা হয়েছে। এই সমর্থন কাঠামো ছাড়া, আপনি বেশিদূর যেতে পারবেন না।",
+        "আপনার আরাম অঞ্চলের বাইরে যান। বুঝুন যে বৃদ্ধির একমাত্র উপায় হলো আপনার আরাম অঞ্চলের বাইরে যাওয়া। যদি আপনি কোনো পরিস্থিতিতে অস্বস্তি বোধ করেন কারণ মনে হচ্ছে এটি কোথাও যাচ্ছে না, তবে এটি ভালো! এটি বৃদ্ধির একটি সুযোগ।",
+        "আপনার অনুভূতিগুলি চিহ্নিত করুন এবং প্রকাশ করুন। আপনার অনুভূতিগুলি বুঝতে আপনার অসুবিধা হতে পারে। এটি বের করার চেষ্টা করা আপনার জন্য গুরুত্বপূর্ণ। লোকেদের হতাশ করবেন না। যদি আপনি নির্ধারণ করেন যে আপনি একজন ব্যক্তিকে মূল্যবান মনে করেন, তবে যখনই আপনি এটি ভাববেন তখনই তাদের তা বলুন। এটি তাদের আপনার স্নেহের প্রতি সুরক্ষিত বোধ করানোর সর্বোত্তম উপায় এবং এইভাবে একটি দীর্ঘস্থায়ী সম্পর্ক উন্নীত করার সেরা উপায়।",
+        "নিজের জন্য দায়বদ্ধ হন। মনে রাখবেন যে আপনার জীবনের উপর আপনার চেয়ে বেশি নিয়ন্ত্রণ আর কারও নেই। শিকার হবেন না।",
+        "সবচেয়ে ভালোটা ধরে নিন, তবে সতর্ক থাকুন। আপনার ইতিবাচক মনোভাব প্রায় সবসময়ই ইতিবাচক পরিস্থিতি তৈরি করে। শুধু মনে রাখবেন: সেগুলিকে স্থায়ী এবং সার্থক করার জন্য আপনাকে অবশ্যই সেগুলিকে দৃঢ়, সাবধানে পরিকল্পিত ভিত্তির উপর তৈরি করতে হবে।"
+    ]
+},
   {
     type: "ESFJ",
     name: "Extraverted Sensing Feeling Judging",
